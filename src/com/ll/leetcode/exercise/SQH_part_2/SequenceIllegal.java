@@ -1,7 +1,6 @@
 package com.ll.leetcode.exercise.SQH_part_2;
 
 import java.util.LinkedList;
-import java.util.Queue;
 import java.util.Stack;
 
 //已知从1至n的数字序列，按顺序入栈，每个数字入栈后即可出栈，也可以在栈中停留

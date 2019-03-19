@@ -77,10 +77,10 @@ public class Test {
 //        System.out.println(a+c);
 //        System.out.println(c+d);
 
-//        byte x = 127;
-//        byte y = 1;
+        byte x = 127;
+        byte y = 1;
 ////        byte z = ((byte)x + y); //错误
-//        byte z = (byte)((byte)x + y); //错误
+//        byte z = (byte)((byte)x + y);
 //        System.out.println(z);  // -128
 
 //        short s1 = 1;
