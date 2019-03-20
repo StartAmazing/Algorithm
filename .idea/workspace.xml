@@ -7,6 +7,7 @@
     <list default="true" id="75a2ebef-107a-4bac-942c-17e9821d6aba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/SQH_part_2/SequenceIllegal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/SQH_part_2/SequenceIllegal.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/java/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/java/Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ll/leetcode/exercise/SQH_part_2/SequenceIllegal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/leetcode/exercise/SQH_part_2/SequenceIllegal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ll/zs/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/zs/java/Test.java" afterDir="false" />
@@ -48,7 +49,7 @@
     <session id="449576534">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="77" />
+          <entry key="project.closed" value="78" />
           <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
@@ -70,7 +71,7 @@
           <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.49" value="3" />
           <entry key="project.open.time.5" value="3" />
-          <entry key="project.open.time.50" value="1" />
+          <entry key="project.open.time.50" value="2" />
           <entry key="project.open.time.51" value="4" />
           <entry key="project.open.time.52" value="2" />
           <entry key="project.open.time.53" value="3" />
@@ -97,19 +98,19 @@
           <entry key="project.open.time.84" value="1" />
           <entry key="project.open.time.91" value="1" />
           <entry key="project.open.time.95" value="1" />
-          <entry key="project.opened" value="105" />
+          <entry key="project.opened" value="106" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="19" />
-          <entry key="java" value="160555" />
+          <entry key="java" value="161689" />
           <entry key="txt" value="938" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="160555" />
+          <entry key="JAVA" value="161689" />
           <entry key="PLAIN_TEXT" value="957" />
         </counts>
       </usages-collector>
@@ -117,7 +118,7 @@
         <counts>
           <entry key="class" value="2" />
           <entry key="iml" value="1" />
-          <entry key="java" value="407" />
+          <entry key="java" value="408" />
           <entry key="jpg" value="2" />
           <entry key="png" value="2" />
           <entry key="txt" value="20" />
@@ -129,7 +130,7 @@
           <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="4" />
-          <entry key="JAVA" value="407" />
+          <entry key="JAVA" value="408" />
           <entry key="PLAIN_TEXT" value="20" />
           <entry key="XML" value="1" />
         </counts>
@@ -141,32 +142,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ll/zs/java/Test.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/ConvertWithZ.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1406">
-              <caret line="77" column="16" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
+            <state relative-caret-position="279">
+              <caret line="55" column="36" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/exercise/SQH_part_2/SequenceIllegal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/LongestPolindrome.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -198,7 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/ll/muke/graph/graph2/Path.java" />
         <option value="$PROJECT_DIR$/src/com/ll/muke/graph/weightedGraph/WeightedGraph.java" />
         <option value="$PROJECT_DIR$/src/com/ll/muke/graph/weightedGraph/LazyPrimMST.java" />
         <option value="$PROJECT_DIR$/src/com/ll/classdesign/bst/BST.java" />
@@ -249,6 +231,7 @@
         <option value="$PROJECT_DIR$/src/com/ll/zs/java/Test.java" />
         <option value="$PROJECT_DIR$/src/com/ll/leetcode/exercise/SQH_part_2/SequenceIllegal.java" />
         <option value="$PROJECT_DIR$/src/com/ll/leetcode/LongestPolindrome.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/leetcode/ConvertWithZ.java" />
       </list>
     </option>
   </component>
@@ -264,17 +247,19 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="683" />
     <option name="width" value="683" />
     <option name="height" value="728" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -302,6 +287,14 @@
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ll" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -309,13 +302,14 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Administrator/Workspaces/IDEA/Algorithm/src/com/ll/muke/graph/weightedGraph/WeightedGraph.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553006483014" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553044822771" />
     <property name="last_opened_file_path" value="E:/360安全浏览器下载/springboot-lesson-1/springboot-lesson-1" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -350,7 +344,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongestPolindrome">
+  <component name="RunManager" selected="Application.ConvertWithZ">
+    <configuration name="ConvertWithZ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ll.leetcode.ConvertWithZ" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ll.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LongestPolindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ll.leetcode.LongestPolindrome" />
       <module name="Algorithm" />
@@ -366,19 +373,6 @@
     </configuration>
     <configuration name="MinStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ll.leetcode.exercise.SQH_part_2.MinStack" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ll.leetcode.exercise.SQH_part_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyQueue2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ll.leetcode.exercise.SQH_part_2.MyQueue2" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -417,19 +411,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MyQueue2" />
       <item itemvalue="Application.MinStack" />
       <item itemvalue="Application.SequenceIllegal" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.LongestPolindrome" />
+      <item itemvalue="Application.ConvertWithZ" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConvertWithZ" />
         <item itemvalue="Application.LongestPolindrome" />
         <item itemvalue="Application.SequenceIllegal" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.MinStack" />
-        <item itemvalue="Application.MyQueue2" />
       </list>
     </recent_temporary>
   </component>
@@ -547,12 +541,13 @@
       <workItem from="1552653029644" duration="5778000" />
       <workItem from="1552824500534" duration="685000" />
       <workItem from="1552918348193" duration="528000" />
-      <workItem from="1553004019726" duration="1943000" />
+      <workItem from="1553004019726" duration="2156000" />
+      <workItem from="1553042244687" duration="2528000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="444386000" />
+    <option name="totallyTimeSpent" value="447127000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -564,7 +559,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="683" y="0" width="683" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.24962178" />
@@ -573,17 +568,17 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.24019608" side_tool="true" weight="0.21028744" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.75980395" weight="0.38844302" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.75980395" weight="0.823435" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.37908497" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.53932583" visible="true" weight="0.18657938" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.53932583" visible="true" weight="0.18655463" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6346999" weight="0.501634" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.15100671" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32843137" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.5833333" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.37078652" side_tool="true" weight="0.39597315" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49546143" weight="0.32843137" />
       <window_info anchor="bottom" x="0" y="0" width="295" height="544" id="Documentation" order="12" sideWeight="0.46067417" side_tool="true" visible="true" weight="0.2739496" />
@@ -665,13 +660,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/hash/BuLongTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ll/zs/hash/RandomPool.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -1030,8 +1018,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/LongestPolindrome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state relative-caret-position="330">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/ConvertWithZ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="55" column="36" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
