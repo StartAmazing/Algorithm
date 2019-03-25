@@ -42,7 +42,7 @@
     <session id="449576534">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="82" />
+          <entry key="project.closed" value="83" />
           <entry key="project.open.time.1" value="7" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
@@ -66,7 +66,7 @@
           <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.50" value="2" />
           <entry key="project.open.time.51" value="4" />
-          <entry key="project.open.time.52" value="2" />
+          <entry key="project.open.time.52" value="3" />
           <entry key="project.open.time.53" value="3" />
           <entry key="project.open.time.54" value="1" />
           <entry key="project.open.time.55" value="3" />
@@ -91,19 +91,19 @@
           <entry key="project.open.time.84" value="1" />
           <entry key="project.open.time.91" value="1" />
           <entry key="project.open.time.95" value="1" />
-          <entry key="project.opened" value="110" />
+          <entry key="project.opened" value="111" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="19" />
-          <entry key="java" value="165283" />
+          <entry key="java" value="166680" />
           <entry key="txt" value="938" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="165283" />
+          <entry key="JAVA" value="166680" />
           <entry key="PLAIN_TEXT" value="957" />
         </counts>
       </usages-collector>
@@ -111,7 +111,7 @@
         <counts>
           <entry key="class" value="2" />
           <entry key="iml" value="1" />
-          <entry key="java" value="412" />
+          <entry key="java" value="413" />
           <entry key="jpg" value="2" />
           <entry key="png" value="2" />
           <entry key="txt" value="20" />
@@ -123,7 +123,7 @@
           <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="4" />
-          <entry key="JAVA" value="412" />
+          <entry key="JAVA" value="413" />
           <entry key="PLAIN_TEXT" value="20" />
           <entry key="XML" value="1" />
         </counts>
@@ -153,11 +153,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/GetCommonPrefix_14.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+            <state relative-caret-position="145">
+              <caret line="90" selection-start-line="90" selection-end-line="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/DeleteReciprocalNNode_19.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="50" column="41" lean-forward="true" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -189,7 +198,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/ll/muke/heap/IndexMaxHeap.java" />
         <option value="$PROJECT_DIR$/src/com/ll/muke/heap/IndexMaxHeap2.java" />
         <option value="$PROJECT_DIR$/src/com/ll/math/PrimeNumber.java" />
         <option value="$PROJECT_DIR$/src/com/ll/math/Recursion.java" />
@@ -240,6 +248,7 @@
         <option value="$PROJECT_DIR$/src/com/ll/leetcode/IsPalindrome_09.java" />
         <option value="$PROJECT_DIR$/src/com/ll/leetcode/MaxWaterArea_11.java" />
         <option value="$PROJECT_DIR$/src/com/ll/leetcode/GetCommonPrefix_14.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/leetcode/DeleteReciprocalNNode_19.java" />
       </list>
     </option>
   </component>
@@ -255,7 +264,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="683" />
     <option name="width" value="683" />
     <option name="height" value="728" />
@@ -268,6 +277,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -295,14 +305,6 @@
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ll" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -310,14 +312,13 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Administrator/Workspaces/IDEA/Algorithm/src/com/ll/muke/graph/weightedGraph/WeightedGraph.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553417161590" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553475418460" />
     <property name="last_opened_file_path" value="E:/360安全浏览器下载/springboot-lesson-1/springboot-lesson-1" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -352,9 +353,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GetCommonPrefix_14">
-    <configuration name="ConvertWithZ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ll.leetcode.ConvertWithZ" />
+  <component name="RunManager" selected="Application.DeleteReciprocalNNode_19">
+    <configuration name="DeleteReciprocalNNode_19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ll.leetcode.DeleteReciprocalNNode_19" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -419,19 +420,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ConvertWithZ" />
       <item itemvalue="Application.IntegerReverse_07" />
       <item itemvalue="Application.IsPalindrome_09" />
       <item itemvalue="Application.MaxWaterArea_11" />
       <item itemvalue="Application.GetCommonPrefix_14" />
+      <item itemvalue="Application.DeleteReciprocalNNode_19" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeleteReciprocalNNode_19" />
         <item itemvalue="Application.GetCommonPrefix_14" />
         <item itemvalue="Application.MaxWaterArea_11" />
         <item itemvalue="Application.IsPalindrome_09" />
         <item itemvalue="Application.IntegerReverse_07" />
-        <item itemvalue="Application.ConvertWithZ" />
       </list>
     </recent_temporary>
   </component>
@@ -554,12 +555,13 @@
       <workItem from="1553089278600" duration="1153000" />
       <workItem from="1553177046951" duration="1820000" />
       <workItem from="1553304656137" duration="2116000" />
-      <workItem from="1553409737458" duration="4313000" />
+      <workItem from="1553409737458" duration="5615000" />
+      <workItem from="1553472166961" duration="2726000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="456632000" />
+    <option name="totallyTimeSpent" value="460660000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -580,17 +582,17 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.24019608" side_tool="true" weight="0.21028744" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.75980395" weight="0.6350482" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.75980395" weight="0.6340289" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.37908497" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.53932583" visible="true" weight="0.4487395" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.53932583" visible="true" weight="0.13290113" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6346999" weight="0.501634" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.14957984" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.6057047" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.57478994" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.37078652" side_tool="true" weight="0.39597315" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49546143" weight="0.32843137" />
       <window_info anchor="bottom" x="0" y="0" width="295" height="544" id="Documentation" order="12" sideWeight="0.46067417" side_tool="true" visible="true" weight="0.2739496" />
@@ -672,13 +674,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/StackAndQueue/TwoStackQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ll/zs/matrix/RotateMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -1034,8 +1029,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/GetCommonPrefix_14.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+        <state relative-caret-position="145">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/DeleteReciprocalNNode_19.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="50" column="41" lean-forward="true" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
         </state>
       </provider>
     </entry>
