@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="75a2ebef-107a-4bac-942c-17e9821d6aba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/DeleteReciprocalNNode_19.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/DeleteReciprocalNNode_19.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hello_scala/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello_scala/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,7 +42,7 @@
     <session id="449576534">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="83" />
+          <entry key="project.closed" value="85" />
           <entry key="project.open.time.1" value="7" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
@@ -63,7 +63,7 @@
           <entry key="project.open.time.46" value="2" />
           <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.49" value="3" />
-          <entry key="project.open.time.5" value="3" />
+          <entry key="project.open.time.5" value="5" />
           <entry key="project.open.time.50" value="2" />
           <entry key="project.open.time.51" value="4" />
           <entry key="project.open.time.52" value="3" />
@@ -91,27 +91,27 @@
           <entry key="project.open.time.84" value="1" />
           <entry key="project.open.time.91" value="1" />
           <entry key="project.open.time.95" value="1" />
-          <entry key="project.opened" value="111" />
+          <entry key="project.opened" value="113" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="19" />
-          <entry key="java" value="166680" />
+          <entry key="dummy" value="24" />
+          <entry key="java" value="169001" />
           <entry key="txt" value="938" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="166680" />
-          <entry key="PLAIN_TEXT" value="957" />
+          <entry key="JAVA" value="169001" />
+          <entry key="PLAIN_TEXT" value="962" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
           <entry key="iml" value="1" />
-          <entry key="java" value="413" />
+          <entry key="java" value="415" />
           <entry key="jpg" value="2" />
           <entry key="png" value="2" />
           <entry key="txt" value="20" />
@@ -123,7 +123,7 @@
           <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="4" />
-          <entry key="JAVA" value="413" />
+          <entry key="JAVA" value="415" />
           <entry key="PLAIN_TEXT" value="20" />
           <entry key="XML" value="1" />
         </counts>
@@ -135,38 +135,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/IsPalindrome_09.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/MaxWaterArea_11.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/GetCommonPrefix_14.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="90" selection-start-line="90" selection-end-line="90" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/DeleteReciprocalNNode_19.java">
+        <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/IsValid_20.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="50" column="41" lean-forward="true" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
+            <state relative-caret-position="466">
+              <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -198,8 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/ll/muke/heap/IndexMaxHeap2.java" />
-        <option value="$PROJECT_DIR$/src/com/ll/math/PrimeNumber.java" />
         <option value="$PROJECT_DIR$/src/com/ll/math/Recursion.java" />
         <option value="$PROJECT_DIR$/src/com/ll/math/RemainderGroup.java" />
         <option value="$PROJECT_DIR$/src/com/ll/math/probability.java" />
@@ -249,6 +223,8 @@
         <option value="$PROJECT_DIR$/src/com/ll/leetcode/MaxWaterArea_11.java" />
         <option value="$PROJECT_DIR$/src/com/ll/leetcode/GetCommonPrefix_14.java" />
         <option value="$PROJECT_DIR$/src/com/ll/leetcode/DeleteReciprocalNNode_19.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/saima/GuShen_001.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/leetcode/IsValid_20.java" />
       </list>
     </option>
   </component>
@@ -277,7 +253,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -305,6 +280,14 @@
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ll" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -312,13 +295,14 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Administrator/Workspaces/IDEA/Algorithm/src/com/ll/muke/graph/weightedGraph/WeightedGraph.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553475418460" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553870515055" />
     <property name="last_opened_file_path" value="E:/360安全浏览器下载/springboot-lesson-1/springboot-lesson-1" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -353,7 +337,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DeleteReciprocalNNode_19">
+  <component name="RunManager" selected="Application.IsValid_20">
     <configuration name="DeleteReciprocalNNode_19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ll.leetcode.DeleteReciprocalNNode_19" />
       <module name="Algorithm" />
@@ -380,12 +364,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegerReverse_07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ll.leetcode.IntegerReverse_07" />
+    <configuration name="GuShen_001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ll.saima.GuShen_001" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ll.leetcode.*" />
+          <option name="PATTERN" value="com.ll.saima.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -393,8 +377,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsPalindrome_09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ll.leetcode.IsPalindrome_09" />
+    <configuration name="IsValid_20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ll.leetcode.IsValid_20" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -420,19 +404,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.IntegerReverse_07" />
-      <item itemvalue="Application.IsPalindrome_09" />
       <item itemvalue="Application.MaxWaterArea_11" />
       <item itemvalue="Application.GetCommonPrefix_14" />
       <item itemvalue="Application.DeleteReciprocalNNode_19" />
+      <item itemvalue="Application.GuShen_001" />
+      <item itemvalue="Application.IsValid_20" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IsValid_20" />
+        <item itemvalue="Application.GuShen_001" />
         <item itemvalue="Application.DeleteReciprocalNNode_19" />
         <item itemvalue="Application.GetCommonPrefix_14" />
         <item itemvalue="Application.MaxWaterArea_11" />
-        <item itemvalue="Application.IsPalindrome_09" />
-        <item itemvalue="Application.IntegerReverse_07" />
       </list>
     </recent_temporary>
   </component>
@@ -556,12 +540,14 @@
       <workItem from="1553177046951" duration="1820000" />
       <workItem from="1553304656137" duration="2116000" />
       <workItem from="1553409737458" duration="5615000" />
-      <workItem from="1553472166961" duration="2726000" />
+      <workItem from="1553472166961" duration="3565000" />
+      <workItem from="1553740553605" duration="2694000" />
+      <workItem from="1553868920337" duration="1358000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="460660000" />
+    <option name="totallyTimeSpent" value="465551000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -573,7 +559,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="683" y="0" width="683" height="728" extended-state="1" />
+    <frame x="683" y="0" width="683" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.24962178" />
@@ -585,14 +571,14 @@
       <window_info content_ui="combo" id="Project" order="6" sideWeight="0.75980395" weight="0.6340289" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.37908497" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.53932583" visible="true" weight="0.13290113" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.53932583" weight="0.13277312" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6346999" weight="0.501634" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.14957984" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.57478994" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.589916" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.37078652" side_tool="true" weight="0.39597315" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49546143" weight="0.32843137" />
       <window_info anchor="bottom" x="0" y="0" width="295" height="544" id="Documentation" order="12" sideWeight="0.46067417" side_tool="true" visible="true" weight="0.2739496" />
@@ -674,20 +660,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/matrix/RotateMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/matrix/PrintMatrixZigZag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ll/zs/matrix/PrintMatrixSpiralOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1029,15 +1001,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/GetCommonPrefix_14.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
+        <state relative-caret-position="1710">
           <caret line="90" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/saima/GuShen_001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="73" column="19" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/DeleteReciprocalNNode_19.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="50" column="41" lean-forward="true" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
+        <state relative-caret-position="19">
+          <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/IsValid_20.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
