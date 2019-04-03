@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="75a2ebef-107a-4bac-942c-17e9821d6aba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/DeleteReciprocalNNode_19.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/DeleteReciprocalNNode_19.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -43,7 +42,7 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="85" />
-          <entry key="project.open.time.1" value="7" />
+          <entry key="project.open.time.1" value="8" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.14" value="2" />
@@ -91,19 +90,19 @@
           <entry key="project.open.time.84" value="1" />
           <entry key="project.open.time.91" value="1" />
           <entry key="project.open.time.95" value="1" />
-          <entry key="project.opened" value="113" />
+          <entry key="project.opened" value="114" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="24" />
-          <entry key="java" value="169001" />
+          <entry key="java" value="170235" />
           <entry key="txt" value="938" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="169001" />
+          <entry key="JAVA" value="170235" />
           <entry key="PLAIN_TEXT" value="962" />
         </counts>
       </usages-collector>
@@ -111,7 +110,7 @@
         <counts>
           <entry key="class" value="2" />
           <entry key="iml" value="1" />
-          <entry key="java" value="415" />
+          <entry key="java" value="416" />
           <entry key="jpg" value="2" />
           <entry key="png" value="2" />
           <entry key="txt" value="20" />
@@ -123,7 +122,7 @@
           <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="4" />
-          <entry key="JAVA" value="415" />
+          <entry key="JAVA" value="416" />
           <entry key="PLAIN_TEXT" value="20" />
           <entry key="XML" value="1" />
         </counts>
@@ -135,11 +134,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/IsValid_20.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+            <state relative-caret-position="154">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/ProduceBracket_22.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="108" column="8" lean-forward="true" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -174,8 +185,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/ll/math/Recursion.java" />
-        <option value="$PROJECT_DIR$/src/com/ll/math/RemainderGroup.java" />
         <option value="$PROJECT_DIR$/src/com/ll/math/probability.java" />
         <option value="$PROJECT_DIR$/src/com/ll/zs/StackAndQueue/Hanoi.java" />
         <option value="$PROJECT_DIR$/src/com/ll/zs/StackAndQueue/getMaxWindow.java" />
@@ -225,6 +234,8 @@
         <option value="$PROJECT_DIR$/src/com/ll/leetcode/DeleteReciprocalNNode_19.java" />
         <option value="$PROJECT_DIR$/src/com/ll/saima/GuShen_001.java" />
         <option value="$PROJECT_DIR$/src/com/ll/leetcode/IsValid_20.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/leetcode/ProduceBracket.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/leetcode/ProduceBracket_22.java" />
       </list>
     </option>
   </component>
@@ -294,15 +305,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Administrator/Workspaces/IDEA/Algorithm/src/com/ll/muke/graph/weightedGraph/WeightedGraph.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553870515055" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554298844965" />
     <property name="last_opened_file_path" value="E:/360安全浏览器下载/springboot-lesson-1/springboot-lesson-1" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -337,7 +348,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IsValid_20">
+  <component name="RunManager" selected="Application.ProduceBracket_22">
     <configuration name="DeleteReciprocalNNode_19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ll.leetcode.DeleteReciprocalNNode_19" />
       <module name="Algorithm" />
@@ -390,8 +401,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxWaterArea_11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ll.leetcode.MaxWaterArea_11" />
+    <configuration name="ProduceBracket_22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ll.leetcode.ProduceBracket_22" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -404,19 +415,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MaxWaterArea_11" />
       <item itemvalue="Application.GetCommonPrefix_14" />
       <item itemvalue="Application.DeleteReciprocalNNode_19" />
       <item itemvalue="Application.GuShen_001" />
       <item itemvalue="Application.IsValid_20" />
+      <item itemvalue="Application.ProduceBracket_22" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProduceBracket_22" />
         <item itemvalue="Application.IsValid_20" />
         <item itemvalue="Application.GuShen_001" />
         <item itemvalue="Application.DeleteReciprocalNNode_19" />
         <item itemvalue="Application.GetCommonPrefix_14" />
-        <item itemvalue="Application.MaxWaterArea_11" />
       </list>
     </recent_temporary>
   </component>
@@ -542,12 +553,13 @@
       <workItem from="1553409737458" duration="5615000" />
       <workItem from="1553472166961" duration="3565000" />
       <workItem from="1553740553605" duration="2694000" />
-      <workItem from="1553868920337" duration="1358000" />
+      <workItem from="1553868920337" duration="1881000" />
+      <workItem from="1554296529643" duration="2294000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="465551000" />
+    <option name="totallyTimeSpent" value="468368000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -571,14 +583,14 @@
       <window_info content_ui="combo" id="Project" order="6" sideWeight="0.75980395" weight="0.6340289" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.37908497" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.53932583" weight="0.13277312" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6346999" weight="0.501634" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.53932583" visible="true" weight="0.41680673" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6346999" weight="0.5008183" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.14957984" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.589916" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.5889262" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.37078652" side_tool="true" weight="0.39597315" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49546143" weight="0.32843137" />
       <window_info anchor="bottom" x="0" y="0" width="295" height="544" id="Documentation" order="12" sideWeight="0.46067417" side_tool="true" visible="true" weight="0.2739496" />
@@ -660,13 +672,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/matrix/PrintMatrixSpiralOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ll/zs/matrix/PrintMatrixSpiralOrder2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="760">
@@ -1022,8 +1027,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/IsValid_20.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+        <state relative-caret-position="154">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/ProduceBracket_22.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="108" column="8" lean-forward="true" selection-start-line="108" selection-start-column="8" selection-end-line="108" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
