@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="75a2ebef-107a-4bac-942c-17e9821d6aba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/JumpGame_I.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/JumpGame_I.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/WiggleSubsequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/WiggleSubsequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/JumpGame_I.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/JumpGame_I.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/RemoveKDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/RemoveKDigits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/WiggleSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/WiggleSubsequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hello_scala/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello_scala/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -42,7 +47,7 @@
     <session id="449576534">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="88" />
+          <entry key="project.closed" value="91" />
           <entry key="project.open.time.1" value="8" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
@@ -56,10 +61,10 @@
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.38" value="2" />
-          <entry key="project.open.time.4" value="8" />
-          <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.4" value="9" />
+          <entry key="project.open.time.40" value="2" />
           <entry key="project.open.time.42" value="1" />
-          <entry key="project.open.time.44" value="3" />
+          <entry key="project.open.time.44" value="4" />
           <entry key="project.open.time.46" value="2" />
           <entry key="project.open.time.48" value="2" />
           <entry key="project.open.time.49" value="3" />
@@ -67,7 +72,7 @@
           <entry key="project.open.time.50" value="2" />
           <entry key="project.open.time.51" value="4" />
           <entry key="project.open.time.52" value="3" />
-          <entry key="project.open.time.53" value="3" />
+          <entry key="project.open.time.53" value="4" />
           <entry key="project.open.time.54" value="1" />
           <entry key="project.open.time.55" value="3" />
           <entry key="project.open.time.56" value="1" />
@@ -91,19 +96,19 @@
           <entry key="project.open.time.84" value="1" />
           <entry key="project.open.time.91" value="1" />
           <entry key="project.open.time.95" value="1" />
-          <entry key="project.opened" value="117" />
+          <entry key="project.opened" value="121" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="31" />
-          <entry key="java" value="180198" />
+          <entry key="java" value="186523" />
           <entry key="txt" value="1523" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="180198" />
+          <entry key="JAVA" value="186523" />
           <entry key="PLAIN_TEXT" value="1554" />
         </counts>
       </usages-collector>
@@ -111,7 +116,7 @@
         <counts>
           <entry key="class" value="2" />
           <entry key="iml" value="1" />
-          <entry key="java" value="434" />
+          <entry key="java" value="449" />
           <entry key="jpg" value="2" />
           <entry key="png" value="3" />
           <entry key="txt" value="24" />
@@ -123,7 +128,7 @@
           <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="5" />
-          <entry key="JAVA" value="434" />
+          <entry key="JAVA" value="449" />
           <entry key="PLAIN_TEXT" value="24" />
           <entry key="XML" value="1" />
         </counts>
@@ -135,20 +140,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ll/zs/question/Problem_03_CarsInLine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/ll/zs/question/Problem_01_ParenthesesProblem.java">
+        <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/Expedition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="39" column="14" lean-forward="true" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+            <state relative-caret-position="108">
+              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -172,6 +171,7 @@
       <find>add</find>
       <find>ArrayList</find>
       <find>put</find>
+      <find>heap</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -181,9 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/ll/zs/matrix/PrintMatrixSpiralOrder2.java" />
-        <option value="$PROJECT_DIR$/src/com/ll/zs/matrix/RotateMatrix2.java" />
-        <option value="$PROJECT_DIR$/src/com/ll/interest/dynaticPlanning/LongestCommonString.java" />
         <option value="$PROJECT_DIR$/src/com/ll/zs/java/AStatic.java" />
         <option value="$PROJECT_DIR$/src/com/ll/zs/java/Test2.java" />
         <option value="$PROJECT_DIR$/src/com/ll/leetcode/exercise/linkedlist_part_1/ReverseLinkedList_2.java" />
@@ -225,13 +222,16 @@
         <option value="$PROJECT_DIR$/src/com/ll/leetcode/exercise/SQH_part_2/BasicCalculator.java" />
         <option value="$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/BackMoney.java" />
         <option value="$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/AssignCookies.java" />
-        <option value="$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/WiggleSubsequence.java" />
-        <option value="$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/RemoveKDigits.java" />
         <option value="$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/目录.txt" />
-        <option value="$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/JumpGame_I.java" />
         <option value="$PROJECT_DIR$/src/com/ll/zs/question/Question_03_CarsInLine.java" />
         <option value="$PROJECT_DIR$/src/com/ll/zs/question/Question_01.java" />
         <option value="$PROJECT_DIR$/src/com/ll/zs/question/Problem_01_ParenthesesProblem.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/WiggleSubsequence.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/RemoveKDigits.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/JumpGame_I.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/JumpGame_II.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/BrustBalloons.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/Expedition.java" />
       </list>
     </option>
   </component>
@@ -247,7 +247,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="683" />
     <option name="width" value="683" />
     <option name="height" value="728" />
@@ -260,7 +260,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -309,7 +308,9 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ll" type="462c0819:PsiDirectoryNode" />
-              <item name="zs" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="greed_part_3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -317,8 +318,43 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ll" type="462c0819:PsiDirectoryNode" />
-              <item name="zs" type="462c0819:PsiDirectoryNode" />
-              <item name="question" type="462c0819:PsiDirectoryNode" />
+              <item name="muke" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ll" type="462c0819:PsiDirectoryNode" />
+              <item name="muke" type="462c0819:PsiDirectoryNode" />
+              <item name="heap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ll" type="462c0819:PsiDirectoryNode" />
+              <item name="muke" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ll" type="462c0819:PsiDirectoryNode" />
+              <item name="muke" type="462c0819:PsiDirectoryNode" />
+              <item name="RBTree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ll" type="462c0819:PsiDirectoryNode" />
+              <item name="muke" type="462c0819:PsiDirectoryNode" />
+              <item name="SegmentTree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -328,6 +364,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -335,7 +372,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Administrator/Workspaces/IDEA/Algorithm/src/com/ll/muke/graph/weightedGraph/WeightedGraph.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557644502225" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558151984193" />
     <property name="last_opened_file_path" value="E:/360安全浏览器下载/springboot-lesson-1/springboot-lesson-1" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -370,9 +407,48 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Problem_01_ParenthesesProblem">
-    <configuration name="AssignCookies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ll.leetcode.exercise.greed_part_3.AssignCookies" />
+  <component name="RunManager" selected="Application.Expedition">
+    <configuration name="BrustBalloons" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ll.leetcode.exercise.greed_part_3.BrustBalloons" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ll.leetcode.exercise.greed_part_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Expedition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ll.leetcode.exercise.greed_part_3.Expedition" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ll.leetcode.exercise.greed_part_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JumpGame_I" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ll.leetcode.exercise.greed_part_3.JumpGame_I" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ll.leetcode.exercise.greed_part_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JumpGame_II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ll.leetcode.exercise.greed_part_3.JumpGame_II" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -397,59 +473,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem_03_CarsInLine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ll.zs.question.Problem_03_CarsInLine" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ll.zs.question.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveKDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ll.leetcode.exercise.greed_part_3.RemoveKDigits" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ll.leetcode.exercise.greed_part_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WiggleSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ll.leetcode.exercise.greed_part_3.WiggleSubsequence" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ll.leetcode.exercise.greed_part_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.AssignCookies" />
-      <item itemvalue="Application.WiggleSubsequence" />
-      <item itemvalue="Application.RemoveKDigits" />
-      <item itemvalue="Application.Problem_03_CarsInLine" />
       <item itemvalue="Application.Problem_01_ParenthesesProblem" />
+      <item itemvalue="Application.JumpGame_I" />
+      <item itemvalue="Application.JumpGame_II" />
+      <item itemvalue="Application.BrustBalloons" />
+      <item itemvalue="Application.Expedition" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Expedition" />
+        <item itemvalue="Application.BrustBalloons" />
+        <item itemvalue="Application.JumpGame_II" />
+        <item itemvalue="Application.JumpGame_I" />
         <item itemvalue="Application.Problem_01_ParenthesesProblem" />
-        <item itemvalue="Application.Problem_03_CarsInLine" />
-        <item itemvalue="Application.RemoveKDigits" />
-        <item itemvalue="Application.WiggleSubsequence" />
-        <item itemvalue="Application.AssignCookies" />
       </list>
     </recent_temporary>
   </component>
@@ -579,7 +616,11 @@
       <workItem from="1554296529643" duration="2657000" />
       <workItem from="1556022185482" duration="6189000" />
       <workItem from="1556344645046" duration="8800000" />
-      <workItem from="1557620224508" duration="15108000" />
+      <workItem from="1557620224508" duration="15981000" />
+      <workItem from="1557970895980" duration="6840000" />
+      <workItem from="1557986968167" duration="12643000" />
+      <workItem from="1558147256736" duration="4731000" />
+      <workItem from="1558162589859" duration="285000" />
     </task>
     <servers />
   </component>
@@ -589,7 +630,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="498828000" />
+    <option name="totallyTimeSpent" value="524200000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -601,8 +642,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="683" y="0" width="683" height="728" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.24879615" />
       <window_info id="Image Layers" order="1" />
@@ -610,19 +650,19 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.24019608" side_tool="true" weight="0.21028744" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.75980395" weight="0.5232745" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.75980395" weight="0.6998395" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.37908497" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5906902" visible="true" weight="0.0" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6346999" weight="0.5008183" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5906902" weight="0.34697217" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.6346999" visible="true" weight="0.43862522" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.14957984" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.5872483" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.46972176" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.4093098" side_tool="true" weight="0.32941177" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49546143" weight="0.32843137" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49546143" weight="0.32733223" />
       <window_info anchor="bottom" x="0" y="0" width="295" height="544" id="Documentation" order="12" sideWeight="0.46067417" side_tool="true" visible="true" weight="0.2739496" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.6950241" />
@@ -682,6 +722,12 @@
           <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/Expedition.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/com/ll/zs/java/Test6.java</url>
           <line>3</line>
@@ -702,45 +748,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/java/Test4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/java/Test6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/java/Test3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/exercise/linkedlist_part_1/GetCommonPointInTwoLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/exercise/linkedlist_part_1/ReverseLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="121" column="32" selection-start-line="121" selection-start-column="32" selection-end-line="121" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/exercise/linkedlist_part_1/DetectCycle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1786">
@@ -925,13 +932,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/saima/GuShen_001.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="73" column="19" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/DeleteReciprocalNNode_19.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -1012,38 +1012,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/AssignCookies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/BackMoney.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/WiggleSubsequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="852">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
           <caret line="655" column="15" selection-start-line="655" selection-start-column="11" selection-end-line="655" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/RemoveKDigits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="48" column="38" lean-forward="true" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1054,24 +1026,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/JumpGame_I.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ll/saima/GuShen_001.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="30" selection-start-line="30" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/question/Problem_03_CarsInLine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        <state relative-caret-position="277">
+          <caret line="69" column="14" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ll/zs/question/Problem_01_ParenthesesProblem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="39" column="14" lean-forward="true" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+        <state relative-caret-position="372">
+          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/question/Problem_03_CarsInLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/WiggleSubsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="43" column="38" lean-forward="true" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/RemoveKDigits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="57" column="31" lean-forward="true" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/JumpGame_I.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/AssignCookies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="43" column="60" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/BackMoney.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/JumpGame_II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/util/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="274" column="12" selection-start-line="274" selection-start-column="8" selection-end-line="274" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="1430" column="27" selection-start-line="1430" selection-start-column="27" selection-end-line="1430" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/BrustBalloons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/Expedition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

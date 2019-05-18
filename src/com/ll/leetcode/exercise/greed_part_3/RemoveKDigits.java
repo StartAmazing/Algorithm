@@ -29,7 +29,7 @@ public class RemoveKDigits {
                 k --;
             }
 //            if ( S.size() == 0 || number > S.lastElement()){  错误
-            if ( S.size() != 0 || number != 0){
+            if ( S.size() != 0 || number != 0){ //size == 0 && num == 0 时不忘“栈”中添加数据
                 S.add(number);
             }
         }
