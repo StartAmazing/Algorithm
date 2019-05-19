@@ -48,15 +48,13 @@ public class Expedition {
      */
     public static int get_mininum_stop(int L, int P,int[][] stop){
 
-        PriorityQueue<Integer> Q = new PriorityQueue<>(11, new Comparator<Integer>() {
-            @Override
-            public int compare(Integer o1, Integer o2) {
 
-                return o2 - o1;
-            }
-        });
+        //Java中建立大根堆
+        PriorityQueue<Integer> Q = new PriorityQueue<>(11, (o1, o2) -> o2 - o1);
+//        PriorityQueue<Integer> Q2 = new PriorityQueue<>(11,(o1,o2) -> o2 - o1);
         int result = 0;
 
+        //排序，按照stop数组的stop[x][y]的x大小降序排序排序
         Arrays.sort(stop,Comparator.comparingInt(o -> -o[0]));
         System.out.println(stop[0][0]);
         for (int[] aStop : stop) {

@@ -5,12 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75a2ebef-107a-4bac-942c-17e9821d6aba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/JumpGame_I.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/JumpGame_I.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/WiggleSubsequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/WiggleSubsequence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/JumpGame_I.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/JumpGame_I.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/RemoveKDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/RemoveKDigits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/WiggleSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/WiggleSubsequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringDemo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hello_scala/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hello_scala/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -47,7 +41,7 @@
     <session id="449576534">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="91" />
+          <entry key="project.closed" value="92" />
           <entry key="project.open.time.1" value="8" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
@@ -116,7 +110,7 @@
         <counts>
           <entry key="class" value="2" />
           <entry key="iml" value="1" />
-          <entry key="java" value="449" />
+          <entry key="java" value="450" />
           <entry key="jpg" value="2" />
           <entry key="png" value="3" />
           <entry key="txt" value="24" />
@@ -128,7 +122,7 @@
           <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="5" />
-          <entry key="JAVA" value="449" />
+          <entry key="JAVA" value="450" />
           <entry key="PLAIN_TEXT" value="24" />
           <entry key="XML" value="1" />
         </counts>
@@ -143,7 +137,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/Expedition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
+            <state relative-caret-position="292">
               <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -260,6 +254,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -364,8 +360,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -620,7 +614,7 @@
       <workItem from="1557970895980" duration="6840000" />
       <workItem from="1557986968167" duration="12643000" />
       <workItem from="1558147256736" duration="4731000" />
-      <workItem from="1558162589859" duration="285000" />
+      <workItem from="1558162589859" duration="578000" />
     </task>
     <servers />
   </component>
@@ -630,7 +624,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="524200000" />
+    <option name="totallyTimeSpent" value="524493000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -650,7 +644,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.24019608" side_tool="true" weight="0.21028744" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.75980395" weight="0.6998395" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.75980395" visible="true" weight="0.22163388" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.37908497" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5906902" weight="0.34697217" />
@@ -660,7 +654,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.14957984" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.46972176" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.46972176" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.4093098" side_tool="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49546143" weight="0.32733223" />
       <window_info anchor="bottom" x="0" y="0" width="295" height="544" id="Documentation" order="12" sideWeight="0.46067417" side_tool="true" visible="true" weight="0.2739496" />
@@ -748,13 +742,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/exercise/linkedlist_part_1/DetectCycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1786">
-          <caret line="106" column="17" lean-forward="true" selection-start-line="106" selection-start-column="17" selection-end-line="106" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/exercise/linkedlist_part_1/LinkedListPartition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1110,9 +1097,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/muke/SegmentTree/Merger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/Expedition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
+        <state relative-caret-position="292">
           <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
           <folding>
             <element signature="imports" expanded="true" />
