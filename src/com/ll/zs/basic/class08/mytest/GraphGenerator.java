@@ -17,6 +17,7 @@ public class GraphGenerator {
             Node toNode = graph.nodes.get(to);
 
             Edge newEdge = new Edge(weight,fromNode,toNode);
+            fromNode.nexts.add(toNode);
             fromNode.out++;
             toNode.in++;
             fromNode.edges.add(newEdge);
