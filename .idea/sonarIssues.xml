@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="$USER_HOME$/Desktop/bomProject/hmdm/src/main/java/hmdm/core/bsmaterial/dto/Nutrition.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/bomProject/hmdm/src/main/java/hmdm/core/bsmaterial/dto/Test.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/bomProject/hmdm/src/main/java/hmdm/core/bsmaterial/mapper/NutritionMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/bomProject/hmdm/src/main/java/hmdm/core/bsmaterial/service/impl/NutritionServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/bomProject/hmdm/src/main/resources/hmdm/core/bsmaterial/mapper/NutritionMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/bomProject/hmdm/src/main/webapp/WEB-INF/view/bs/nutrition.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/com/ll/leetcode/MergeTwoSortedList.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/com/ll/leetcode/MergeTwoSortedList_21.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/com/ll/leetcode/RemoveDuplicateItemOfArr_26.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/com/ll/leetcode/RemoveElementOfArray_27.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/com/ll/leetcode/ThreeNumSum_15.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
