@@ -1,189 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/com/ll/math/RemainderGroup.java" line="70" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="75a2ebef-107a-4bac-942c-17e9821d6aba" name="Default Changelist" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Algorithm/META-INF/Algorithm.kotlin_module" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/Thread/AccoutingSync.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/Thread/AccoutingSync.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/Thread/BadSuspend$ChangeObjectThread.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/Thread/BadSuspend$ChangeObjectThread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/Thread/DaemonDemo$DaemonT.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/Thread/DaemonDemo$DaemonT.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/Thread/SimpleWN$T1.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/Thread/SimpleWN$T1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/Thread/SimpleWN$T2.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/Thread/SimpleWN$T2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/classdesign/bst/BSTForInteger.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/classdesign/bst/BSTForInteger.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/classdesign/studentMessage/StdList.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/classdesign/studentMessage/StdList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/interest/dynaticPlanning/LongestCommonString.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/interest/dynaticPlanning/LongestCommonString.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/interest/greed/BagQuestion.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/interest/greed/BagQuestion.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/interest/greed/BestLoad.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/interest/greed/BestLoad.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/interest/greed/HuffmanCode$HCodeType.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/interest/greed/HuffmanCode$HCodeType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/interest/greed/HuffmanCode.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/interest/greed/HuffmanCode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/interest/greed/LowestPath.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/interest/greed/LowestPath.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/AddTwoNum.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/AddTwoNum.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/ConvertWithZ.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/ConvertWithZ.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/DeleteReciprocalNNode_19.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/DeleteReciprocalNNode_19.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/GetCommonPrefix_14.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/GetCommonPrefix_14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/IntersectionOfTwoArraysII_350.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/IntersectionOfTwoArraysII_350.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/IntersectionOfTwoArrays_349.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/IntersectionOfTwoArrays_349.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/IsValid_20.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/IsValid_20.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/LengthOfLongestSubstring.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/LengthOfLongestSubstring.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/MapSum_677.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/MapSum_677.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/NoCommonPartLongestSubString.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/NoCommonPartLongestSubString.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/NumArray_303.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/NumArray_303.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/NumArray_303_2.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/NumArray_303_2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/ProduceBracket_22.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/ProduceBracket_22.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/Range_Sum_Query_307.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/Range_Sum_Query_307.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/TopKFrequent_347.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/TopKFrequent_347.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/TopKFrequent_347_2.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/TopKFrequent_347_2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/UniqueMorseRepresentations.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/UniqueMorseRepresentations.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/WordDictionary_211.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/WordDictionary_211.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/SQH_part_2/BasicQueue.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/SQH_part_2/BasicQueue.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/SQH_part_2/BasicStack.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/SQH_part_2/BasicStack.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/SQH_part_2/MyQueue.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/SQH_part_2/MyQueue.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/SQH_part_2/MyQueue2.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/SQH_part_2/MyQueue2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/SQH_part_2/MyStack.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/SQH_part_2/MyStack.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/SQH_part_2/Mystack2.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/SQH_part_2/Mystack2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/SQH_part_2/SequenceIllegal.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/SQH_part_2/SequenceIllegal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/AssignCookies$1.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/AssignCookies$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/AssignCookies$2.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/AssignCookies$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/AssignCookies.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/AssignCookies.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/Expedition.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/Expedition.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/JumpGame_I.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/JumpGame_I.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/JumpGame_II.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/JumpGame_II.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/RemoveKDigits.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/RemoveKDigits.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/WiggleSubsequence.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/WiggleSubsequence.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/linkedlist_part_1/DetectCycle.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/linkedlist_part_1/DetectCycle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/linkedlist_part_1/GetCommonPointInTwoLinkedList.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/linkedlist_part_1/GetCommonPointInTwoLinkedList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/linkedlist_part_1/LinkedListPartition.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/linkedlist_part_1/LinkedListPartition.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/linkedlist_part_1/MergeKSortedLists$1.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/linkedlist_part_1/MergeKSortedLists$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/linkedlist_part_1/MergeKSortedLists.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/linkedlist_part_1/MergeKSortedLists.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/linkedlist_part_1/MergeTwoSortedLists.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/linkedlist_part_1/MergeTwoSortedLists.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/linkedlist_part_1/RandomListNode.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/linkedlist_part_1/RandomListNode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/linkedlist_part_1/ReverseLinkedList.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/linkedlist_part_1/ReverseLinkedList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/AVLTree/AVLTree.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/AVLTree/AVLTree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/AVLTree/BST.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/AVLTree/BST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/AVLTree/BSTMap.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/AVLTree/BSTMap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/AVLTree/FileOperation.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/AVLTree/FileOperation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/AVLTree/Main.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/AVLTree/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/RBTree/AVLTree.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/RBTree/AVLTree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/RBTree/BST.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/RBTree/BST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/RBTree/FileOperation.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/RBTree/FileOperation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/RBTree/Main.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/RBTree/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/RBTree/Main2.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/RBTree/Main2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/RBTree/Main3.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/RBTree/Main3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/RBTree/RBTree.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/RBTree/RBTree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/SegmentTree/SegmentTree.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/SegmentTree/SegmentTree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/graph1/DenseGraph.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/graph1/DenseGraph.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/graph1/SparseGraph.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/graph1/SparseGraph.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/graph2/Components.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/graph2/Components.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/graph2/DenseGraph.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/graph2/DenseGraph.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/graph2/Main.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/graph2/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/graph2/Path.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/graph2/Path.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/graph2/ReadGraph.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/graph2/ReadGraph.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/graph2/ShortestPath.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/graph2/ShortestPath.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/graph2/SparseGraph.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/graph2/SparseGraph.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/weightedGraph/DenseWeightedGraph.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/weightedGraph/DenseWeightedGraph.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/weightedGraph/LazyPrimMST.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/weightedGraph/LazyPrimMST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/weightedGraph/Main2.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/weightedGraph/Main2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/weightedGraph/MinHeap.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/weightedGraph/MinHeap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/weightedGraph/ReadWeightedGraph.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/weightedGraph/ReadWeightedGraph.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/weightedGraph/SparseWeightedGraph.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/weightedGraph/SparseWeightedGraph.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/hashtable/AVLTree.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/hashtable/AVLTree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/hashtable/BST.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/hashtable/BST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/hashtable/FileOperation.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/hashtable/FileOperation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/hashtable/HashTable.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/hashtable/HashTable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/hashtable/Main2.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/hashtable/Main2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/hashtable/RBTree.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/hashtable/RBTree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/hashtable/Student.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/hashtable/Student.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/heap/HeapSort.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/heap/HeapSort.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/heap/HeapSort1.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/heap/HeapSort1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/heap/HeapSort2.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/heap/HeapSort2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/heap/IndexMaxHeap.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/heap/IndexMaxHeap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/heap/MaxHeap.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/heap/MaxHeap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/heap/PrintableMaxHeap.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/heap/PrintableMaxHeap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/map/AVLTree.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/map/AVLTree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/map/BST.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/map/BST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/map/BSTMap.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/map/BSTMap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/map/LinkedList.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/map/LinkedList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/map/LinkedListMap.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/map/LinkedListMap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/map/Main.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/map/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/queue/Array.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/queue/Array.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/queue/Main.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/queue/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/queue/MaxHeap.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/queue/MaxHeap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/set/AVLTree.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/set/AVLTree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/set/BST.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/set/BST.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/set/BSTSet.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/set/BSTSet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/set/FileOperation.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/set/FileOperation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/set/LinkedList.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/set/LinkedList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/set/LinkedListSet.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/set/LinkedListSet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/set/Main.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/set/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/trie/Main.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/trie/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/trie/Trie.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/trie/Trie.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/unionFind/Main.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/unionFind/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/unionFind/UnionFind1.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/unionFind/UnionFind1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/unionFind/UnionFind2.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/unionFind/UnionFind2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/unionFind/UnionFind3.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/unionFind/UnionFind3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/unionFind/UnionFind4.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/unionFind/UnionFind4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/unionFind/UnionFind5.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/unionFind/UnionFind5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/unionFind/UnionFind6.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/unionFind/UnionFind6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/ArrayQueue.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/ArrayQueue.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/ArrayStack.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/ArrayStack.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/GetMaxWindow.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/GetMaxWindow.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/Hanoi.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/Hanoi.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/MaxTree.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/MaxTree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/ReverseStack.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/ReverseStack.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/SortStackByStack.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/SortStackByStack.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/TwoQueueStack.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/TwoQueueStack.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/TwoStackQueue.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/TwoStackQueue.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/getMinStack/StackForGetmin2.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/getMinStack/StackForGetmin2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class05/Code_01_HashMap.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class05/Code_01_HashMap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class05/Code_04_UnionFind$UnionFindSet.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class05/Code_04_UnionFind$UnionFindSet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class05/mytest/UnionFind$UnionFindSet.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class05/mytest/UnionFind$UnionFindSet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class06/Code_01_BFS.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class06/Code_01_BFS.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class06/Code_02_DFS.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class06/Code_02_DFS.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class06/Code_03_TopologySort.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class06/Code_03_TopologySort.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class06/Code_04_Kruskal$UnionFind.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class06/Code_04_Kruskal$UnionFind.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class06/Code_04_Kruskal.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class06/Code_04_Kruskal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class06/Code_05_Prim.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class06/Code_05_Prim.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class06/Code_06_Dijkstra$NodeHeap.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class06/Code_06_Dijkstra$NodeHeap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class06/Code_06_Dijkstra.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class06/Code_06_Dijkstra.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class06/GraphGenerator.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class06/GraphGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/Code_01_TrieTree$Trie.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/Code_01_TrieTree$Trie.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/Code_02_Less_Money.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/Code_02_Less_Money.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/Code_03_IPO.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/Code_03_IPO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/Code_04_MadianQuick$MedianHolder.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/Code_04_MadianQuick$MedianHolder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/Code_04_MadianQuick.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/Code_04_MadianQuick.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/Code_05_LowestLexicography.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/Code_05_LowestLexicography.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/LessMoney.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/LessMoney.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/LowestLexicography$MyComparator.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/LowestLexicography$MyComparator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/TrieTree2$Trie.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/TrieTree2$TrieNode.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/TrieTree2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/UnionFind$Data.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/UnionFind$UnionFindSet.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/UnionFind.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class08/mytest/Edge.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class08/mytest/Graph.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class08/mytest/GraphGenerator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class08/mytest/Graph_1_BFS.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class08/mytest/Node.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class08/mytest/TopologySort.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class08/mytest/graph_2_DFS.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mavenVersion.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ll/zs/basic/class07/mytest/TrieTree2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ll/zs/basic/class07/mytest/UnionFind.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ll/zs/basic/class08/mytest/Edge.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ll/zs/basic/class08/mytest/Graph.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ll/zs/basic/class08/mytest/GraphGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ll/zs/basic/class08/mytest/Graph_1_BFS.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ll/zs/basic/class08/mytest/Kruskal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ll/zs/basic/class08/mytest/Node.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ll/zs/basic/class08/mytest/Prim.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ll/zs/basic/class08/mytest/TopologySort.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ll/zs/basic/class08/mytest/graph_2_DFS.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/LowestLexicography.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/LowestLexicography.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/MadianQuick$MadianHolder.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/MadianQuick$MadianHolder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/MadianQuick.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/MadianQuick.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/PaperFolding.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/PaperFolding.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/SpecilTreeGetNextNode.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/SpecilTreeGetNextNode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/TreeTraverse.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/TreeTraverse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/TrieTree$Trie.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/TrieTree$Trie.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class08/Code_04_Print_All_Permutations.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class08/Code_04_Print_All_Permutations.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class08/Code_06_ReverseStackUsingRecursive.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class08/Code_06_ReverseStackUsingRecursive.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class08/Code_07_MinPath.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class08/Code_07_MinPath.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/java/Test.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/java/Test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/java/Test3.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/java/Test3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/java/Test4.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/java/Test4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/java/ThreadExample.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/java/ThreadExample.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/question/Problem_01_ParenthesesProblem.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/question/Problem_01_ParenthesesProblem.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/tree/JudgeBalanceTree.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/tree/JudgeBalanceTree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/tree/JudgeSearchBinaryTree.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/tree/JudgeSearchBinaryTree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/tree/PrecursorNode.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/tree/PrecursorNode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/tree/SerializeAndReconstructTree.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/tree/SerializeAndReconstructTree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/tree/SuccessorNode.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/tree/SuccessorNode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/tree/Tree.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/tree/Tree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/tree/TrieTree$Trie.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/tree/TrieTree$Trie.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/unionFind/UnionFind$UnionFindSet.class" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/unionFind/UnionFind$UnionFindSet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Algorithm.iml" afterPath="$PROJECT_DIR$/Algorithm.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -197,26 +42,6 @@
     <SUITE FILE_PATH="coverage/Algorithm$ReverseLinkedList.ic" NAME="ReverseLinkedList Coverage Results" MODIFIED="1551260333958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.ll.leetcode.exercise.linkedlist_part_1.*</FILTER>
     </SUITE>
-  </component>
-  <component name="CoverageViewManager">
-    <option name="myElementSize" value="73" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -270,11 +95,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RemoveElementOfArray_27.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RemoveElementOfArray_27.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/RemoveElementOfArray_27.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
+            <state relative-caret-position="344">
               <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LowestLexicography.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/ll/zs/basic/class07/mytest/LowestLexicography.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="453">
+              <caret line="35" column="54" lean-forward="false" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -282,29 +117,7 @@
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="package-info" />
-        <option value="Interface" />
-        <option value="JavaClass" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>remove</find>
-      <find>root</find>
-      <find>add</find>
-      <find>ArrayList</find>
-      <find>put</find>
-      <find>heap</find>
-      <find>Sa</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -375,19 +188,12 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
-  <component name="ProjectId" id="1QQHLxhp0c7pdizJzpgSKz2whd6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
@@ -454,6 +260,134 @@
               <option name="myItemId" value="ll" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ll" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ll" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="class07" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ll" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="class07" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mytest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ll" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -481,39 +415,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Algorithm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Administrator/Workspaces/IDEA/Algorithm/src/com/ll/muke/graph/weightedGraph/WeightedGraph.java" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563161459131" />
-    <property name="last_opened_file_path" value="E:/360安全浏览器下载/springboot-lesson-1/springboot-lesson-1" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.ll.muke.hashtable" />
-      <recent name="com.ll.muke.map" />
-      <recent name="com.ll.muke.AVLTree" />
-      <recent name="com.ll.leetCode" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\ideaProject\Algorithm\src\com\ll\zs\basic\class06" />
-      <recent name="D:\ideaProject\Algorithm\src\com\ll\zs\basic\class05" />
-      <recent name="D:\ideaProject\Algorithm\src\com\ll\zs\basic" />
-      <recent name="D:\ideaProject\Algorithm\src\com\ll\zs\basic\class08" />
-      <recent name="D:\ideaProject\Algorithm\src\com\ll\zs\basic\class07" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -527,105 +447,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RemoveElementOfArray_27">
-    <configuration default="false" name="PaperFolding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.ll.zs.basic.class07.mytest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.ll.zs.basic.class07.mytest.PaperFolding" />
-      <option name="VM_PARAMETERS" />
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Algorithm" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="ThreeNumSum_15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.ll.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.ll.leetcode.ThreeNumSum_15" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Algorithm" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="MergeTwoSortedList_21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.ll.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.ll.leetcode.MergeTwoSortedList_21" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Algorithm" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="RemoveDuplicateItemOfArr_26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.ll.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.ll.leetcode.RemoveDuplicateItemOfArr_26" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Algorithm" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="RemoveElementOfArray_27" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.ll.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.ll.leetcode.RemoveElementOfArray_27" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Algorithm" />
-      <envs />
+      <predefined_log_file id="idea.log" enabled="true" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
@@ -683,12 +510,20 @@
       </Profilers>
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -850,7 +685,6 @@
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
-      <setting name="depsClasspath" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -862,9 +696,9 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
+      <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -936,6 +770,14 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -953,9 +795,9 @@
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
+      <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="OUTPUT_DIRECTORY" />
       <option name="ANNOTATION_TYPE" />
       <option name="ENV_VARIABLES" />
@@ -971,12 +813,6 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -992,28 +828,9 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.PaperFolding" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ThreeNumSum_15" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MergeTwoSortedList_21" />
-      <item index="3" class="java.lang.String" itemvalue="Application.RemoveDuplicateItemOfArr_26" />
-      <item index="4" class="java.lang.String" itemvalue="Application.RemoveElementOfArray_27" />
-    </list>
-    <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.RemoveElementOfArray_27" />
-        <item index="1" class="java.lang.String" itemvalue="Application.RemoveDuplicateItemOfArr_26" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MergeTwoSortedList_21" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ThreeNumSum_15" />
-        <item index="4" class="java.lang.String" itemvalue="Application.PaperFolding" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
-  </component>
-  <component name="SvnConfiguration">
-    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -1158,26 +975,12 @@
       <workItem from="1569475374529" duration="4476000" />
       <workItem from="1569505678200" duration="61000" />
       <workItem from="1569548983772" duration="203000" />
-      <workItem from="1569567938240" duration="672000" />
+      <workItem from="1569567938240" duration="950000" />
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="All_Features_in__greed_part_3 - 2019.04.23 at 20h 49m 12s.xml">
-      <configuration name="All Features in: greed_part_3" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="558894000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="559172000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1192,13 +995,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19836065" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5508197" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4442623" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4442623" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11043873" sideWeight="0.49227798" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2934947" sideWeight="0.49227798" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="SonarQube" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -1211,9 +1014,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -1559,13 +1359,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/basic/class07/mytest/LowestLexicography.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="35" column="54" lean-forward="false" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ll/zs/basic/class05/mytest/UnionFind.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -1606,86 +1399,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/RemoveElementOfArray_27.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
+        <state relative-caret-position="344">
           <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>scala-sdk-2.12.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Algorithm</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/basic/class07/mytest/LowestLexicography.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="35" column="54" lean-forward="false" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
