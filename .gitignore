@@ -1,0 +1,6 @@
+./out/
+./_windows/
+./.idea/
+./codestyles/
+./Algoritm.iml
+./*.xml
