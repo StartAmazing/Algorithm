@@ -58,6 +58,11 @@ public class Code_04_Print_All_Permutations {
 		System.out.println("======");
 		printAllPermutations2(test2);
 		System.out.println("======");
+
+		String test = "abcd";
+		printAllPermutations1(test);
+		System.out.println("$$$$$$$$$$$$$$$$$$$$$$");
+		printAllPermutations2(test);
 	}
 
 }

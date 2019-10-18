@@ -2,7 +2,7 @@ package com.ll.zs.tree;
 
 import java.util.Stack;
 
-public class Tree {
+public class  Tree {
 
     public class Node{
 

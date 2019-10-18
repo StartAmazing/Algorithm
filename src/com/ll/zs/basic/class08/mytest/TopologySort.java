@@ -21,15 +21,16 @@ public class TopologySort {
         });
         //结果集合
         List<Node> result = new ArrayList<>();
+        //每次相当于删除上一步入度为零对它next入度值得影响
         while(!zeroInQueue.isEmpty()){
             Node cur = zeroInQueue.poll();
             result.add(cur);
-            for (Node next: cur.nexts) {
+            cur.nexts.forEach(next -> {
                 inMap.put(next,inMap.get(next) - 1);
                 if(inMap.get(next) == 0){
                     zeroInQueue.add(next);
                 }
-            }
+            });
         }
         return result;
     }

@@ -5,36 +5,37 @@ package com.ll.leetcode;
  */
 public class MergeTwoSortedList_21 {
 
-    private static class Node{
+    private static class Node {
         int val;
         Node next;
-        public Node(int val){
+
+        public Node(int val) {
             this.val = val;
         }
     }
 
-    private static Node mergeTwoSortedList(Node n1, Node n2){
+    private static Node mergeTwoSortedList(Node n1, Node n2) {
         Node resn = new Node(0);
         Node head = resn;
         Node cur1 = n1;
         Node cur2 = n2;
-        while(cur1 != null && cur2 != null){
-            if(cur1.val < cur2.val){
+        while (cur1 != null && cur2 != null) {
+            if (cur1.val < cur2.val) {
                 head.next = cur1;
                 head = head.next;
                 cur1 = cur1.next;
-            }else{
+            } else {
                 head.next = cur2;
                 head = head.next;
                 cur2 = cur2.next;
             }
         }
-        while(cur1 != null){
+        while (cur1 != null) {
             head.next = cur1;
             head = head.next;
             cur1 = cur1.next;
         }
-        while(cur2 != null){
+        while (cur2 != null) {
             head.next = cur2;
             head = head.next;
             cur2 = cur2.next;
@@ -43,8 +44,8 @@ public class MergeTwoSortedList_21 {
         return resn.next;
     }
 
-    private static void printList(Node head){
-        while(head != null){
+    private static void printList(Node head) {
+        while (head != null) {
             System.out.print(head.val + "   ");
             head = head.next;
         }
@@ -65,7 +66,7 @@ public class MergeTwoSortedList_21 {
         printList(a);
         printList(b);
 
-        printList(mergeTwoSortedList(a,b));
+        printList(mergeTwoSortedList(a, b));
 
     }
 

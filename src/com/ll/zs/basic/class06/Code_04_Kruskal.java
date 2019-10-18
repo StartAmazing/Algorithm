@@ -81,11 +81,34 @@ public class Code_04_Kruskal {
 		Set<Edge> result = new HashSet<>();
 		while (!priorityQueue.isEmpty()) {
 			Edge edge = priorityQueue.poll();
+			System.out.println(edge.from.value + "   " + edge.to.value + "   "  + unionFind.isSameSet(edge.from,edge.to));
 			if (!unionFind.isSameSet(edge.from, edge.to)) {
 				result.add(edge);
 				unionFind.union(edge.from, edge.to);
 			}
 		}
 		return result;
+	}
+
+	public static void main(String[] args) {
+		Integer[][] matrix = new Integer[][]{
+				{1, 1, 2},
+				{1, 2, 1},
+				{1, 2, 3},
+				{1, 3, 2},
+				{2, 1, 3},
+				{2, 3, 1},
+				{4, 3, 4},
+				{4, 4, 3},
+				{3, 2, 4},
+				{3, 4, 2},
+				{2, 1, 4},
+				{2, 4, 1}
+		};
+		Graph graph = GraphGenerator.createGraph(matrix);
+		Set<Edge> edges = kruskalMST(graph);
+		edges.forEach(a -> {
+			System.out.println("edgeWeight: " + a.weight + ", edgeFrom: " + a.from.value + ", edgeTo: " + a.to.value);
+		});
 	}
 }
