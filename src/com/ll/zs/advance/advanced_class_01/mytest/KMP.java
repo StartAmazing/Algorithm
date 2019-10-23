@@ -2,6 +2,7 @@ package com.ll.zs.advance.advanced_class_01.mytest;
 
 /**
  * JD面试题 abcabc | abc
+ * Google面试题  12312321231...... 是否是由某个子串重复叠加得到
  */
 public class KMP {
 
