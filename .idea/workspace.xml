@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="75a2ebef-107a-4bac-942c-17e9821d6aba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_01/mytest/Manacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_01/mytest/Manacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_01/mytest/SlidingWindowMaxArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_01/mytest/SlidingWindowMaxArray.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,7 +24,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_01/mytest/Manacher.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1691">
-              <caret line="89" column="23" lean-forward="true" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
+              <caret line="89" column="23" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -32,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_01/mytest/SlidingWindowMaxArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+            <state relative-caret-position="217">
+              <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -289,12 +289,13 @@
       <updated>1570937137237</updated>
       <workItem from="1570937138927" duration="21949000" />
       <workItem from="1571583979664" duration="5897000" />
-      <workItem from="1571760790541" duration="5105000" />
+      <workItem from="1571760790541" duration="6967000" />
+      <workItem from="1572273598460" duration="2288000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38090000" />
+    <option name="totallyTimeSpent" value="42240000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1093" y="108" width="793" height="771" extended-state="0" />
@@ -317,7 +318,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.35164836" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.35164836" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32967034" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -630,14 +631,14 @@
     <entry file="file://$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_01/mytest/Manacher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1691">
-          <caret line="89" column="23" lean-forward="true" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
+          <caret line="89" column="23" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_01/mytest/SlidingWindowMaxArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        <state relative-caret-position="217">
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
         </state>
       </provider>
     </entry>
