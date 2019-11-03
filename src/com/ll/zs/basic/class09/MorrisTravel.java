@@ -144,7 +144,6 @@ public class MorrisTravel {
             pre = pre.right;
         }
         reverseEdge(tail);
-
     }
 
     private static Node reverseEdge(Node from){
