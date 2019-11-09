@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="75a2ebef-107a-4bac-942c-17e9821d6aba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ll/zs/basic/class09/MorrisTravel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/zs/basic/class09/MorrisTravel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_01/mytest/AllLessNumSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/zs/advance/mytest/AllLessNumSubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_01/mytest/KMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/zs/advance/mytest/KMP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_01/mytest/Manacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/zs/advance/mytest/Manacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_01/mytest/MaxSubMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/zs/advance/mytest/MaxSubMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_01/mytest/MaxTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/zs/advance/mytest/MaxTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_01/mytest/RecycleMountains.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/zs/advance/mytest/RecycleMountains.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_01/mytest/SlidingWindowMaxArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/zs/advance/mytest/SlidingWindowMaxArray.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,73 +41,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_01/mytest/Manacher.java">
+        <entry file="file://$PROJECT_DIR$/src/com/ll/zs/advance/mytest/UseBRTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1691">
-              <caret line="89" column="23" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
+            <state relative-caret-position="38">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_01/mytest/SlidingWindowMaxArray.java">
+        <entry file="file://$PROJECT_DIR$/src/com/ll/zs/advance/mytest/OutLine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_01/mytest/AllLessNumSubArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="817">
-              <caret line="43" column="122" selection-start-line="43" selection-start-column="122" selection-end-line="43" selection-end-column="122" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_01/mytest/MaxTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_01/mytest/MaxSubMatrix.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="51" selection-start-line="51" selection-end-line="53" />
+            <state relative-caret-position="330">
+              <caret line="99" column="19" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
               <folding>
-                <element signature="e#499#508#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_01/mytest/RecycleMountains.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="76" column="11" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="11" />
-              <folding>
-                <element signature="e#1722#1723#0" expanded="true" />
-                <element signature="e#1774#1775#0" expanded="true" />
-                <element signature="e#1822#1823#0" expanded="true" />
-                <element signature="e#1884#1885#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/ll/zs/basic/class09/MorrisTravel.java">
+        <entry file="file://$PROJECT_DIR$/src/com/ll/zs/advance/mytest/MaxSubArrAccToTarget.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-91">
-              <caret line="145" column="26" selection-start-line="145" selection-start-column="26" selection-end-line="145" selection-end-column="26" />
+            <state relative-caret-position="373">
+              <caret line="64" column="8" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ll/zs/advance/mytest/MaxTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ll/zs/advance/mytest/RecycleMountains.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -147,6 +129,8 @@
         <option value="$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_01/mytest/MaxSubMatrix.java" />
         <option value="$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_01/mytest/RecycleMountains.java" />
         <option value="$PROJECT_DIR$/src/com/ll/zs/basic/class09/MorrisTravel.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/zs/advance/mytest/OutLine.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/zs/advance/mytest/MaxSubArrAccToTarget.java" />
       </list>
     </option>
   </component>
@@ -156,7 +140,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="1091" />
     <option name="y" value="108" />
     <option name="width" value="795" />
@@ -222,17 +206,8 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ll" type="462c0819:PsiDirectoryNode" />
               <item name="zs" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ll" type="462c0819:PsiDirectoryNode" />
-              <item name="zs" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-              <item name="class09" type="462c0819:PsiDirectoryNode" />
+              <item name="advance" type="462c0819:PsiDirectoryNode" />
+              <item name="mytest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -264,7 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MaxSubMatrix">
+  <component name="RunManager" selected="Application.MaxSubArrAccToTarget">
     <configuration name="ArrSumLikeNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ll.zs.basic.class06.mytest.ArrSumLikeNum" />
       <module name="Algorithm" />
@@ -278,12 +253,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetCowNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ll.zs.basic.class06.mytest.GetCowNumber" />
+    <configuration name="MaxSubArrAccToTarget" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ll.zs.advance.mytest.MaxSubArrAccToTarget" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ll.zs.basic.class06.mytest.*" />
+          <option name="PATTERN" value="com.ll.zs.advance.mytest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -292,11 +267,11 @@
       </method>
     </configuration>
     <configuration name="MaxSubMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ll.zs.advance.advanced_class_01.mytest.MaxSubMatrix" />
+      <option name="MAIN_CLASS_NAME" value="com.ll.zs.advance.mytest.MaxSubMatrix" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ll.zs.advance.advanced_class_01.mytest.*" />
+          <option name="PATTERN" value="com.ll.zs.advance.mytest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -331,19 +306,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.GetCowNumber" />
       <item itemvalue="Application.getSmallNumFromMatrix" />
       <item itemvalue="Application.ArrSumLikeNum" />
       <item itemvalue="Application.MorrisTravel" />
       <item itemvalue="Application.MaxSubMatrix" />
+      <item itemvalue="Application.MaxSubArrAccToTarget" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxSubArrAccToTarget" />
         <item itemvalue="Application.MaxSubMatrix" />
         <item itemvalue="Application.MorrisTravel" />
         <item itemvalue="Application.ArrSumLikeNum" />
         <item itemvalue="Application.getSmallNumFromMatrix" />
-        <item itemvalue="Application.GetCowNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -361,15 +336,15 @@
       <workItem from="1571583979664" duration="5897000" />
       <workItem from="1571760790541" duration="6967000" />
       <workItem from="1572273598460" duration="9178000" />
-      <workItem from="1572751968179" duration="6674000" />
+      <workItem from="1572751968179" duration="16247000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55804000" />
+    <option name="totallyTimeSpent" value="65377000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1091" y="108" width="795" height="771" extended-state="1" />
+    <frame x="1091" y="108" width="795" height="771" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.4" />
@@ -389,7 +364,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.35164836" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.10047096" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32967034" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -685,42 +660,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_01/mytest/KMP.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/advance/mytest/KMP.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_01/mytest/Manacher.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/advance/mytest/Manacher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1691">
           <caret line="89" column="23" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_01/mytest/SlidingWindowMaxArray.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/advance/mytest/SlidingWindowMaxArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="627">
           <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_01/mytest/AllLessNumSubArray.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/advance/mytest/AllLessNumSubArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="817">
           <caret line="43" column="122" selection-start-line="43" selection-start-column="122" selection-end-line="43" selection-end-column="122" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_01/mytest/MaxTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_01/mytest/MaxSubMatrix.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/advance/mytest/MaxSubMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="51" selection-start-line="51" selection-end-line="53" />
@@ -730,23 +698,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_01/mytest/RecycleMountains.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/basic/class09/MorrisTravel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="76" column="11" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="11" />
+        <state>
+          <caret line="127" selection-start-line="127" selection-end-line="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/advance/mytest/MaxTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/advance/mytest/RecycleMountains.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/advance/mytest/UseBRTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/advance/mytest/OutLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="99" column="19" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
           <folding>
-            <element signature="e#1722#1723#0" expanded="true" />
-            <element signature="e#1774#1775#0" expanded="true" />
-            <element signature="e#1822#1823#0" expanded="true" />
-            <element signature="e#1884#1885#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/basic/class09/MorrisTravel.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/advance/mytest/MaxSubArrAccToTarget.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-91">
-          <caret line="145" column="26" selection-start-line="145" selection-start-column="26" selection-end-line="145" selection-end-column="26" />
+        <state relative-caret-position="373">
+          <caret line="64" column="8" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
         </state>
       </provider>
     </entry>

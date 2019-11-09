@@ -1,4 +1,4 @@
-package com.ll.zs.advance.advanced_class_01.mytest;
+package com.ll.zs.advance.mytest;
 
 /**
  * 子串的问题，一个字符串中找到最长回文子串
