@@ -49,7 +49,7 @@ public class Code_05_EditCost {
 			dp[i] = ic * i;
 		}
 		for (int i = 1; i <= longs.length; i++) {
-			int pre = dp[0]; // pre��ʾ���Ͻǵ�ֵ
+			int pre = dp[0]; // last��ʾ���Ͻǵ�ֵ
 			dp[0] = dc * i;
 			for (int j = 1; j <= shorts.length; j++) {
 				int tmp = dp[j]; // dp[j]û����ǰ�ȱ�������
@@ -60,7 +60,7 @@ public class Code_05_EditCost {
 				}
 				dp[j] = Math.min(dp[j], dp[j - 1] + ic);
 				dp[j] = Math.min(dp[j], tmp + dc);
-				pre = tmp; // pre���dp[j]û����ǰ��ֵ
+				pre = tmp; // last���dp[j]û����ǰ��ֵ
 			}
 		}
 		return dp[shorts.length];
