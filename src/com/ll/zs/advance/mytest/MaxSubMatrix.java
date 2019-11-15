@@ -1,4 +1,4 @@
-package com.ll.zs.advance.advanced_class_01.mytest;
+package com.ll.zs.advance.mytest;
 
 import java.util.Stack;
 

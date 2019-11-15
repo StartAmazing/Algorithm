@@ -46,7 +46,7 @@ public class  Tree {
 
     //UnRecursion, PreOrder Traversal Additional used a Stack
     public static void preOrderUnrecur(Node head){
-        System.out.println("pre-order: ->");
+        System.out.println("last-order: ->");
         if(head != null){
             Stack<Node> stack = new Stack<>();
             stack.add(head);

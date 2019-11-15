@@ -45,7 +45,7 @@ public class TreeTraverse {
 
     //中左右，先序遍历
     private static void preOrderUnRecur(Node head){
-        System.out.println("pre-order: ");
+        System.out.println("last-order: ");
         if(head != null){
             Stack<Node> stack = new Stack<>();
             stack.push(head);
@@ -64,7 +64,7 @@ public class TreeTraverse {
     }
 
     private static void preOrderUnRecur2(Node head){
-        System.out.println("pre-order: ");
+        System.out.println("last-order: ");
         if(head != null){
             Stack<Node> stack = new Stack<>();
             stack.push(head);
