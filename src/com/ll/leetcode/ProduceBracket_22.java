@@ -1,5 +1,7 @@
 package com.ll.leetcode;
 
+import com.ll.muke.queue.Array;
+
 import java.util.List;
 import java.util.ArrayList;
 
@@ -79,8 +81,16 @@ public class ProduceBracket_22 {
         backtrack(ans,"",0,0,num);
         return ans;
     }
+
+    /**
+     * @param ans   结果收集集合
+     * @param cur   当前字符串
+     * @param open  （个数
+     * @param close     ）个数
+     * @param max   对数
+     */
     private static void backtrack(List<String> ans, String cur, int open,int close,int max){
-        if(cur.length() == max*2){
+        if(cur.length() == max * 2){
             ans.add(cur);
             return;
         }
@@ -120,11 +130,96 @@ public class ProduceBracket_22 {
         return ans;
     }
 
+    public static List<String> generateParenthesis(int n) {
+        ArrayList<String> resList = new ArrayList<>();
+        generateAllx(new char[n * 2], 0, resList);
+        return resList;
+    }
+    private static void generateAllx(char[] current, int pos, List<String> resList){
+        if(pos == current.length){
+            if(isValidx(current)){
+                resList.add(new String(current));
+            }
+        }else{
+            current[pos] = ')';
+            generateAll(current, pos ++ , resList);
+            current[pos] = '(';
+            generateAll(current, pos ++ , resList);
+        }
+    }
+    private static boolean isValidx(char[] current){
+        int balance = 0;
+        for(char c : current){
+            if( c == '(') balance ++;
+            if( c == ')') balance --;
+            if(balance < 0) return false;
+        }
+        return balance == 0;
+    }
+
+
+    private static ArrayList<String> step1(int num){
+        ArrayList<String> resList = new ArrayList<>();
+        step2(new char[2 * num], 0, resList);
+        return resList;
+    }
+    private static void step2(char[] chars, int start, ArrayList<String> resList){
+        if(start == chars.length){
+            if(step3(chars)){
+                resList.add(new String(chars));
+            }
+        }else {
+            chars[start] = ')';
+            step2(chars, start + 1,resList);
+            chars[start] = '(';
+            step2(chars, start + 1,resList);
+        }
+    }
+    private static boolean step3(char[] chars){
+        int balance = 0;
+        for (int i = 0 ; i < chars.length; i ++){
+            if(chars[i] == ')') balance -- ;
+            if(chars[i] == '(') balance ++;
+            if(balance < 0) return false;
+        }
+        return balance == 0;
+    }
+
+    private static ArrayList<String> step4(int num){
+        ArrayList<String> resList = new ArrayList();
+        step5(0,0,num,resList,"");
+        return resList;
+    }
+    private static void step5(int open, int close, int max, ArrayList<String> resList, String cur){
+        if(cur.length() == max * 2){
+            resList.add(cur);
+            return;
+        }
+        if(open < max){
+            step5(open + 1, close, max, resList, cur + "(");
+        }
+        if(close < open){
+            step5(open,close + 1, max, resList, cur + ")");
+        }
+    }
+
+    private static ArrayList<String> step6(int num){
+
+    }
+
+
 
     public static void main(String[] args) {
-        System.out.println(solution1(3));
-        System.out.println(solution2(3));
-        System.out.println(solution3(3));
+//        System.out.println(solution1(3));
+//        System.out.println(solution2(3));
+//        System.out.println(solution3(3));
+//
+//
+//        System.out.println(generateParenthesis(7));
+//
+//        System.out.println(step1(3));
+//        System.out.println(step4(3));
+        System.out.println("hello".split(",").length);
     }
 
 }

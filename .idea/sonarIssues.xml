@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="$USER_HOME$/Desktop/bomProject/hmdm/src/main/java/hmdm/core/bsmaterial/controllers/NutritionController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/bomProject/hmdm/src/main/java/hmdm/core/bsmaterial/controllers/SpJdeLcRelationsController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/bomProject/hmdm/src/main/java/hmdm/core/bsmaterial/dto/Nutrition.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/bomProject/hmdm/src/main/java/hmdm/core/bsmaterial/dto/Test.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/bomProject/hmdm/src/main/java/hmdm/core/bsmaterial/dto/UniqueIndexJdeLc.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/bomProject/hmdm/src/main/java/hmdm/core/bsmaterial/mapper/NutritionMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/bomProject/hmdm/src/main/java/hmdm/core/bsmaterial/mapper/SpJdeLcRelationsMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/bomProject/hmdm/src/main/java/hmdm/core/bsmaterial/service/INutritionService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/bomProject/hmdm/src/main/java/hmdm/core/bsmaterial/service/ISpJdeLcRelationsService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/bomProject/hmdm/src/main/java/hmdm/core/bsmaterial/service/impl/NutritionServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/bomProject/hmdm/src/main/java/hmdm/core/bsmaterial/service/impl/SpJdeLcRelationsServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/bomProject/hmdm/src/main/java/hmdm/core/bsmaterial/util/ExcelUtils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/bomProject/hmdm/src/main/resources/hmdm/core/bsmaterial/mapper/NutritionMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/bomProject/hmdm/src/main/resources/hmdm/core/bsmaterial/mapper/SpJdeLcRelationsMapper.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/bomProject/hmdm/src/main/webapp/WEB-INF/view/bs/nutrition.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/bomProject/hmdm/src/main/webapp/WEB-INF/view/bs/nutrition1.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/bomProject/hmdm/src/main/webapp/WEB-INF/view/bs/nutrition2.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/bomProject/hmdm/src/main/webapp/WEB-INF/view/bsmaterial/sp_jde_lc_relations.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/com/ll/leetcode/MergeTwoSortedList.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/com/ll/leetcode/MergeTwoSortedList_21.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/com/ll/leetcode/ProduceBracket_22.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/com/ll/leetcode/RemoveDuplicateItemOfArr_26.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/com/ll/leetcode/RemoveElementOfArray_27.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/com/ll/leetcode/RemoveNodeInList.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/com/ll/leetcode/RemoveNodeInList_203.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/com/ll/leetcode/ThreeNumSum_15.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/com/ll/zs/basic/class07/mytest/TreeTraverse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/com/ll/zs/tree/Tree.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
