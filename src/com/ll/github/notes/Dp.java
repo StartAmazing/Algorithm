@@ -1,4 +1,6 @@
-package com.ll.github.charpter10;
+package com.ll.github.notes;
+
+import java.util.Arrays;
 
 public class Dp {
 
@@ -67,8 +69,37 @@ public class Dp {
     //一只青蛙一次可以跳上 1 级台阶，也可以跳上 2 级。求该青蛙跳上一个 n 级的台阶总共有多少种跳法
     //同上
 
-    //变态跳台阶问题
 
+    //变态跳台阶问题
+    //数学归纳法
+    private static int jumpBtStep(int num){
+        return (int)Math.pow(2,num - 1);
+    }
+    //变态跳台阶问题
+    //动态规划
+    private static int jumpBtStep2(int num){
+        int[] dp = new int[num];
+        Arrays.fill(dp,1);
+        for(int i = 1; i < num; i ++){
+            for(int j = 0; j < i; j ++){
+                dp[i] += dp[j];
+            }
+        }
+        return dp[num - 1];
+    }
+    //变态跳台阶问题
+    //递归的
+    private static int jumpBtStep3(int num){
+        int[] dp = new int[num];
+        if(num <= 1){
+            return num;
+        }
+        int sum = 0;
+        for(int i = 0 ; i < num ; i ++){
+            sum += jumpBtStep3(i);
+        }
+        return sum;
+    }
 
 
     public static void main(String[] args) {

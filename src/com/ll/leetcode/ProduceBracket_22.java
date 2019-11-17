@@ -204,21 +204,12 @@ public class ProduceBracket_22 {
     }
 
     private static ArrayList<String> step6(int num){
-
+            return null;
     }
 
 
 
     public static void main(String[] args) {
-//        System.out.println(solution1(3));
-//        System.out.println(solution2(3));
-//        System.out.println(solution3(3));
-//
-//
-//        System.out.println(generateParenthesis(7));
-//
-//        System.out.println(step1(3));
-//        System.out.println(step4(3));
         System.out.println("hello".split(",").length);
     }
 
