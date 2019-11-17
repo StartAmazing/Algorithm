@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75a2ebef-107a-4bac-942c-17e9821d6aba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_07/Code_05_EditCost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_07/Code_05_EditCost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ll/zs/advance/mytest/getMaxActivityVal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/zs/advance/mytest/getMaxActivityVal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ll/zs/basic/class07/mytest/TreeTraverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/zs/basic/class07/mytest/TreeTraverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ll/zs/tree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/zs/tree/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/zs/advance/mytest/MyCache_X.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/zs/advance/mytest/MyCache_LRU.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,10 +69,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/ll/zs/advance/mytest/MyCache_X.java">
+        <entry file="file://$PROJECT_DIR$/src/com/ll/zs/advance/mytest/MyCache_LRU.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+            <state relative-caret-position="304">
+              <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
               <folding>
                 <element signature="e#828#829#0" expanded="true" />
                 <element signature="e#855#856#0" expanded="true" />
@@ -396,15 +394,15 @@
       <workItem from="1571760790541" duration="6967000" />
       <workItem from="1572273598460" duration="9178000" />
       <workItem from="1572751968179" duration="16247000" />
-      <workItem from="1573350173713" duration="20412000" />
+      <workItem from="1573350173713" duration="22233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85789000" />
+    <option name="totallyTimeSpent" value="87610000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1091" y="108" width="795" height="771" extended-state="0" />
+    <frame x="1091" y="108" width="795" height="771" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.39863947" />
@@ -424,7 +422,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.35900217" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3579278" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32967034" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -859,10 +857,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/advance/mytest/MyCache_X.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/advance/mytest/MyCache_LRU.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        <state relative-caret-position="304">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
           <folding>
             <element signature="e#828#829#0" expanded="true" />
             <element signature="e#855#856#0" expanded="true" />

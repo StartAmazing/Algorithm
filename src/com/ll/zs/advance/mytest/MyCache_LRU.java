@@ -23,7 +23,7 @@ import java.util.HashMap;
  * 5. cache.set("D",4)。大小超过了3，所以移除此时最不经常使用的记录("B",2)
  * 加入记录("D",4)，并且为最经常使用的记录，然后("C",2)变为最不经常使用的记录
  */
-public class MyCache_X {
+public class MyCache_LRU {
 
     public static class Node<T>{
         public T value;
