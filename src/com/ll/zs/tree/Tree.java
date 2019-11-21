@@ -128,4 +128,8 @@ public class  Tree {
         }
         System.out.println();
     }
+
+    public static void main(String[] args) {
+
+    }
 }

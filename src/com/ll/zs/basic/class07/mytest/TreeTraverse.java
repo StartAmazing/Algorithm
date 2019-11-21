@@ -1,9 +1,12 @@
 package com.ll.zs.basic.class07.mytest;
 
+import java.util.ArrayDeque;
+import java.util.Queue;
 import java.util.Stack;
+import java.util.Vector;
 
 public class TreeTraverse {
-    public class Node{
+    public static class Node{
         private int val;
         private Node rightNode;
         private Node leftNode;
@@ -158,6 +161,37 @@ public class TreeTraverse {
                 System.out.println("head data: " + help.pop().val);
             }
         }
+    }
+
+    //层序遍历
+    public static void floorTravel(Node head){
+        if(head == null){
+            return;
+        }
+        Queue<Node> queue = new ArrayDeque<>();
+        queue.add(head);
+        while(!queue.isEmpty()){
+            Node cur = queue.poll();
+            System.out.print(cur.val + " ");
+            if(cur.leftNode != null){
+                queue.add(cur.leftNode);
+            }
+            if(cur.rightNode != null){
+                queue.add(cur.rightNode);
+            }
+        }
+    }
+
+
+    public static void main(String[] args) {
+        Node root = new Node(1);
+        root.leftNode = new Node(7);
+        root.rightNode = new Node(3);
+        root.leftNode.leftNode = new Node(6);
+        root.leftNode.rightNode = new Node(5);
+
+        floorTravel(root);
+
     }
 
 
