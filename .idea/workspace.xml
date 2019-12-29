@@ -2,295 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75a2ebef-107a-4bac-942c-17e9821d6aba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/github/notes/Dp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/github/notes/RobortMotionRange.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/github/notes/StrPathInMatrix.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/RemoveNodeInList_203$ListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/RemoveNodeInList_203.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/mytest/MyCache_X$MyCache.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/mytest/MyCache_X$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/mytest/MyCache_X$NodeDoubleLinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/mytest/MyCache_X.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/mytest/getMaxActivityVal$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/mytest/getMaxActivityVal$ReturnType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ll/github/notes/RobortMotionRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ll/github/notes/StrPathInMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ll/leetcode/RemoveNodeInList_203.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_windows/applicationLibraries.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_windows/laf.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_windows/path.macros.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codestyles/Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/a-tale-of-two-cities.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/Thread/AccoutingSync.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/Thread/AccoutingSync.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/Thread/BadSuspend$ChangeObjectThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/Thread/BadSuspend$ChangeObjectThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/Thread/DaemonDemo$DaemonT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/Thread/DaemonDemo$DaemonT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/Thread/SimpleWN$T1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/Thread/SimpleWN$T1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/Thread/SimpleWN$T2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/Thread/SimpleWN$T2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/classdesign/201513040216-刘亮.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/classdesign/bst/BSTForInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/classdesign/bst/BSTForInteger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/classdesign/bst/QQ图片20181217092158.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/classdesign/studentMessage/StdList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/classdesign/studentMessage/StdList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/github/charpter10/Dp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/interest/dynaticPlanning/LongestCommonString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/interest/dynaticPlanning/LongestCommonString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/interest/greed/BagQuestion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/interest/greed/BagQuestion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/interest/greed/BestLoad.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/interest/greed/BestLoad.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/interest/greed/HuffmanCode$HCodeType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/interest/greed/HuffmanCode$HCodeType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/interest/greed/HuffmanCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/interest/greed/HuffmanCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/interest/greed/LowestPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/interest/greed/LowestPath.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/interest/greed/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/AddTwoNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/AddTwoNum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/ConvertWithZ.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/ConvertWithZ.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/DeleteReciprocalNNode_19.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/DeleteReciprocalNNode_19.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/GetCommonPrefix_14.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/GetCommonPrefix_14.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/IntersectionOfTwoArraysII_350.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/IntersectionOfTwoArraysII_350.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/IntersectionOfTwoArrays_349.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/IntersectionOfTwoArrays_349.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/IsValid_20.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/IsValid_20.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/LengthOfLongestSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/LengthOfLongestSubstring.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/MapSum_677.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/MapSum_677.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/MergeTwoSortedList_21.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/MergeTwoSortedList_21.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/NoCommonPartLongestSubString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/NoCommonPartLongestSubString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/NumArray_303.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/NumArray_303.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/NumArray_303_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/NumArray_303_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/ProduceBracket_22.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/ProduceBracket_22.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/Range_Sum_Query_307.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/Range_Sum_Query_307.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/ThreeNumSum_15.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/ThreeNumSum_15.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/TopKFrequent_347.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/TopKFrequent_347.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/TopKFrequent_347_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/TopKFrequent_347_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/UniqueMorseRepresentations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/UniqueMorseRepresentations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/WordDictionary_211.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/WordDictionary_211.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/SQH_part_2/BasicQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/SQH_part_2/BasicQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/SQH_part_2/BasicStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/SQH_part_2/BasicStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/SQH_part_2/MyQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/SQH_part_2/MyQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/SQH_part_2/MyQueue2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/SQH_part_2/MyQueue2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/SQH_part_2/MyStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/SQH_part_2/MyStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/SQH_part_2/Mystack2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/SQH_part_2/Mystack2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/SQH_part_2/SequenceIllegal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/SQH_part_2/SequenceIllegal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/SQH_part_2/图解/BasicCalculator.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/AssignCookies$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/AssignCookies$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/AssignCookies$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/AssignCookies$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/AssignCookies.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/AssignCookies.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/Expedition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/Expedition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/JumpGame_I.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/JumpGame_I.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/JumpGame_II.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/JumpGame_II.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/JumpGame_I_t.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/JumpGame_I_t.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/RemoveKDigits.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/RemoveKDigits.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/WiggleSubsequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/WiggleSubsequence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/greed_part_3/目录.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/linkedlist_part_1/DetectCycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/linkedlist_part_1/DetectCycle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/linkedlist_part_1/GetCommonPointInTwoLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/linkedlist_part_1/GetCommonPointInTwoLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/linkedlist_part_1/LinkedListPartition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/linkedlist_part_1/LinkedListPartition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/linkedlist_part_1/MergeKSortedLists$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/linkedlist_part_1/MergeKSortedLists$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/linkedlist_part_1/MergeKSortedLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/linkedlist_part_1/MergeKSortedLists.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/linkedlist_part_1/MergeTwoSortedLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/linkedlist_part_1/MergeTwoSortedLists.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/linkedlist_part_1/RandomListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/linkedlist_part_1/RandomListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/linkedlist_part_1/ReverseLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/linkedlist_part_1/ReverseLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/linkedlist_part_1/images/RandomListNode.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/linkedlist_part_1/images/eg-1-reverseLinkedList.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/linkedlist_part_1/images/快慢指针思想解决链表是否有环问题.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/leetcode/exercise/linkedlist_part_1/images/快慢指针设计原理.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/AVLTree/AVLTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/AVLTree/AVLTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/AVLTree/BST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/AVLTree/BST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/AVLTree/BSTMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/AVLTree/BSTMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/AVLTree/FileOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/AVLTree/FileOperation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/AVLTree/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/AVLTree/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/RBTree/AVLTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/RBTree/AVLTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/RBTree/BST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/RBTree/BST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/RBTree/FileOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/RBTree/FileOperation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/RBTree/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/RBTree/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/RBTree/Main2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/RBTree/Main2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/RBTree/Main3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/RBTree/Main3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/RBTree/RBTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/RBTree/RBTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/SegmentTree/SegmentTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/SegmentTree/SegmentTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/graph1/DenseGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/graph1/DenseGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/graph1/SparseGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/graph1/SparseGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/graph2/Components.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/graph2/Components.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/graph2/DenseGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/graph2/DenseGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/graph2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/graph2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/graph2/Path.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/graph2/Path.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/graph2/ReadGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/graph2/ReadGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/graph2/ShortestPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/graph2/ShortestPath.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/graph2/SparseGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/graph2/SparseGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/graph2/testG.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/graph2/testG1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/graph2/testG2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/weightedGraph/DenseWeightedGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/weightedGraph/DenseWeightedGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/weightedGraph/LazyPrimMST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/weightedGraph/LazyPrimMST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/weightedGraph/Main2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/weightedGraph/Main2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/weightedGraph/MinHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/weightedGraph/MinHeap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/weightedGraph/ReadWeightedGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/weightedGraph/ReadWeightedGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/weightedGraph/SparseWeightedGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/weightedGraph/SparseWeightedGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/weightedGraph/testG.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/weightedGraph/testG1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/weightedGraph/testG2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/graph/weightedGraph/testG3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/hashtable/AVLTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/hashtable/AVLTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/hashtable/BST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/hashtable/BST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/hashtable/FileOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/hashtable/FileOperation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/hashtable/HashTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/hashtable/HashTable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/hashtable/Main2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/hashtable/Main2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/hashtable/RBTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/hashtable/RBTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/hashtable/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/hashtable/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/heap/HeapSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/heap/HeapSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/heap/HeapSort1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/heap/HeapSort1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/heap/HeapSort2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/heap/HeapSort2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/heap/IndexMaxHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/heap/IndexMaxHeap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/heap/MaxHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/heap/MaxHeap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/heap/PrintableMaxHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/heap/PrintableMaxHeap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/map/AVLTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/map/AVLTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/map/BST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/map/BST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/map/BSTMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/map/BSTMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/map/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/map/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/map/LinkedListMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/map/LinkedListMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/map/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/map/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/queue/Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/queue/Array.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/queue/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/queue/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/queue/MaxHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/queue/MaxHeap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/set/AVLTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/set/AVLTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/set/BST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/set/BST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/set/BSTSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/set/BSTSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/set/FileOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/set/FileOperation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/set/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/set/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/set/LinkedListSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/set/LinkedListSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/set/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/set/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/trie/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/trie/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/trie/Trie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/trie/Trie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/unionFind/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/unionFind/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/unionFind/UnionFind1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/unionFind/UnionFind1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/unionFind/UnionFind2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/unionFind/UnionFind2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/unionFind/UnionFind3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/unionFind/UnionFind3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/unionFind/UnionFind4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/unionFind/UnionFind4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/unionFind/UnionFind5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/unionFind/UnionFind5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/unionFind/UnionFind6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/muke/unionFind/UnionFind6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/ArrayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/ArrayQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/ArrayStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/ArrayStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/GetMaxWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/GetMaxWindow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/Hanoi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/Hanoi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/MaxTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/MaxTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/ReverseStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/ReverseStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/SortStackByStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/SortStackByStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/TwoQueueStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/TwoQueueStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/TwoStackQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/TwoStackQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/getMinStack/StackForGetmin2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/getMinStack/StackForGetmin2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/StackAndQueue/getMinStack/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_01/Code_03_LongestPathSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_01/Code_03_LongestPathSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_01/Code_07_ExpressionCompute.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_01/Code_07_ExpressionCompute.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_02/Code_01_LeastRecentlyUsedCache$MyCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_02/Code_01_LeastRecentlyUsedCache$MyCache.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_02/Code_01_LeastRecentlyUsedCache$NodeDoubleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_02/Code_01_LeastRecentlyUsedCache$NodeDoubleLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_02/Code_02_Building_Outline.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_02/Code_02_Building_Outline.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_02/Code_04_TrieTree$Trie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_02/Code_04_TrieTree$Trie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_02/Code_05_EnglishExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_02/Code_05_EnglishExpression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_02/Code_06_ChineseExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_02/Code_06_ChineseExpression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_03/AVLTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_03/AVLTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_03/AbstractBinarySearchTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_03/AbstractBinarySearchTree$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_03/AbstractBinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_03/AbstractBinarySearchTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_03/AbstractSelfBalancingBinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_03/AbstractSelfBalancingBinarySearchTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_03/Code_01_MorrisTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_03/Code_01_MorrisTraversal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_03/Code_02_SkipList$SkipList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_03/Code_02_SkipList$SkipList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_03/RedBlackTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_03/RedBlackTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_04/Code_01_Building_Outline.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_04/Code_01_Building_Outline.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_04/Code_02_LRU$MyCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_04/Code_02_LRU$MyCache.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_04/Code_02_LRU$NodeDoubleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_04/Code_02_LRU$NodeDoubleLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_04/Code_03_LFU$LFUCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_04/Code_03_LFU$LFUCache.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_04/Code_04_BiggestSubBSTInTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_04/Code_04_BiggestSubBSTInTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_04/Code_05_LongestSumSubArrayLength.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_04/Code_05_LongestSumSubArrayLength.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_04/Code_06_Most_EOR.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_04/Code_06_Most_EOR.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_04/Code_07_ExpressionCompute.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_04/Code_07_ExpressionCompute.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_05/Code_01_IsBSTAndCBT.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_05/Code_01_IsBSTAndCBT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_05/Code_02_IsBalancedTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_05/Code_02_IsBalancedTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_05/Code_05_Max_EOR$NumTrie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_05/Code_05_Max_EOR$NumTrie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_05/Code_05_Max_EOR.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_05/Code_05_Max_EOR.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_06/Code_03_RegularExpressionMatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_06/Code_03_RegularExpressionMatch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_06/Code_05_LongestSubarrayLessSumAwesomeSolution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_06/Code_05_LongestSubarrayLessSumAwesomeSolution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_06/Code_06_JosephusProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_06/Code_06_JosephusProblem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_07/Code_01_MinPathSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_07/Code_01_MinPathSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_07/Code_03_LCSubsequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_07/Code_03_LCSubsequence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_07/Code_04_LCSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_07/Code_04_LCSubstring.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_07/Code_05_EditCost.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_07/Code_05_EditCost.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_07/Code_06_PalindromeMinCut.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_07/Code_06_PalindromeMinCut.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_07/Code_07_StringCross.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_07/Code_07_StringCross.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_07/Code_08_ParenthesesProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_07/Code_08_ParenthesesProblem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_08/Code_01_TopKSumCrossTwoArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_08/Code_01_TopKSumCrossTwoArrays.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_08/Code_05_LongestNoRepeatSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/advanced_class_08/Code_05_LongestNoRepeatSubstring.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/mytest/AllLessNumSubArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/mytest/AllLessNumSubArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/mytest/GetMaxBSTreeFromNormalTree$ReturnType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/mytest/GetMaxBSTreeFromNormalTree$ReturnType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/mytest/KMP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/mytest/KMP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/mytest/Manacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/mytest/Manacher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/mytest/MaxSubArrAccToTarget.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/mytest/MaxSubArrAccToTarget.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/mytest/MaxSubMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/mytest/MaxSubMatrix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/mytest/OutLine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/mytest/OutLine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/mytest/RecycleMountains.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/mytest/RecycleMountains.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/mytest/SlidingWindowMaxArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/mytest/SlidingWindowMaxArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/mytest/getMaxActivityVal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/advance/mytest/getMaxActivityVal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class05/Code_01_HashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class05/Code_01_HashMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class05/Code_04_UnionFind$UnionFindSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class05/Code_04_UnionFind$UnionFindSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class05/mytest/UnionFind$UnionFindSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class05/mytest/UnionFind$UnionFindSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class06/Code_01_BFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class06/Code_01_BFS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class06/Code_02_DFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class06/Code_02_DFS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class06/Code_03_TopologySort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class06/Code_03_TopologySort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class06/Code_04_Kruskal$UnionFind.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class06/Code_04_Kruskal$UnionFind.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class06/Code_04_Kruskal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class06/Code_04_Kruskal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class06/Code_05_Prim.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class06/Code_05_Prim.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class06/Code_06_Dijkstra$NodeHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class06/Code_06_Dijkstra$NodeHeap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class06/Code_06_Dijkstra.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class06/Code_06_Dijkstra.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class06/GraphGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class06/GraphGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class06/mytest/GetMinCost.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class06/mytest/GetMinCost.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class06/mytest/IPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class06/mytest/IPO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/Code_01_TrieTree$Trie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/Code_01_TrieTree$Trie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/Code_02_Less_Money.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/Code_02_Less_Money.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/Code_03_IPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/Code_03_IPO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/Code_04_MadianQuick$MedianHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/Code_04_MadianQuick$MedianHolder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/Code_04_MadianQuick.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/Code_04_MadianQuick.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/Code_05_LowestLexicography.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/Code_05_LowestLexicography.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/LessMoney.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/LessMoney.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/LowestLexicography.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/LowestLexicography.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/MadianQuick$MadianHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/MadianQuick$MadianHolder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/MadianQuick.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/MadianQuick.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/PaperFolding.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/PaperFolding.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/SpecilTreeGetNextNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/SpecilTreeGetNextNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/TreeTraverse$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/TreeTraverse$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/TreeTraverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/TreeTraverse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/TrieTree$Trie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/TrieTree$Trie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/TrieTree2$Trie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/TrieTree2$Trie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/UnionFind$UnionFindSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class07/mytest/UnionFind$UnionFindSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class08/Code_04_Print_All_Permutations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class08/Code_04_Print_All_Permutations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class08/Code_06_ReverseStackUsingRecursive.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class08/Code_06_ReverseStackUsingRecursive.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class08/Code_07_MinPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class08/Code_07_MinPath.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class08/mytest/GraphGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class08/mytest/GraphGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class08/mytest/Graph_1_BFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class08/mytest/Graph_1_BFS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class08/mytest/Kruskal$UnionFind.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class08/mytest/Kruskal$UnionFind.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class08/mytest/Kruskal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class08/mytest/Kruskal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class08/mytest/TopologySort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class08/mytest/TopologySort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class08/mytest/graph_2_DFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class08/mytest/graph_2_DFS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class09/AbstractBinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class09/AbstractBinarySearchTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class09/MorrisTravel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class09/MorrisTravel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class09/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class09/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class09/SkipListNode_01$SkipList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/basic/class09/SkipListNode_01$SkipList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/java/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/java/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/java/Test3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/java/Test3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/java/Test4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/java/Test4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/java/ThreadExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/java/ThreadExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/question/Problem_01_ParenthesesProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/question/Problem_01_ParenthesesProblem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/question/Problem_02_MedianHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/question/Problem_02_MedianHolder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/question/Problem_04_GoldIncision.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/question/Problem_04_GoldIncision.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/question/Problem_05_getMaxEarning$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/question/Problem_05_getMaxEarning$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/question/Problem_05_getMaxEarning.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/question/Problem_05_getMaxEarning.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/tree/JudgeBalanceTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/tree/JudgeBalanceTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/tree/JudgeSearchBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/tree/JudgeSearchBinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/tree/PrecursorNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/tree/PrecursorNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/tree/SerializeAndReconstructTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/tree/SerializeAndReconstructTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/tree/SuccessorNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/tree/SuccessorNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/tree/Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/tree/Tree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/tree/TrieTree$Trie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/tree/TrieTree$Trie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/unionFind/UnionFind$UnionFindSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/unionFind/UnionFind$UnionFindSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/pride-and-prejudice.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ll/github/charpter10/Dp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/github/notes/Dp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ll/leetcode/ProduceBracket_22.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/leetcode/ProduceBracket_22.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ll/zs/basic/class07/mytest/TreeTraverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/zs/basic/class07/mytest/TreeTraverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ll/zs/tree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/zs/tree/Tree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -326,98 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/ProduceBracket_22.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="42" column="43" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="43" />
-              <folding>
-                <element signature="method#generateParenthesis#0;class#ProduceBracket_22#0" />
-                <element signature="method#generateAllx#0;class#ProduceBracket_22#0" />
-                <element signature="method#isValidx#0;class#ProduceBracket_22#0" />
-                <element signature="method#step1#0;class#ProduceBracket_22#0" />
-                <element signature="method#step2#0;class#ProduceBracket_22#0" />
-                <element signature="method#step3#0;class#ProduceBracket_22#0" />
-                <element signature="method#step4#0;class#ProduceBracket_22#0" />
-                <element signature="method#step5#0;class#ProduceBracket_22#0" />
-                <element signature="e#5760#5761#0" expanded="true" />
-                <element signature="e#5791#5792#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ll/zs/advance/mytest/MyCache_LRU.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ll/zs/advance/mytest/MyCache_LFU.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1843">
-              <caret line="99" column="14" selection-start-line="99" selection-start-column="14" selection-end-line="99" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/MyTest.java">
+        <entry file="file://$PROJECT_DIR$/src/com/ll/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="57" column="18" lean-forward="true" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/ListNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ll/zs/sort/MergeSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" selection-start-column="23" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ll/interest/greed/MeetingArrange.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ll/zs/basic/class06/mytest/MeetingPlan.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="33" column="58" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/BrustBalloons.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="32" column="26" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="26" />
+            <state relative-caret-position="343">
+              <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -437,8 +62,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/ll/leetcode/MergeTwoSortedList_21.java" />
-        <option value="$PROJECT_DIR$/src/com/ll/zs/basic/class08/Code_04_Print_All_Permutations.java" />
         <option value="$PROJECT_DIR$/src/com/ll/zs/basic/class06/mytest/Hanoi.java" />
         <option value="$PROJECT_DIR$/src/com/ll/zs/basic/class06/mytest/AllSubString.java" />
         <option value="$PROJECT_DIR$/src/com/ll/zs/basic/class06/mytest/GetCowNumber.java" />
@@ -481,14 +104,23 @@
         <option value="$PROJECT_DIR$/src/com/ll/github/notes/StrPathInMatrix.java" />
         <option value="$PROJECT_DIR$/src/com/ll/zs/advance/mytest/MyCache_LFU.java" />
         <option value="$PROJECT_DIR$/src/com/ll/leetcode/MyTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/zs/advance/mytest/RabinKrapKMP.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/zs/basic/mytest/Search2DMatrix.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/zs/basic/mytest/RecoverRotateArray.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/zs/basic/mytest/FirstTarget.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/zs/basic/mytest/MinimumSubtree.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/zs/basic/mytest/IsBalancedBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/zs/basic/mytest/SubtreeWithMaximumAverage.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/zs/basic/mytest/ConvertBST2DoublyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/Test.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="929" />
-    <option name="y" value="98" />
-    <option name="width" value="949" />
-    <option name="height" value="744" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="356" />
+    <option name="y" value="52" />
+    <option name="width" value="859" />
+    <option name="height" value="739" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -498,7 +130,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -524,56 +155,13 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ll" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ll" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ll" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ll" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedlist_part_1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ll" type="462c0819:PsiDirectoryNode" />
-              <item name="zs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="ll" type="462c0819:PsiDirectoryNode" />
-              <item name="zs" type="462c0819:PsiDirectoryNode" />
-              <item name="sort" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="CatdeaLogs" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -582,6 +170,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/ll/zs/advance" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -600,13 +189,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyTest">
-    <configuration name="MaxSubMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ll.zs.advance.mytest.MaxSubMatrix" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="ConvertBST2DoublyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ll.zs.basic.mytest.ConvertBST2DoublyLinkedList" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ll.zs.advance.mytest.*" />
+          <option name="PATTERN" value="com.ll.zs.basic.mytest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -614,12 +203,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MorrisTravel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ll.zs.basic.class09.MorrisTravel" />
+    <configuration name="MinimumSubtree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ll.zs.basic.mytest.MinimumSubtree" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ll.zs.basic.class09.*" />
+          <option name="PATTERN" value="com.ll.zs.basic.mytest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -627,38 +216,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ll.leetcode.MyTest" />
+    <configuration name="SubtreeWithMaximumAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ll.zs.basic.mytest.SubtreeWithMaximumAverage" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ll.zs.basic.mytest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ll.Test" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ll.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreeNumSum_15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ll.leetcode.ThreeNumSum_15" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ll.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RobortMotionRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ll.github.notes.RobortMotionRange" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ll.github.notes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StrPathInMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ll.github.notes.StrPathInMatrix" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ll.github.notes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -765,19 +354,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.MaxSubMatrix" />
-      <item itemvalue="Application.MorrisTravel" />
-      <item itemvalue="Application.RobortMotionRange" />
-      <item itemvalue="Application.StrPathInMatrix" />
-      <item itemvalue="Application.MyTest" />
+      <item itemvalue="Application.ThreeNumSum_15" />
+      <item itemvalue="Application.MinimumSubtree" />
+      <item itemvalue="Application.SubtreeWithMaximumAverage" />
+      <item itemvalue="Application.ConvertBST2DoublyLinkedList" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyTest" />
-        <item itemvalue="Application.StrPathInMatrix" />
-        <item itemvalue="Application.RobortMotionRange" />
-        <item itemvalue="Application.MorrisTravel" />
-        <item itemvalue="Application.MaxSubMatrix" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.ConvertBST2DoublyLinkedList" />
+        <item itemvalue="Application.SubtreeWithMaximumAverage" />
+        <item itemvalue="Application.MinimumSubtree" />
+        <item itemvalue="Application.ThreeNumSum_15" />
       </list>
     </recent_temporary>
   </component>
@@ -794,15 +383,20 @@
       <workItem from="1573786324188" duration="3581000" />
       <workItem from="1573875950106" duration="10512000" />
       <workItem from="1573963849311" duration="15881000" />
-      <workItem from="1574347637376" duration="729000" />
+      <workItem from="1574347637376" duration="10289000" />
+      <workItem from="1574784403630" duration="608000" />
+      <workItem from="1574956181377" duration="11647000" />
+      <workItem from="1576332816708" duration="860000" />
+      <workItem from="1577408074053" duration="64000" />
+      <workItem from="1577437099925" duration="3296000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30811000" />
+    <option name="totallyTimeSpent" value="56846000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="929" y="98" width="949" height="744" extended-state="0" />
+    <frame x="356" y="52" width="859" height="739" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -812,11 +406,11 @@
       <window_info id="Image Layers" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="UI Designer" order="6" />
-      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.49227798" weight="0.35660982" />
-      <window_info anchor="bottom" id="Run" order="0" weight="0.5868853" />
+      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.49227798" weight="0.96245307" />
+      <window_info active="true" anchor="bottom" id="Run" order="0" visible="true" weight="0.3107438" />
       <window_info anchor="bottom" id="TODO" order="1" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.47830802" />
-      <window_info anchor="bottom" id="Terminal" order="3" weight="0.6639344" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.47603306" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.6628099" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="5" />
       <window_info anchor="bottom" id="SonarQube" order="6" />
@@ -832,6 +426,7 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="right" id="Maven" order="8" />
+      <window_info anchor="right" id="Hierarchy" order="9" weight="0.32995737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -889,78 +484,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/util/Arrays.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/ll/muke/SegmentTree/Merger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/Thread/AccountingSyncClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/hash/RandomPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/Expedition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/JumpGame_I.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1235">
-          <caret line="65" column="31" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/hash/RandomPool2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1064">
-          <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/hash/BoolongFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/question/Problem_01_ParenthesesProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/question/Problem_02_MedianHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="35" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/question/Problem_04_GoldIncision.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1064">
-          <caret line="56" column="37" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Development/Java/jdk1.8/jdk/src.zip!/java/util/Vector.java" />
     <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/JumpGame_I_t.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1050,13 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/ThreeNumSum_15.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="77" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1199,6 +715,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/MyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/advance/mytest/RabinKrapKMP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1178">
+          <caret line="62" column="65" selection-start-line="62" selection-start-column="65" selection-end-line="62" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/basic/mytest/Search2DMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/basic/mytest/RecoverRotateArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/basic/mytest/FirstTarget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -1220,6 +774,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/ThreeNumSum_15.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/basic/mytest/MinimumSubtree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+          <folding>
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/basic/mytest/IsBalancedBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="63" column="46" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/basic/mytest/SubtreeWithMaximumAverage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1558">
+          <caret line="86" column="39" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/java/lib/src.zip!/java.base/java/util/Deque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3230">
+          <caret line="203" column="17" selection-start-line="203" selection-start-column="17" selection-end-line="203" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/muke/queue/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ll/zs/basic/class06/mytest/MeetingPlan.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -1234,13 +834,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/MyTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/basic/mytest/ConvertBST2DoublyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="57" column="18" lean-forward="true" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+        <state relative-caret-position="19">
+          <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/java/lib/src.zip!/java.base/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="137" column="17" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
         </state>
       </provider>
     </entry>
