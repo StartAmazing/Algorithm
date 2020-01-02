@@ -39,10 +39,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/ll/Test.java">
+        <entry file="file://$PROJECT_DIR$/src/com/ll/lintCode/bfs/GraphValidTree_178.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+            <state relative-caret-position="-456">
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -56,33 +56,22 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>inOr</find>
+      <find>Ser</find>
+    </findStrings>
+    <dirStrings>
+      <dir>D:\ideaProject\Algorithm\src\com\ll\lintCode</dir>
+      <dir>D:\ideaProject\Algorithm\src\com\ll\zs\tree</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/ll/zs/basic/class06/mytest/Hanoi.java" />
-        <option value="$PROJECT_DIR$/src/com/ll/zs/basic/class06/mytest/AllSubString.java" />
-        <option value="$PROJECT_DIR$/src/com/ll/zs/basic/class06/mytest/GetCowNumber.java" />
-        <option value="$PROJECT_DIR$/src/com/ll/zs/basic/class06/mytest/getSmallNumFromMatrix.java" />
-        <option value="$PROJECT_DIR$/src/com/ll/zs/basic/class06/mytest/ArrSumLikeNum.java" />
-        <option value="$PROJECT_DIR$/src/com/ll/zs/tree/Tree.java" />
-        <option value="$PROJECT_DIR$/src/com/ll/zs/basic/class07/mytest/TreeTraverse.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/com/ll/zs/basic/class09/Node.java" />
-        <option value="$PROJECT_DIR$/src/com/ll/zs/basic/class09/AbstractBinarySearchTree.java" />
-        <option value="$PROJECT_DIR$/src/com/ll/zs/basic/class09/SkipListNode.java" />
-        <option value="$PROJECT_DIR$/src/com/ll/zs/basic/class09/SkipListNode_01.java" />
-        <option value="$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_02/Code_04_TrieTree.java" />
-        <option value="$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_03/AVLTree.java" />
-        <option value="$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_05/Code_05_Max_EOR.java" />
-        <option value="$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_07/Code_02_LIS.java" />
-        <option value="$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_01/mytest/KMP.java" />
-        <option value="$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_01/mytest/Manacher.java" />
-        <option value="$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_01/mytest/SlidingWindowMaxArray.java" />
-        <option value="$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_01/mytest/AllLessNumSubArray.java" />
-        <option value="$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_01/mytest/MaxTree.java" />
         <option value="$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_01/mytest/MaxSubMatrix.java" />
         <option value="$PROJECT_DIR$/src/com/ll/zs/advance/advanced_class_01/mytest/RecycleMountains.java" />
         <option value="$PROJECT_DIR$/src/com/ll/zs/basic/class09/MorrisTravel.java" />
@@ -113,12 +102,33 @@
         <option value="$PROJECT_DIR$/src/com/ll/zs/basic/mytest/SubtreeWithMaximumAverage.java" />
         <option value="$PROJECT_DIR$/src/com/ll/zs/basic/mytest/ConvertBST2DoublyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/com/ll/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/lintCode/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/lintCode/BinaryTreePath_480.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/lintCode/MinimumSubtree.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/lintCode/MinimumSubtree_x.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/lintCode/MaxBinaryTreeDepth_97.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/lintCode/preorderTraversal_66.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/lintCode/preOrderTraversal_66.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/lintCode/inOrderTraversal_67.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/lintCode/BalancedBinaryTree_93.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/lintCode/SubtreeWithMaximumAverage_x.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/lintCode/LowestCommonAncestor_1311.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/lintCode/ValidBinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/lintCode/ValidBinarySearchTree_94.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/lintCode/DoublyListNode.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/lintCode/ConvertBinarySearchTree2DoublyLinkedList_x.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/lintCode/FlattenBinaryTree2LinkedList_453.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/lintCode/treeTraverseAndDivideConquer/FlattenBinaryTree2LinkedList_453.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/lintCode/treeTraverseAndDivideConquer/SubtreeWithMaximumAverage_x.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/lintCode/bfs/BinaryTreeLevelOrderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/lintCode/bfs/BinaryTreeLevelOrderTraversal_69.java" />
+        <option value="$PROJECT_DIR$/src/com/ll/lintCode/bfs/GraphValidTree_178.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="356" />
-    <option name="y" value="52" />
+    <option name="x" value="811" />
+    <option name="y" value="92" />
     <option name="width" value="859" />
     <option name="height" value="739" />
   </component>
@@ -155,13 +165,30 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ll" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ll" type="462c0819:PsiDirectoryNode" />
+              <item name="lintCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ll" type="462c0819:PsiDirectoryNode" />
+              <item name="lintCode" type="462c0819:PsiDirectoryNode" />
+              <item name="bfs" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="CatdeaLogs" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="CatdeaLogs" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -189,7 +216,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.GraphValidTree_178">
+    <configuration name="BinaryTreeLevelOrderTraversal_69" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ll.lintCode.bfs.BinaryTreeLevelOrderTraversal_69" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ll.lintCode.bfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConvertBST2DoublyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ll.zs.basic.mytest.ConvertBST2DoublyLinkedList" />
       <module name="Algorithm" />
@@ -203,12 +243,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumSubtree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ll.zs.basic.mytest.MinimumSubtree" />
+    <configuration name="GraphValidTree_178" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ll.lintCode.bfs.GraphValidTree_178" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ll.zs.basic.mytest.*" />
+          <option name="PATTERN" value="com.ll.lintCode.bfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -216,12 +256,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubtreeWithMaximumAverage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ll.zs.basic.mytest.SubtreeWithMaximumAverage" />
+    <configuration name="SubtreeWithMaximumAverage_x" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ll.lintCode.dfs.SubtreeWithMaximumAverage_x" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ll.zs.basic.mytest.*" />
+          <option name="PATTERN" value="com.ll.lintCode.dfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,19 +275,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ll.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreeNumSum_15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ll.leetcode.ThreeNumSum_15" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ll.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -354,19 +381,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.ThreeNumSum_15" />
-      <item itemvalue="Application.MinimumSubtree" />
-      <item itemvalue="Application.SubtreeWithMaximumAverage" />
       <item itemvalue="Application.ConvertBST2DoublyLinkedList" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.SubtreeWithMaximumAverage_x" />
+      <item itemvalue="Application.BinaryTreeLevelOrderTraversal_69" />
+      <item itemvalue="Application.GraphValidTree_178" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GraphValidTree_178" />
+        <item itemvalue="Application.BinaryTreeLevelOrderTraversal_69" />
+        <item itemvalue="Application.SubtreeWithMaximumAverage_x" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.ConvertBST2DoublyLinkedList" />
-        <item itemvalue="Application.SubtreeWithMaximumAverage" />
-        <item itemvalue="Application.MinimumSubtree" />
-        <item itemvalue="Application.ThreeNumSum_15" />
       </list>
     </recent_temporary>
   </component>
@@ -388,28 +415,30 @@
       <workItem from="1574956181377" duration="11647000" />
       <workItem from="1576332816708" duration="860000" />
       <workItem from="1577408074053" duration="64000" />
-      <workItem from="1577437099925" duration="3296000" />
+      <workItem from="1577437099925" duration="5042000" />
+      <workItem from="1577766872856" duration="22285000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56846000" />
+    <option name="totallyTimeSpent" value="80877000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="356" y="52" width="859" height="739" extended-state="1" />
+    <frame x="811" y="92" width="859" height="739" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Nl-Palette" order="1" />
       <window_info id="Structure" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" sideWeight="0.507722" side_tool="true" weight="0.34568834" />
+      <window_info id="Favorites" order="3" sideWeight="0.507722" side_tool="true" weight="0.34543177" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="UI Designer" order="6" />
-      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.49227798" weight="0.96245307" />
-      <window_info active="true" anchor="bottom" id="Run" order="0" visible="true" weight="0.3107438" />
+      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.49227798" weight="0.9621535" />
+      <window_info anchor="bottom" id="Find" />
+      <window_info active="true" anchor="bottom" id="Run" order="0" visible="true" weight="0.049586777" />
       <window_info anchor="bottom" id="TODO" order="1" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.47603306" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.324295" />
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.6628099" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="5" />
@@ -484,119 +513,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/exercise/greed_part_3/JumpGame_I_t.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/question/Problem_05_getMaxEarning.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/sort/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/HeapSort/Charpter5question3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/basic/class07/Code_03_IPO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/basic/class07/Code_06_BestArrange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-209">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/basic/class07/mytest/PaperFolding.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/basic/class07/mytest/SpecilTreeGetNextNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/basic/class05/UniFind.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/basic/class07/mytest/getMinInAreaOfArr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/basic/class05/Code_04_UnionFind.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/basic/class05/mytest/IsIands.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/basic/class07/mytest/TrieTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="86" column="45" lean-forward="true" selection-start-line="86" selection-start-column="45" selection-end-line="86" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/basic/class05/mytest/UnionFind.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/MergeTwoSortedList_21.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/RemoveDuplicateItemOfArr_26.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ll/leetcode/RemoveElementOfArray_27.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ll/zs/basic/class07/mytest/LowestLexicography.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -851,10 +767,144 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/lintCode.java" />
     <entry file="file://$PROJECT_DIR$/src/com/ll/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+        <state relative-caret-position="152">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/lintCode/dfs/ValidBinarySearchTree_94.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="41" column="54" lean-forward="true" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/lintCode/dfs/BinaryTreePath_480.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/lintCode/dfs/BalancedBinaryTree_93.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#1185#1186#0" expanded="true" />
+            <element signature="e#1227#1228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/lintCode/dfs/ConvertBinarySearchTree2DoublyLinkedList_x.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="method#helper#0;class#ConvertBinarySearchTree2DoublyLinkedList_x#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/lintCode/dfs/FlattenBinaryTree2LinkedList_453.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/lintCode/dfs/inOrderTraversal_67.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/lintCode/dfs/MaxBinaryTreeDepth_97.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/lintCode/dfs/LowestCommonAncestor_1311.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/lintCode/dfs/MinimumSubtree_x.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/lintCode/dfs/preOrderTraversal_66.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/lintCode/dfs/SubtreeWithMaximumAverage_x.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/lintCode/utils/DoublyListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/lintCode/utils/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/zs/tree/SerializeAndReconstructTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/lintCode/bfs/BinaryTreeLevelOrderTraversal_69.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ll/lintCode/bfs/GraphValidTree_178.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-456">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
         </state>
       </provider>
     </entry>
