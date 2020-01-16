@@ -1,4 +1,4 @@
-package com.ll.lintCode.subarr;
+package com.ll.lintCode.array.subarr;
 
 /**
  * 给定一个整数数组，找到一个具有最大和的子数组，返回其最大和

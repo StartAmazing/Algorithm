@@ -3,33 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="75a2ebef-107a-4bac-942c-17e9821d6aba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs/BalancedBinaryTree_93$ResultType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs/BalancedBinaryTree_93.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs/BinaryTreePath_480.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs/ConvertBinarySearchTree2DoublyLinkedList_x$ResultType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs/ConvertBinarySearchTree2DoublyLinkedList_x.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs/FlattenBinaryTree2LinkedList_453.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs/LowestCommonAncestor_1311$ResultType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs/LowestCommonAncestor_1311.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs/MaxBinaryTreeDepth_97.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs/MinimumSubtree_x.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs/SubtreeWithMaximumAverage_x$ResultType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs/SubtreeWithMaximumAverage_x.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs/ValidBinarySearchTree_94$ResultType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs/ValidBinarySearchTree_94.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs/inOrderTraversal_67.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs/preOrderTraversal_66.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/dfs/BalancedBinaryTree_93.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintCode/dfs_tree/BalancedBinaryTree_93.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/dfs/BinaryTreePath_480.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintCode/dfs_tree/BinaryTreePath_480.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/dfs/ConvertBinarySearchTree2DoublyLinkedList_x.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintCode/dfs_tree/ConvertBinarySearchTree2DoublyLinkedList_x.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/dfs/FlattenBinaryTree2LinkedList_453.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintCode/dfs_tree/FlattenBinaryTree2LinkedList_453.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/dfs/LowestCommonAncestor_1311.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintCode/dfs_tree/LowestCommonAncestor_1311.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/dfs/MaxBinaryTreeDepth_97.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintCode/dfs_tree/MaxBinaryTreeDepth_97.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/dfs/MinimumSubtree_x.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintCode/dfs_tree/MinimumSubtree_x.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/dfs/SubtreeWithMaximumAverage_x.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintCode/dfs_tree/SubtreeWithMaximumAverage_x.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/dfs/ValidBinarySearchTree_94.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintCode/dfs_tree/ValidBinarySearchTree_94.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/dfs/inOrderTraversal_67.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintCode/dfs_tree/inOrderTraversal_67.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/dfs/preOrderTraversal_66.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintCode/dfs_tree/preOrderTraversal_66.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/subarr/MaximumSubArray_41.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/subarr/SubarraySum_138.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/subarr/MaximumSubArray_41.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintCode/array/subarr/MaximumSubArray_41.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/subarr/SubarraySum_138.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintCode/array/subarr/SubarraySum_138.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -133,13 +110,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SubarraySum_138">
-    <configuration name="MaximumSubArray_41" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ll.lintCode.subarr.MaximumSubArray_41" />
+  <component name="RunManager" selected="Application.IntersectionOfTwoArrays_547">
+    <configuration name="BasicKnowledgeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ll.lintCode.array.link.BasicKnowledgeTest" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ll.lintCode.subarr.*" />
+          <option name="PATTERN" value="com.ll.lintCode.array.link.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntersectionOfTwoArrays_547" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ll.lintCode.array.IntersectionOfTwoArrays_547" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ll.lintCode.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaximumSubArray_41" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ll.lintCode.array.subarr.MaximumSubArray_41" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ll.lintCode.array.subarr.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,38 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Prim" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ll.zs.basic.class08.mytest.Prim" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ll.zs.basic.class08.mytest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SubarraySum_138" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ll.lintCode.subarr.SubarraySum_138" />
+      <option name="MAIN_CLASS_NAME" value="com.ll.lintCode.array.subarr.SubarraySum_138" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ll.lintCode.subarr.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TopologySort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ll.zs.basic.class08.mytest.TopologySort" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ll.zs.basic.class08.mytest.*" />
+          <option name="PATTERN" value="com.ll.lintCode.array.subarr.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -298,19 +275,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.TopologySort" />
-      <item itemvalue="Application.Prim" />
       <item itemvalue="Application.PalindromePartitioning_136" />
       <item itemvalue="Application.MaximumSubArray_41" />
       <item itemvalue="Application.SubarraySum_138" />
+      <item itemvalue="Application.BasicKnowledgeTest" />
+      <item itemvalue="Application.IntersectionOfTwoArrays_547" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntersectionOfTwoArrays_547" />
+        <item itemvalue="Application.BasicKnowledgeTest" />
         <item itemvalue="Application.SubarraySum_138" />
         <item itemvalue="Application.MaximumSubArray_41" />
         <item itemvalue="Application.PalindromePartitioning_136" />
-        <item itemvalue="Application.Prim" />
-        <item itemvalue="Application.TopologySort" />
       </list>
     </recent_temporary>
   </component>
@@ -343,6 +320,8 @@
       <workItem from="1578270333167" duration="232000" />
       <workItem from="1578447914473" duration="6749000" />
       <workItem from="1578728195597" duration="5815000" />
+      <workItem from="1578882475774" duration="13101000" />
+      <workItem from="1579007874275" duration="8423000" />
     </task>
     <servers />
   </component>
