@@ -3,10 +3,90 @@
   <component name="ChangeListManager">
     <list default="true" id="75a2ebef-107a-4bac-942c-17e9821d6aba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/subarr/MaximumSubArray_41.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/subarr/SubarraySum_138.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/subarr/MaximumSubArray_41.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintCode/array/subarr/MaximumSubArray_41.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/subarr/SubarraySum_138.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintCode/array/subarr/SubarraySum_138.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/array/IntersectionOfTwoArrays_547.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/array/IntersectionOfTwoArrays_547.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/array/MergeSortedArray_64.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/array/MergeSortedArray_64.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/array/link/BasicKnowledgeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/array/link/BasicKnowledgeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/array/link/CopyListWithRandomPointer_105.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/array/link/CopyListWithRandomPointer_105.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/array/link/LinkedListCycleII_103.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/array/link/LinkedListCycleII_103.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/array/link/LinkedListCycle_102.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/array/link/LinkedListCycle_102.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/array/link/ReverseLinkedList_35.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/array/link/ReverseLinkedList_35.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/array/link/ReverseNodesInKGroup_450.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/array/link/ReverseNodesInKGroup_450.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/array/link/SortList_98.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/array/link/SortList_98.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/array/subarr/MaximumSubArray_41.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/array/subarr/MaximumSubArray_41.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/array/subarr/SubarraySum_138.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/array/subarr/SubarraySum_138.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/bfs/BinaryTreeLevelOrderTraversal_69.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/bfs/BinaryTreeLevelOrderTraversal_69.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/bfs/CloneGraph_137.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/bfs/CloneGraph_137.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/bfs/GraphValidTree_178.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/bfs/GraphValidTree_178.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/bfs/NumberOfIsland_433.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/bfs/NumberOfIsland_433.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/bfs/SearchGraphNodes_x.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/bfs/SearchGraphNodes_x.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/bfs/TopologicalSorting_127.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/bfs/TopologicalSorting_127.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/bfs/ZombieInMatrix_x.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/bfs/ZombieInMatrix_x.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs/CombinationSumII_153.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs/CombinationSumII_153.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs/CombinationSum_135.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs/CombinationSum_135.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs/PalindromePartitioning_136.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs/PalindromePartitioning_136.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs_tree/BalancedBinaryTree_93$ResultType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs_tree/BalancedBinaryTree_93$ResultType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs_tree/BalancedBinaryTree_93.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs_tree/BalancedBinaryTree_93.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs_tree/BinaryTreePath_480.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs_tree/BinaryTreePath_480.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs_tree/ConvertBinarySearchTree2DoublyLinkedList_x$ResultType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs_tree/ConvertBinarySearchTree2DoublyLinkedList_x$ResultType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs_tree/ConvertBinarySearchTree2DoublyLinkedList_x.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs_tree/ConvertBinarySearchTree2DoublyLinkedList_x.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs_tree/FlattenBinaryTree2LinkedList_453.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs_tree/FlattenBinaryTree2LinkedList_453.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs_tree/LowestCommonAncestor_1311$ResultType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs_tree/LowestCommonAncestor_1311$ResultType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs_tree/LowestCommonAncestor_1311.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs_tree/LowestCommonAncestor_1311.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs_tree/MaxBinaryTreeDepth_97.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs_tree/MaxBinaryTreeDepth_97.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs_tree/MinimumSubtree_x.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs_tree/MinimumSubtree_x.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs_tree/SubtreeWithMaximumAverage_x$ResultType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs_tree/SubtreeWithMaximumAverage_x$ResultType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs_tree/SubtreeWithMaximumAverage_x.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs_tree/SubtreeWithMaximumAverage_x.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs_tree/ValidBinarySearchTree_94$ResultType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs_tree/ValidBinarySearchTree_94$ResultType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs_tree/ValidBinarySearchTree_94.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs_tree/ValidBinarySearchTree_94.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs_tree/inOrderTraversal_67.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs_tree/inOrderTraversal_67.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs_tree/preOrderTraversal_66.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/dfs_tree/preOrderTraversal_66.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/utils/Coordinate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/utils/Coordinate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/utils/DirectedGraphNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/utils/DirectedGraphNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/utils/DoublyListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/utils/DoublyListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/utils/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/utils/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/utils/RandomListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/utils/RandomListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/utils/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/utils/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/utils/UndirectedGraphNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/utils/UndirectedGraphNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/array/IntersectionOfTwoArrays_547.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/array/IntersectionOfTwoArrays_547.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/array/MedianOfTwoSortedArrays_65.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/array/MedianOfTwoSortedArrays_65.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/array/MergeSortedArray_64.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/array/MergeSortedArray_64.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/array/link/BasicKnowledgeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/array/link/BasicKnowledgeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/array/link/CopyListWithRandomPointer_105.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/array/link/CopyListWithRandomPointer_105.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/array/link/LinkedListCycleII_103.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/array/link/LinkedListCycleII_103.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/array/link/LinkedListCycle_102.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/array/link/LinkedListCycle_102.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/array/link/ReverseLinkedList_35.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/array/link/ReverseLinkedList_35.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/array/link/ReverseNodesInKGroup_450.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/array/link/ReverseNodesInKGroup_450.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/array/link/SortList_98.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/array/link/SortList_98.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/array/subarr/MaximumSubArray_41.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/array/subarr/MaximumSubArray_41.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/array/subarr/SubarraySum_138.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/array/subarr/SubarraySum_138.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/bfs/BinaryTreeLevelOrderTraversal_69.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/bfs/BinaryTreeLevelOrderTraversal_69.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/bfs/CloneGraph_137.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/bfs/CloneGraph_137.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/bfs/GraphValidTree_178.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/bfs/GraphValidTree_178.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/bfs/NumberOfIsland_433.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/bfs/NumberOfIsland_433.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/bfs/SearchGraphNodes_x.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/bfs/SearchGraphNodes_x.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/bfs/TopologicalSorting_127.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/bfs/TopologicalSorting_127.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/bfs/ZombieInMatrix_x.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/bfs/ZombieInMatrix_x.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/dfs/CombinationSumII_153.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/dfs/CombinationSumII_153.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/dfs/CombinationSum_135.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/dfs/CombinationSum_135.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/dfs/PalindromePartitioning_136.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/dfs/PalindromePartitioning_136.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/dfs_tree/BalancedBinaryTree_93.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/dfs_tree/BalancedBinaryTree_93.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/dfs_tree/BinaryTreePath_480.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/dfs_tree/BinaryTreePath_480.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/dfs_tree/ConvertBinarySearchTree2DoublyLinkedList_x.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/dfs_tree/ConvertBinarySearchTree2DoublyLinkedList_x.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/dfs_tree/FlattenBinaryTree2LinkedList_453.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/dfs_tree/FlattenBinaryTree2LinkedList_453.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/dfs_tree/LowestCommonAncestor_1311.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/dfs_tree/LowestCommonAncestor_1311.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/dfs_tree/MaxBinaryTreeDepth_97.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/dfs_tree/MaxBinaryTreeDepth_97.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/dfs_tree/MinimumSubtree_x.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/dfs_tree/MinimumSubtree_x.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/dfs_tree/SubtreeWithMaximumAverage_x.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/dfs_tree/SubtreeWithMaximumAverage_x.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/dfs_tree/ValidBinarySearchTree_94.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/dfs_tree/ValidBinarySearchTree_94.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/dfs_tree/inOrderTraversal_67.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/dfs_tree/inOrderTraversal_67.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/dfs_tree/preOrderTraversal_66.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/dfs_tree/preOrderTraversal_66.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/utils/Coordinate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/utils/Coordinate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/utils/DirectedGraphNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/utils/DirectedGraphNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/utils/DoublyListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/utils/DoublyListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/utils/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/utils/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/utils/RandomListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/utils/RandomListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/utils/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/utils/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintCode/utils/UndirectedGraphNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/utils/UndirectedGraphNode.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,13 +190,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IntersectionOfTwoArrays_547">
+  <component name="RunManager" selected="Application.BasicKnowledgeTest">
     <configuration name="BasicKnowledgeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ll.lintCode.array.link.BasicKnowledgeTest" />
+      <option name="MAIN_CLASS_NAME" value="com.ll.lintcode.array.link.BasicKnowledgeTest" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ll.lintCode.array.link.*" />
+          <option name="PATTERN" value="com.ll.lintcode.array.link.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +205,11 @@
       </method>
     </configuration>
     <configuration name="IntersectionOfTwoArrays_547" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ll.lintCode.array.IntersectionOfTwoArrays_547" />
+      <option name="MAIN_CLASS_NAME" value="com.ll.lintcode.array.IntersectionOfTwoArrays_547" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ll.lintCode.array.*" />
+          <option name="PATTERN" value="com.ll.lintcode.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +218,11 @@
       </method>
     </configuration>
     <configuration name="MaximumSubArray_41" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ll.lintCode.array.subarr.MaximumSubArray_41" />
+      <option name="MAIN_CLASS_NAME" value="com.ll.lintcode.array.subarr.MaximumSubArray_41" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ll.lintCode.array.subarr.*" />
+          <option name="PATTERN" value="com.ll.lintcode.array.subarr.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +231,11 @@
       </method>
     </configuration>
     <configuration name="PalindromePartitioning_136" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ll.lintCode.dfs.PalindromePartitioning_136" />
+      <option name="MAIN_CLASS_NAME" value="com.ll.lintcode.dfs.PalindromePartitioning_136" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ll.lintCode.dfs.*" />
+          <option name="PATTERN" value="com.ll.lintcode.dfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +244,11 @@
       </method>
     </configuration>
     <configuration name="SubarraySum_138" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ll.lintCode.array.subarr.SubarraySum_138" />
+      <option name="MAIN_CLASS_NAME" value="com.ll.lintcode.array.subarr.SubarraySum_138" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ll.lintCode.array.subarr.*" />
+          <option name="PATTERN" value="com.ll.lintcode.array.subarr.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -283,8 +363,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IntersectionOfTwoArrays_547" />
         <item itemvalue="Application.BasicKnowledgeTest" />
+        <item itemvalue="Application.IntersectionOfTwoArrays_547" />
         <item itemvalue="Application.SubarraySum_138" />
         <item itemvalue="Application.MaximumSubArray_41" />
         <item itemvalue="Application.PalindromePartitioning_136" />
@@ -321,7 +401,10 @@
       <workItem from="1578447914473" duration="6749000" />
       <workItem from="1578728195597" duration="5815000" />
       <workItem from="1578882475774" duration="13101000" />
-      <workItem from="1579007874275" duration="8423000" />
+      <workItem from="1579007874275" duration="10710000" />
+      <workItem from="1579691280301" duration="6074000" />
+      <workItem from="1580434274099" duration="11100000" />
+      <workItem from="1580782831711" duration="6674000" />
     </task>
     <servers />
   </component>
