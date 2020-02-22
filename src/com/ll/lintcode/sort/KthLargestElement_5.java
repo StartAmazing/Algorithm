@@ -2,6 +2,8 @@ package com.ll.lintcode.sort;
 
 /**
  * 在数组中找到第k大的元素
+ * quick select arrays
+ * 算法思想，
  */
 public class KthLargestElement_5 {
 

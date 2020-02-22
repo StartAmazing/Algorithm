@@ -7,6 +7,18 @@ import com.ll.leetcode.ListNode;
  */
 public class SortList_98 {
     //version 1： merge sort
+    private ListNode sortList(ListNode head){
+        if (head == null || head.next == null){
+            return head;
+        }
+        ListNode mid = findMiddle(head);
+        ListNode right = sortList(mid.next);
+        mid.next = null;
+        ListNode left = sortList(head);
+
+        return merge(left,right);
+    }
+
     private ListNode findMiddle(ListNode head){
         ListNode fast = head.next;
         ListNode slow = head;
@@ -41,17 +53,6 @@ public class SortList_98 {
         return dummy.next;
     }
 
-    public ListNode sortList(ListNode head){
-        if (head == null || head.next == null){
-            return head;
-        }
-        ListNode mid = findMiddle(head);
-        ListNode right = sortList(mid.next);
-        mid.next = null;
-        ListNode left = sortList(head);
-
-        return merge(left,right);
-    }
 
 
 

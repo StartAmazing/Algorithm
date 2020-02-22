@@ -48,6 +48,7 @@ public class CopyListWithRandomPointer_105 {
         return dummy.next;
     }
 
+    //======================================================================================
     //version2: no hashMap version
     //第一遍扫描的时候巧妙选用next指针,开始数据是1 -> 2 -> 3 -> 4 -> null
     //然后扫描过程中，先建立copy节点 1 -> 1' -> 2 -> 2' -> 3 -> 3' -> 4 -> 4' -> null
@@ -62,7 +63,8 @@ public class CopyListWithRandomPointer_105 {
 
     //1 -> 2 -> 3 -> 4 -> null
     //1 -> 1' -> 2 -> 2' -> 3 -> 3' -> 4 -> 4' -> null
-    //这一步昨晚n'的random指针指向是不正确的
+    //这一步做完n'的random指针指向是不正确的
+    //step1 copy all nodes
     private void copyNext(RandomListNode head){
         while (head != null){
             RandomListNode newNode = new RandomListNode(head.label);
@@ -73,6 +75,7 @@ public class CopyListWithRandomPointer_105 {
         }
     }
 
+    //step2 copy all nodes' random point
     private void copyRandom(RandomListNode head){
         while (head != null){
             if (head.next.random != null){
@@ -82,6 +85,7 @@ public class CopyListWithRandomPointer_105 {
         }
     }
 
+    //step3 split the big linked list
     private RandomListNode splitList(RandomListNode head){
         RandomListNode newHead = head.next;
         while (head != null){
