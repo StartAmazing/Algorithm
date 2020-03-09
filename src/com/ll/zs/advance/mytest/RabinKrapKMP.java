@@ -58,53 +58,6 @@ public class RabinKrapKMP {
         return -1;
     }
 
-    public static int strStr2(String source, String target) {
-
-        if(target == null || source == null || target.length() > source.length()){
-
-            return -1;
-        }
-        if(target.length() == 0){
-            return 0;
-        }
-
-        int m = target.length();
-        int power = 1;
-        for(int i = 0; i < m ;i ++){
-            power = (power * 31) % BASE;
-        }
-
-        int targetCode = 0;
-        for(int i = 0; i < target.length(); i ++){
-            targetCode = (targetCode * 31 + target.charAt(i)) % BASE;
-        }
-
-        int hashCode = 0;
-        for(int i = 0; i < source.length() ; i++){
-            hashCode = (hashCode * 31 + source.charAt(i)) % BASE;
-
-            if(i < m -1){
-                continue;
-            }
-
-            if(i >= m){
-
-                hashCode = (hashCode - source.charAt(i - m) * power) % BASE;
-                if(hashCode < 0){
-                    hashCode += BASE;
-                }
-            }
-
-            if(targetCode == hashCode){
-                if(source.substring(i - m + 1, i + 1).equals(target)){
-                    return i - m + 1;
-                }
-            }
-        }
-        return -1;
-
-    }
-
     public static void main(String[] args) {
         int i = strStr("abcdef", "de");
         System.out.println(i);
