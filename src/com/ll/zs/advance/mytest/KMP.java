@@ -41,7 +41,7 @@ public class KMP {
         int i = 2;
         int cn = 0;
         while (i < next.length) {
-            if (chars[i - 1] == chars[next[cn]]) {
+            if (chars[i - 1] == chars[cn]) {
                 next[i++] = ++cn;
             } else if (cn > 0) {
                 cn = next[cn];
