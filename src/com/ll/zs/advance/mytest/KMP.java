@@ -27,7 +27,7 @@ public class KMP {
                 }
             }
         }
-        return i2 == chars2.length - 1 ? i1 - i2 : -1;
+        return i2 == chars2.length ? i1 - i2 : -1;
     }
 
     public static int[] getNextArray(char[] chars) {
@@ -92,7 +92,7 @@ public class KMP {
                 i1++;
             }
         }
-        return i2 == chars2.length - 1 ? i1 - i2 : -1;
+        return i2 == chars2.length ? i1 - i2 : -1;
     }
 
 
