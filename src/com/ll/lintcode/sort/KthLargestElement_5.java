@@ -36,7 +36,7 @@ public class KthLargestElement_5 {
                 j--;
             }
         }
-        if (startIdx + k - 1 <= j){
+        if(startIdx + k - 1 <= j){
             return quickSelect(arr, startIdx, j, k);
         }
         if(startIdx + k - 1 >= i){
