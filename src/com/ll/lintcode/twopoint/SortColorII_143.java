@@ -46,14 +46,14 @@ public class SortColorII_143 {
         if (left >= right){
             return;
         }
-        int mid = colorFrom + (colorTo - colorFrom) / 2;
+        int mid = colorFrom + (colorTo - colorFrom) / 2 + 1 ;
         int l = left;
         int r = right;
         while (l <= r){
-            while (l <= r && nums[l] <= mid){
+            while (l <= r && nums[l] < mid){
                 l ++;
             }
-            while (l <= r && nums[r] > mid){
+            while (l <= r && nums[r] >= mid){
                 r --;
             }
             if (l <= r){
@@ -61,8 +61,8 @@ public class SortColorII_143 {
             }
         }
 
-        rainbowSort(nums, left, r, colorFrom, mid);
-        rainbowSort(nums, l, right, mid + 1, colorTo);
+        rainbowSort(nums, left, r, colorFrom, mid - 1);
+        rainbowSort(nums, l, right, mid, colorTo);
     }
 
     private void swap(int[] nums, int x, int y){
@@ -71,11 +71,9 @@ public class SortColorII_143 {
         nums[y] = tmp;
     }
 
-
-
-
-
-
-
-
+    public static void main(String[] args) {
+        SortColorII_143 dto = new SortColorII_143();
+        int[] data = new int[]{2,1,1,2,2};
+        dto.sortColorII(data, 2);
+    }
 }

@@ -2,20 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75a2ebef-107a-4bac-942c-17e9821d6aba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/ll/lintcode/hash_heap/LRUCache_134_WithDoublyList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/array/IntersectionOfTwoArrays_547.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/array/IntersectionOfTwoArrays_547.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/array/MedianOfTwoSortedArrays_65.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/array/MedianOfTwoSortedArrays_65.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/array/link/BasicKnowledgeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/array/link/BasicKnowledgeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/array/link/CopyListWithRandomPointer_105.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/array/link/CopyListWithRandomPointer_105.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/array/link/SortList_98.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/array/link/SortList_98.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/hash_heap/Heapify_130.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/hash_heap/Heapify_130.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/sort/KthLargestElement_5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/sort/KthLargestElement_5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/sort/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/zs/sort/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ll/lintcode/array/IntersectionOfTwoArrays_547.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/array/IntersectionOfTwoArrays_547.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ll/lintcode/array/MedianOfTwoSortedArrays_65.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/array/MedianOfTwoSortedArrays_65.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ll/lintcode/array/link/CopyListWithRandomPointer_105.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/array/link/CopyListWithRandomPointer_105.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ll/lintcode/array/link/SortList_98.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/array/link/SortList_98.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/twopoint/SortColorII_143.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/com/ll/lintCode/twopoint/SortColorII_143.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintcode/dfs_tree/inOrderTraversal_67.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/dfs_tree/inOrderTraversal_67.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintcode/hash_heap/LRUCache_134.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ll/lintcode/sort/KthLargestElement_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/sort/KthLargestElement_5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ll/zs/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/zs/sort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ll/lintcode/twopoint/SortColorII_143.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ll/lintcode/twopoint/SortColorII_143.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,6 +96,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ll.lintcode.binarysearch" />
       <recent name="com.ll.lintCode.dfs" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -119,13 +115,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Heapify_130">
-    <configuration name="Heapify_130" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ll.lintcode.hash_heap.Heapify_130" />
+  <component name="RunManager" selected="Application.MaxAreaOfIsland_695">
+    <configuration name="FindPeakElements_75" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ll.lintcode.binarysearch.FindPeakElements_75" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ll.lintcode.hash_heap.*" />
+          <option name="PATTERN" value="com.ll.lintcode.binarysearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterleavingPositiveAndNegativeNumbers_144" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ll.lintcode.twopoint.InterleavingPositiveAndNegativeNumbers_144" />
+    <configuration name="LargestDivisibleSubSet_603" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ll.lintcode.dp.LargestDivisibleSubSet_603" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ll.lintcode.twopoint.*" />
+          <option name="PATTERN" value="com.ll.lintcode.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateString_8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ll.lintcode.twopoint.RotateString_8" />
+    <configuration name="MaxAreaOfIsland_695" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ll.leetcode.MaxAreaOfIsland_695" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ll.lintcode.twopoint.*" />
+          <option name="PATTERN" value="com.ll.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSum_56" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ll.lintcode.twopoint.TwoSum_56" />
+    <configuration name="SmallestRectangleEnclosingBlackPixels_600" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ll.lintcode.binarysearch.SmallestRectangleEnclosingBlackPixels_600" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ll.lintcode.twopoint.*" />
+          <option name="PATTERN" value="com.ll.lintcode.binarysearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidPalindrome_415" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ll.lintcode.twopoint.ValidPalindrome_415" />
+    <configuration name="SqrtX_141" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ll.lintcode.binarysearch.SqrtX_141" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ll.lintcode.twopoint.*" />
+          <option name="PATTERN" value="com.ll.lintcode.binarysearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -284,19 +280,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.ValidPalindrome_415" />
-      <item itemvalue="Application.RotateString_8" />
-      <item itemvalue="Application.TwoSum_56" />
-      <item itemvalue="Application.InterleavingPositiveAndNegativeNumbers_144" />
-      <item itemvalue="Application.Heapify_130" />
+      <item itemvalue="Application.LargestDivisibleSubSet_603" />
+      <item itemvalue="Application.SmallestRectangleEnclosingBlackPixels_600" />
+      <item itemvalue="Application.FindPeakElements_75" />
+      <item itemvalue="Application.SqrtX_141" />
+      <item itemvalue="Application.MaxAreaOfIsland_695" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Heapify_130" />
-        <item itemvalue="Application.InterleavingPositiveAndNegativeNumbers_144" />
-        <item itemvalue="Application.TwoSum_56" />
-        <item itemvalue="Application.RotateString_8" />
-        <item itemvalue="Application.ValidPalindrome_415" />
+        <item itemvalue="Application.MaxAreaOfIsland_695" />
+        <item itemvalue="Application.SqrtX_141" />
+        <item itemvalue="Application.FindPeakElements_75" />
+        <item itemvalue="Application.SmallestRectangleEnclosingBlackPixels_600" />
+        <item itemvalue="Application.LargestDivisibleSubSet_603" />
       </list>
     </recent_temporary>
   </component>
@@ -343,7 +339,14 @@
       <workItem from="1581768090722" duration="16337000" />
       <workItem from="1581912170583" duration="11000" />
       <workItem from="1582031927395" duration="4582000" />
-      <workItem from="1582275188414" duration="4943000" />
+      <workItem from="1582275188414" duration="5340000" />
+      <workItem from="1582638887627" duration="14819000" />
+      <workItem from="1582892390576" duration="51082000" />
+      <workItem from="1583304348830" duration="687000" />
+      <workItem from="1583396694624" duration="11097000" />
+      <workItem from="1583559905931" duration="6971000" />
+      <workItem from="1583847887331" duration="2709000" />
+      <workItem from="1584019210301" duration="14299000" />
     </task>
     <servers />
   </component>
@@ -408,5 +411,10 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Algorithm$LongestIncreasingSubsequence_76.ic" NAME="LongestIncreasingSubsequence_76 Coverage Results" MODIFIED="1583238906462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.ll.lintcode.dp.*</FILTER>
+    </SUITE>
   </component>
 </project>

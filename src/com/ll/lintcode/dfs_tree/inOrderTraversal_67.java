@@ -1,6 +1,7 @@
 package com.ll.lintcode.dfs_tree;
 
 import com.ll.lintcode.utils.TreeNode;
+import com.ll.zs.tree.Tree;
 
 import java.util.ArrayList;
 import java.util.List;
