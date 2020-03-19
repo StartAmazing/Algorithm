@@ -1,7 +1,7 @@
 package com.ll.zs.advance.mytest;
 
 /**
- * 子串的问题，一个字符串中找到最长回文子串
+ * Manacher算法： 子串的问题，一个字符串中找到最长回文子串
  */
 public class Manacher {
 
