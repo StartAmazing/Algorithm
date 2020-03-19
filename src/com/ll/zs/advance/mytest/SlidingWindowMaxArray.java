@@ -20,7 +20,7 @@ public class SlidingWindowMaxArray {
             while (!qmax.isEmpty() && arr[qmax.getLast()]< arr[i]){     //如果新增的数比原来窗口中最右边的数还要大的时候
                 qmax.removeLast();
             }
-            qmax.addLast(arr[i]);   //往队列中存入索引值
+            qmax.addLast(i);   //往队列中存入索引值
             if(qmax.getFirst() == i - w ){      //当前索引i到达的位置与第一个qmax最左边的位置之差为窗口大小的时候，进行缩减
                 qmax.removeFirst();
             }
