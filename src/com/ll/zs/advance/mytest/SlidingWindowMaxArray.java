@@ -3,7 +3,7 @@ package com.ll.zs.advance.mytest;
 import com.ll.muke.map.LinkedList;
 
 /**
- * 求最大子数组和
+ * 滑动窗口中每次滑动的最大值组成的最大子数组
  * 滑动窗口
  */
 public class SlidingWindowMaxArray {
