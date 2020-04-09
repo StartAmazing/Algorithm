@@ -8,6 +8,7 @@ import java.util.ArrayList;
 /**
  * @Author liuliang
  * @Date   2019/4/3 0003 21:06
+ *
  */
 //给出 n 代表生成括号的对数，请你写出一个函数，使其能够生成所有可能的并且有效的括号组合。
 public class ProduceBracket_22 {
