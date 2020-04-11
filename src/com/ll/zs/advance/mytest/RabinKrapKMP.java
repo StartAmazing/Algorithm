@@ -62,7 +62,7 @@ public class RabinKrapKMP {
         int i = strStr("abcdef", "de");
         System.out.println(i);
 
-        int i1 = strStr2("abcdef", "de");
+        int i1 = strStr("abcdef", "de");
         System.out.println(i1);
     }
 
