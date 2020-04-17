@@ -45,7 +45,7 @@ public class JumpGame_116 {
             if (maxIndex < canJumpMax[jump]) {
                 maxIndex = canJumpMax[jump];
             }
-            jump++;
+            jump ++;
         }
 
 
