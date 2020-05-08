@@ -30,8 +30,4 @@ public class ThreeSumClosest_x {
         }
         return best;
     }
-
-
-
-
 }
