@@ -20,6 +20,8 @@ public class TwoSum_UniquePairs_x {
                 count ++;
                 l ++;
                 r --;
+                
+                //去重
                 while (l < r && nums[l] == nums[l - 1]){
                     l ++;
                 }
