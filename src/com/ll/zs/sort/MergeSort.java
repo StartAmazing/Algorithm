@@ -6,7 +6,7 @@ public class MergeSort {
             return;
         sortProcess(arr, 0, arr.length - 1);
     }
-    public static  void sortProcess(int[] arr, int left, int right){
+    public static void sortProcess(int[] arr, int left, int right){
         if(left == right)
             return;
         int mid = left + ((right - left) >> 1); // 右移一位 除二操作
