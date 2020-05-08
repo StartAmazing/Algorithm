@@ -1,7 +1,6 @@
 package com.ll.zs.sort;
 
 public class SelectSort {
-
     public static void selectionSort(int[] arr){
         if(arr == null || arr.length < 2)
             return;
@@ -19,6 +18,7 @@ public class SelectSort {
         arr[i] = arr[j];
         arr[j] = temp;
     }
+    
     public static void main(String[] args){
         int[] arr = {4,1,3,6,22,25,12,3};
         selectionSort(arr);
@@ -28,5 +28,4 @@ public class SelectSort {
         }
         System.out.print("}");
     }
-
 }
