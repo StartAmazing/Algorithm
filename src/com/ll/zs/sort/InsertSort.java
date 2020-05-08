@@ -1,7 +1,6 @@
 package com.ll.zs.sort;
 
 public class InsertSort {
-
     public static void insertionSort(int[] arr){
         if(arr == null || arr.length < 2)
             return;
@@ -11,6 +10,7 @@ public class InsertSort {
             }
         }
     }
+    
     public static void swap(int[] arr, int i, int j){
         int temp = arr[i];
         arr[i] = arr[j];
@@ -25,7 +25,4 @@ public class InsertSort {
         }
         System.out.print("}");
     }
-
-
-
 }
