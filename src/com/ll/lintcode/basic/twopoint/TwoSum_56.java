@@ -23,7 +23,7 @@ import java.util.Map;
  */
 public class TwoSum_56 {
 
-    //version 1 hashSet
+    //version 1 hashMap
     public int[] twoSum(int[] numbers, int target) {
         Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < numbers.length; i++) {
