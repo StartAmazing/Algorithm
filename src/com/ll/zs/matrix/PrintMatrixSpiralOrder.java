@@ -2,27 +2,25 @@ package com.ll.zs.matrix;
 
 public class PrintMatrixSpiralOrder {
 
-    public static void printEdge(int [][] m, int tR, int tC,int dR,int dC){
+    public static void printEdge(int [][] m, int tR, int tC, int dR, int dC){
         if(tR == dR) {
             for (int i = tC ; i< dC ; i++){
                 System.out.print(m[tR][i] + " ");
             }
-        }
-        else if(tC == dC){
+        } else if(tC == dC) {
             for(int i = tR ; i < dR ; i++){
                 System.out.print(m[i][tC] + " ");
             }
-        }
-        else{
+        } else {
             int curR = tR;
             int curC = tC;
-            while(curC != dC){
+            while(curC != dC) {
                 System.out.print(m[tR][curC++] + " ");
             }
-            while(curR != dR){
+            while(curR != dR) {
                 System.out.print(m[curR++][dC] + " ");
             }
-            while(curC != tC){
+            while(curC != tC) {
                 System.out.print(m[dR][curC--] + " ");
             }
             while(curR != tR) {
@@ -30,7 +28,7 @@ public class PrintMatrixSpiralOrder {
             }
         }
     }
-    public static void spiralOrderPrint(int[][] matrix){
+    public static void spiralOrderPrint(int[][] matrix) {
         int tR = 0;
         int tC = 0;
         int dR = matrix.length - 1;
