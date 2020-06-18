@@ -1,7 +1,6 @@
 package com.ll.zs.basic.class09;
 
 public class MorrisTravel {
-
     public static class Node{
         int val;
         Node left;
@@ -132,7 +131,7 @@ public class MorrisTravel {
              }
              cur1 = cur1.right;
          }
-         printRightEdge(head);     //逆序打印整个树的右边界
+         printRightEdge(head);    //逆序打印整个树的右边界
     }
 
 
