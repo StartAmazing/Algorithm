@@ -42,6 +42,7 @@ public class MaximumSubArray_41 {
 
         return res;
     }
+
     //version 2: prefix sum
     public int maxSubArray3(int[] nums){
         if(nums == null || nums.length == 0){
