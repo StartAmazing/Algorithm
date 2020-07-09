@@ -5,57 +5,58 @@ import java.util.Map;
 
 /**
  * 设计一个包含下面两个操作的数据结构：addWord(word), search(word)
- *
+ * <p>
  * addWord(word)会在数据结构中添加一个单词。而search(word)则支持普通的单词查询或是只包含.和a-z的简易正则表达式的查询。
- *
+ * <p>
  * 一个 . 可以代表一个任何的字母。
- *
+ * <p>
  * 样例
  * 样例 1:
- *
+ * <p>
  * 输入:
- *   addWord("a")
- *   search(".")
+ * addWord("a")
+ * search(".")
  * 输出:
- *   true
+ * true
  * 样例 2:
- *
+ * <p>
  * 输入:
- *   addWord("bad")
- *   addWord("dad")
- *   addWord("mad")
- *   search("pad")
- *   search("bad")
- *   search(".ad")
- *   search("b..")
+ * addWord("bad")
+ * addWord("dad")
+ * addWord("mad")
+ * search("pad")
+ * search("bad")
+ * search(".ad")
+ * search("b..")
  * 输出:
- *   false
- *   true
- *   true
- *   true
+ * false
+ * true
+ * true
+ * true
  * 注意事项
  * 你可以认为所有的单词都只包含小写字母 a-z。
  */
-class WordNode {
-    public char c;
-    public Map<Character, WordNode> children = new HashMap<>();
-    public boolean isEnd;
-
-    public WordNode() {
-
-    }
-
-    public WordNode(char c) {
-        this.c = c;
-    }
-}
-
-
 public class WordDictionary_473 {
+    class WordNode {
+        public char c;
+        public Map<Character, WordNode> children = new HashMap<>();
+        public boolean isEnd;
+
+        public WordNode() {
+
+        }
+
+        public WordNode(char c) {
+            this.c = c;
+        }
+    }
+
     WordNode root;
+
     public WordDictionary_473() {
         root = new WordNode();
     }
+
     /*
      * @param word: Adds a word into the data structure.
      * @return: nothing

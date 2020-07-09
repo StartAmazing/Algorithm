@@ -5,51 +5,52 @@ import java.util.Map;
 
 /**
  * 实现一个 Trie，包含 insert, search, 和 startsWith 这三个方法。
- *
+ * <p>
  * 样例
  * 样例 1:
- *
+ * <p>
  * 输入:
- *   insert("lintcode")
- *   search("lint")
- *   startsWith("lint")
+ * insert("lintcode")
+ * search("lint")
+ * startsWith("lint")
  * 输出:
- *   false
- *   true
+ * false
+ * true
  * 样例 2:
- *
+ * <p>
  * 输入:
- *   insert("lintcode")
- *   search("code")
- *   startsWith("lint")
- *   startsWith("linterror")
- *   insert("linterror")
- *   search("lintcode”)
- *   startsWith("linterror")
+ * insert("lintcode")
+ * search("code")
+ * startsWith("lint")
+ * startsWith("linterror")
+ * insert("linterror")
+ * search("lintcode”)
+ * startsWith("linterror")
  * 输出:
- *   false
- *   true
- *   false
- *   true
- *   true
+ * false
+ * true
+ * false
+ * true
+ * true
  * 注意事项
  * 你可以认为所有的输入都是小写字母a-z。
  */
-class TrieNode{
-    public char c;
-    public Map<Character, TrieNode> children = new HashMap<>();
-    public boolean isEnd;
 
-    public TrieNode() {
-
-    }
-
-    public TrieNode(char c) {
-        this.c = c;
-    }
-}
 
 public class Trie {
+    class TrieNode {
+        public char c;
+        public Map<Character, TrieNode> children = new HashMap<>();
+        public boolean isEnd;
+
+        public TrieNode() {
+
+        }
+
+        public TrieNode(char c) {
+            this.c = c;
+        }
+    }
 
     private TrieNode root;
 
