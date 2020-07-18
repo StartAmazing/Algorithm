@@ -29,11 +29,13 @@ public class LargestRectangleInHistogram_122 {
         Stack<Integer> stack = new Stack<>();
         int max = 0;
         for (int i = 0; i <= height.length; i++) {
+            // 最后一个元素设置为-1是为了把栈中所有元素全部pop出来计算面积
             int cur = (i == height.length) ? -1 : height[i];
             while (!stack.isEmpty() && cur <= height[stack.peek()]) {
                 int h = height[stack.pop()];
                 // 如果此时栈为空，说明直方图中前面元素的高度都比当前柱状图高度要高，所以宽度就是i,如果不为空，那么找到左边第一个比他小的高度
                 int w = stack.isEmpty() ? i : i - stack.peek() - 1;
+                // 注意是每次pop的时候求就可以求得他右边第一个比他小的下标和左边第一个比他小的下标
                 max = Math.max(h * w, max);
             }
             stack.push(i);
