@@ -16,60 +16,60 @@ package com.ll.lintcode.basic.twopoint;
  * 不需要保持正整数或者负整数原来的顺序。
  */
 public class InterleavingPositiveAndNegativeNumbers_144 {
-    /*
-     * @param A: An integer array.
-     * @return: nothing
-     */
     public void rerange(int[] A) {
-        if(A == null || A.length < 3){
+        if(A == null || A.length < 3) {
             return;
         }
+
+        // 给正负数分堆，正数在前，负数在后
         int l = 0;
         int r = A.length - 1;
-        while(l < r){
-            while(l < r && A[l] > 0){
-                l ++;
+        while (l < r) {
+            while (l < r && A[l] > 0) {
+                l++;
             }
-            while(l < r && A[r] < 0){
-                r --;
+            while (l < r && A[r] < 0) {
+                r--;
             }
-            if(l < r){
-                swap(A, l++, r--);
+
+            if (l < r) {
+                swap(A, l, r);
             }
         }
 
-        if(A[l] > 0){
-            l ++;
+        // 使得l指向第一个负数， r指向最后一个正数
+        while (A[l] > 0) {
+            l++;
         }
-        if(A[r] < 0){
-            r --;
+        while (A[r] < 0) {
+            r--;
         }
 
-        if(A.length - l < r + 1){
-            //正数多
-            swap(A, r, A.length - 1);
-            r = A.length - 2;
-            l = 0;
-        }else if(A.length - l > r + 1){
-            //负数多
-            swap(A, 0, l);
-            l = 2;
-            r = A.length - 2;
-        }else{
-            l = 0;
-            r = A.length - 1;
+        // 判断正数多还是负数多
+        if(A.length - l > r + 1) {
+            // 负数多
+            l = A.length - 2;
+            r = 0;
+        } else if(A.length - l < r + 1) {
+            // 正数多
+            l = A.length - 1;
+            r = 1;
+        } else {
+            // 正数和负数一样多
+            r = 1;
+            l = A.length - 2;
         }
-        while(l < r){
+        while (r < l) {
             swap(A, l, r);
-            l += 2;
-            r -= 2;
-
+            r += 2;
+            l -= 2;
         }
     }
-    private void swap(int[] nums, int x, int y){
-        int tmp = nums[x];
-        nums[x] = nums[y];
-        nums[y] = tmp;
+
+    private void swap(int[] A, int x, int y) {
+        int tmp = A[x];
+        A[x] = A[y];
+        A[y] = tmp;
     }
 
     public static void main(String[] args) {
