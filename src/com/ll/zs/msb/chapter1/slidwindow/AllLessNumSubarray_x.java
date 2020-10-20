@@ -1,4 +1,4 @@
-package com.ll.zs.msb.chapter1;
+package com.ll.zs.msb.chapter1.slidwindow;
 
 import java.util.LinkedList;
 
