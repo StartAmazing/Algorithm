@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Stack;
 
 /**
- * 给定一个【无重复元素】的数组nums，返回一个int[2][nums.length]的二维数组，其中int[0][n]为nums[n]左边比他小的第一个数，
+ * 给定一个【有重复元素】的数组nums，返回一个int[2][nums.length]的二维数组，其中int[0][n]为nums[n]左边比他小的第一个数，
  * nums[1][n]为右边比他小的第一个数
  *
  * 单调栈
