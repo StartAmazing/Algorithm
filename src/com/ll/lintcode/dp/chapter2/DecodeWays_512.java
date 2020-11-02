@@ -42,31 +42,25 @@ public class DecodeWays_512 {
      *
      * 计算顺序是从f[0], f[1], ..., f[N]
      */
-    public int decodeWays(String ss){
-        char[] chars = ss.toCharArray();
-        int n = chars.length;
-        if(n == 0){
-            return 1;
+    public int decodeWays(String s){
+        if(s == null || s.length() < 1) {
+            return 0;
         }
-
-        int[] f = new int[n + 1];
-        f[0] = 1;
-        for (int i = 1; i <= n; i ++){
-            f[i] = 0;
-            if (chars[i - 1] >= '1' && chars[i - 1] <= '9'){
-                f[i] += f[i - 1];
+        char[] chars = s.toCharArray();
+        int[] dp = new int[s.length() + 1];
+        dp[0] = 1;
+        for(int i = 1; i < dp.length; i++) {
+            dp[i] = 0;
+            if (chars[i - 1] >= '1' && chars[i - 1] <= '9'){        // 注意chars[i - 1] == '0'
+                dp[i] += dp[i - 1];
             }
-
-            //check whether i > 1
-            if (i > 1){
-                //chars[i - 2][i - 1]
-                int j = (10 * chars[i - 2] - '0') + (chars[i - 1] - '0');
-                if (j >= 10 && j <= 26){
-                    f[i] += f[i - 2];
+            if(i > 1) {
+                int j = (10 * (chars[i - 2] - '0') + (chars[i - 1] - '0'));
+                if(j >= 10 && j <= 26) {
+                    dp[i] += dp[i - 2];
                 }
             }
         }
-
-        return f[n];
+        return dp[chars.length];
     }
 }

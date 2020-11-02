@@ -38,13 +38,9 @@ public class CoinChange_669 {
                 }
             }
         }
-
         if (f[amount] == Integer.MAX_VALUE){
             return  -1;
         }
         return f[amount];
-
     }
-
-
 }
