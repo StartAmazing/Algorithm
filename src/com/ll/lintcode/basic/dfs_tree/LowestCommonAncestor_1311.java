@@ -1,6 +1,6 @@
 package com.ll.lintcode.basic.dfs_tree;
 
-import com.ll.lintcode.basic.utils.TreeNode;
+import com.ll.utils.TreeNode;
 
 //最近公共祖先节点
 public class LowestCommonAncestor_1311 {

@@ -1,6 +1,6 @@
 package com.ll.lintcode.basic.array.link;
 
-import com.ll.leetcode.ListNode;
+import com.ll.utils.ListNode;
 
 /**
  * 翻转链表中第m个节点到第n个节点的部分

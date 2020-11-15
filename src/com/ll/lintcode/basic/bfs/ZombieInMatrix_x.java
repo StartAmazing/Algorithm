@@ -1,6 +1,6 @@
 package com.ll.lintcode.basic.bfs;
 
-import com.ll.lintcode.basic.utils.Coordinate;
+import com.ll.utils.Coordinate;
 
 import java.util.LinkedList;
 import java.util.Queue;

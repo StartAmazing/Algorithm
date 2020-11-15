@@ -1,7 +1,7 @@
 package com.ll.lintcode.basic.dfs_tree;
 
-import com.ll.lintcode.basic.utils.DoublyListNode;
-import com.ll.lintcode.basic.utils.TreeNode;
+import com.ll.utils.DoublyListNode;
+import com.ll.utils.TreeNode;
 
 public class ConvertBinarySearchTree2DoublyLinkedList_x {
 

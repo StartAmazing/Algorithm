@@ -1,4 +1,4 @@
-package com.ll.lintcode.basic.utils;
+package com.ll.utils;
 
 public class TreeNode {
 

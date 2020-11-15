@@ -1,6 +1,6 @@
 package com.ll.lintcode.basic.array.link;
 
-import com.ll.lintcode.basic.utils.ListNode;
+import com.ll.utils.ListNode;
 
 /**
  * K组翻转链表

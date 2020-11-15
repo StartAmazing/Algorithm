@@ -1,6 +1,6 @@
 package com.ll.lintcode.basic.dfs;
 
-import com.ll.lintcode.basic.utils.TreeNode;
+import com.ll.utils.TreeNode;
 
 /**
  * 给定一个二叉树,确定它是高度平衡的。对于这个问题,一棵高度平衡的二叉树的定义是：一棵二叉树中每个节点的两个子树的深度相差不会超过1。

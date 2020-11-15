@@ -1,6 +1,6 @@
 package com.ll.lintcode.basic.dfs_tree;
 
-import com.ll.lintcode.basic.utils.TreeNode;
+import com.ll.utils.TreeNode;
 
 public class ValidBinarySearchTree_94 {
     public class ResultType{

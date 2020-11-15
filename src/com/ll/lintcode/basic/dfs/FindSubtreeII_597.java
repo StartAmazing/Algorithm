@@ -1,6 +1,6 @@
 package com.ll.lintcode.basic.dfs;
 
-import com.ll.lintcode.basic.utils.TreeNode;
+import com.ll.utils.TreeNode;
 
 /**
  * 给一棵二叉树，找到有最大平均值的子树。返回子树的根结点。

@@ -1,6 +1,6 @@
 package com.ll.lintcode.basic.array.link;
 
-import com.ll.leetcode.ListNode;
+import com.ll.utils.ListNode;
 
 /**
  * 给链表排序

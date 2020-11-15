@@ -2,13 +2,14 @@ package com.ll;
 
 // java可见性测试
 public class Visibility {
-//    public static boolean endFlag = false;
-    public volatile static boolean endFlag = false;
-
+    private static boolean endFlag = false;
+//    public volatile static boolean endFlag = false;
+//    private static Integer count = 0;
+    private volatile static Integer count = 0;
     public static void doSomething() {
         System.out.println(Thread.currentThread().getName() + ": the end flag is false.");
         while (!endFlag) {
-
+            System.out.println("running");
         }
         System.out.println(Thread.currentThread().getName() + ": the end flag is true.");
     }

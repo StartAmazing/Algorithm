@@ -1,7 +1,6 @@
 package com.ll.lintcode.advance.chapter3.datastructre.stack;
 
-import com.ll.lintcode.basic.utils.TreeNode;
-import com.ll.zs.nowcoder.tree.Tree;
+import com.ll.utils.TreeNode;
 
 import java.util.Stack;
 

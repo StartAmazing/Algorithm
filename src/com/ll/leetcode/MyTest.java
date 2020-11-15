@@ -1,5 +1,7 @@
 package com.ll.leetcode;
 
+import com.ll.utils.ListNode;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

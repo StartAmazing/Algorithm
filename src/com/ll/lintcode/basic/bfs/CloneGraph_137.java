@@ -1,6 +1,6 @@
 package com.ll.lintcode.basic.bfs;
 
-import com.ll.lintcode.basic.utils.UndirectedGraphNode;
+import com.ll.utils.UndirectedGraphNode;
 
 import java.util.*;
 

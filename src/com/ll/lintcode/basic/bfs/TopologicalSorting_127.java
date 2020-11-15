@@ -1,6 +1,6 @@
 package com.ll.lintcode.basic.bfs;
 
-import com.ll.lintcode.basic.utils.DirectedGraphNode;
+import com.ll.utils.DirectedGraphNode;
 
 import java.util.*;
 

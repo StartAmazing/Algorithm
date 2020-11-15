@@ -39,8 +39,5 @@ public class SpeedTest {
         copyArr2(new int[2048][2048], new int[2048][2048]);
         endTime = System.currentTimeMillis();
         System.out.println(Thread.currentThread() + "cosTime: " + (double)(endTime - startTime) / 1000 + "ms");
-
-
-
     }
 }

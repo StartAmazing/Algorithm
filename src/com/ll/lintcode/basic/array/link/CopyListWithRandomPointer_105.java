@@ -1,6 +1,6 @@
 package com.ll.lintcode.basic.array.link;
 
-import com.ll.lintcode.basic.utils.RandomListNode;
+import com.ll.utils.RandomListNode;
 
 import java.util.HashMap;
 

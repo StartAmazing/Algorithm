@@ -1,6 +1,6 @@
 package com.ll.lintcode.basic.array.link;
 
-import com.ll.leetcode.ListNode;
+import com.ll.utils.ListNode;
 
 /**
  * 给定一个链表，如果链表中存在环，则返回到链表中环的起始节点，如果没有环，返回null

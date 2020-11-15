@@ -1,6 +1,6 @@
 package com.ll.lintcode.basic.dfs;
 
-import com.ll.lintcode.basic.utils.TreeNode;
+import com.ll.utils.TreeNode;
 
 /**
  * 给定一棵二叉树，找到两个节点的最近公共父节点(LCA)。

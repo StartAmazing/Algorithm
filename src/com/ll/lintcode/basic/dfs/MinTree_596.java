@@ -1,6 +1,6 @@
 package com.ll.lintcode.basic.dfs;
 
-import com.ll.lintcode.basic.utils.TreeNode;
+import com.ll.utils.TreeNode;
 
 /**
  * 给一棵二叉树, 找到和为最小的子树, 返回其根节点。输入输出数据范围都在int内。

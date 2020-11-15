@@ -1,7 +1,9 @@
 package com.ll.leetcode;
 
+import com.ll.utils.ListNode;
+
 public class AddTwoNum {
-    public ListNode solution(ListNode l1,ListNode l2){
+    public ListNode solution(ListNode l1, ListNode l2){
         //结果链表
         ListNode dummyHead = new ListNode(0);
         ListNode p = l1,q = l2,cur = dummyHead;
