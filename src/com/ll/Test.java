@@ -66,5 +66,19 @@ public class Test {
         System.out.println(fun(1));
 //        System.out.println(fun(2));
 
+        int a = 1;
+        System.out.println(1 << 33);
+        System.out.println(1 >> 34);
+        System.out.println(1 >> 33);
+        System.out.println(1 >> 34);
+
+        System.out.println("============part 2.2.7 ==========");
+        int x = 53191;
+        short sx = (short) x;
+        int y = sx;
+        System.out.println("x = " + x);
+        System.out.println("sx = " + sx);
+        System.out.println("y = " + y);
+
     }
 }
