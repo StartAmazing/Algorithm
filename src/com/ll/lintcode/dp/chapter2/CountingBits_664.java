@@ -1,5 +1,8 @@
 package com.ll.lintcode.dp.chapter2;
 
+import java.util.Arrays;
+import java.util.Collections;
+
 /**
  * 给出一个 非负 整数 num，对所有满足 0 ≤ i ≤ num 条件的数字 i 均需要计算其二进制表示中数字 1 的个数并以数组的形式返回。
  *
@@ -32,11 +35,19 @@ public class CountingBits_664 {
         int[] dp = new int[num + 1];
         dp[0] = 0;
         for(int i = 1; i < num + 1; i ++){
-            dp[i] = dp[i >> 2] + (i & 2);
-//            dp[i] = dp[i >> 2] + (i % 2);
+            dp[i] = dp[i >> 1] + (i & 1);
+//            dp[i] = dp[i >> 1] + (i % 2);
         }
 
         return dp;
+    }
+
+    public static void main(String[] args) {
+        CountingBits_664 dto = new CountingBits_664();
+        int[] ints = dto.countingBits(5);
+        for (int anInt : ints) {
+            System.out.print(anInt + " ");
+        }
     }
 
 }

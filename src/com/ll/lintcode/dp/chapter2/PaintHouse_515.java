@@ -50,12 +50,43 @@ public class PaintHouse_515 {
         return ans;
     }
 
+    public int minCost(int[][] costs) {
+        if(costs == null || costs.length < 1){
+            return 0;
+        }
+
+        int col = 3;
+        int row = costs.length + 1;
+        int[][] dp = new int[row][col];
+        for (int i = 1; i < row; i++) {
+            for(int j = 0; j < col; j++) {
+                dp[i][j] = costs[i - 1][j];
+                int min = Integer.MAX_VALUE;
+                for(int k = 0; k < col; k++) {
+                    if(k != j) {
+                        min = Math.min(dp[i-1][k], min);
+                    }
+                }
+
+                dp[i][j] += min;
+            }
+        }
+
+        int res = dp[row - 1][0];
+        for(int i = 1; i < col; i++) {
+            res = Math.min(res, dp[row - 1][i]);
+        }
+
+        return res;
+    }
+
     public static void main(String[] args) {
         PaintHouse_515 dto = new PaintHouse_515();
         int[][] cost = new int[][]{ {14, 2, 11},
                                     {11, 14, 5},
                                     {14, 3, 10}};
-        dto.paintHouse(cost);
+        int i = dto.minCost(cost);
+        System.out.println(i);
     }
 
 }

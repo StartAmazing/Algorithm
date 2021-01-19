@@ -60,12 +60,44 @@ public class MaxSlidWindow_59 {
         return res;
     }
 
+
+    public int[] slidWindow(int[] nums, int k) {
+        if(nums == null || nums.length < k) {
+            return new int[]{};
+        }
+
+        int[] res = new int[nums.length - k + 1];
+        LinkedList<Integer> deque = new LinkedList<>();
+        int left = 0, right = 0;
+        while(right < nums.length) {
+            while(!deque.isEmpty() && nums[deque.getLast()] <= nums[right]) {
+                deque.removeLast();
+            }
+
+            deque.addLast(right);
+
+            if(right - left + 1 == k) {
+                res[left++] = nums[deque.getFirst()];
+                if(left > deque.getFirst()) {
+                    deque.removeFirst();
+                }
+            }
+            right++;
+        }
+        return res;
+    }
+    
     public static void main(String[] args) {
         MaxSlidWindow_59 dto = new MaxSlidWindow_59();
-        int[] data = new int[]{1,3,-1,-3,5,3,6,7};
+        int[] data = new int[]{1,3,1,2,0,5};
         int[] res = dto.maxSlidingWindow(data, 3);
+        int[] res2 = dto.slidWindow(data, 3);
         for (int i = 0; i < res.length; i++) {
             System.out.print(res[i] + "  ");
+        }
+        System.out.println();
+        for (int i = 0; i < res2.length; i++) {
+            System.out.print(res2[i] + "  ");
         }
     }
 }
