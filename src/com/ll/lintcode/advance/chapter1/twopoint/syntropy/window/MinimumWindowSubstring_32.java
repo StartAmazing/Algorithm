@@ -73,12 +73,53 @@ public class MinimumWindowSubstring_32 {
     }
 
 
+    public String minWindow2(String s, String t) {
+        if(s == null || t == null || s.length() < t.length()) {
+            return "";
+        }
+
+        int[] mapS = new int[256];
+        int[] mapT = new int[256];
+        for(char ch : t.toCharArray()) {
+            mapT[ch]++;
+        }
+        char[] chars = s.toCharArray();
+        int j = 0, ans = Integer.MAX_VALUE;
+        String res = "";
+        for(int i = 0; i < chars.length; i++) {
+            while(j < chars.length && !isValid2(mapS, mapT)) {
+                mapS[chars[j]]++;
+                j++;
+            }
+            if(isValid2(mapS, mapT)) {
+                if(ans > j - i) {
+                    ans = Math.min(ans, j - i);
+                    res = s.substring(i, j);
+                }
+            }
+            mapS[chars[i]]--;
+        }
+
+        return res;
+    }
+
+    private boolean isValid2(int[] A, int[] B) {
+        for(int i = 0; i < 256; i++) {
+            if(B[i] > 0 && A[i] != B[i]) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+
 
     public static void main(String[] args) {
         MinimumWindowSubstring_32 dto = new MinimumWindowSubstring_32();
-        String source = "abc";
-        String target = "ac";
-        dto.minWindow(source, target);
-
+        String source = "ab";
+        String target = "a";
+        String s = dto.minWindow2(source, target);
+        System.out.println(s);
     }
 }

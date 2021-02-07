@@ -112,10 +112,42 @@ public class SortString_1370 {
         return resSb.toString();
     }
 
+
+    public String sortString2(String s) {
+        if(s == null || s.length() < 1) {
+            return s;
+        }
+
+        int[] map = new int[26];
+        StringBuilder sb = new StringBuilder();
+        char[] chars = s.toCharArray();
+        int counts = chars.length;
+        for(int i = 0; i < chars.length; i++) {
+            map[chars[i] - 'a']++;
+        }
+
+        while(counts > 0) {
+            for(int i = 0; i < 26; i++) {
+                if(map[i] > 0) {
+                    sb.append((char)(i + 'a'));
+                    counts--;
+                }
+            }
+            for(int i = 25; i>=0; i--) {
+                if(map[i] > 0) {
+                    sb.append((char)(i + 'a'));
+                    counts--;
+                }
+            }
+        }
+
+        return sb.toString();
+    }
+
     public static void main(String[] args) {
         SortString_1370 dto = new SortString_1370();
         String data = "aabacbcbcb";
-        String s = dto.sortString(data);
+        String s = dto.sortString2(data);
         System.out.println(s);
     }
 }

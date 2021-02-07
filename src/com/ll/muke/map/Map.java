@@ -24,4 +24,6 @@ public interface Map <K, V>{
     /* 判断是否为空map */
     boolean isEmpty();
 
+    public V get(K key);
+
 }

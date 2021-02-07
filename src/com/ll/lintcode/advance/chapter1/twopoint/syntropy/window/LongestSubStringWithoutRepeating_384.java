@@ -60,4 +60,29 @@ public class LongestSubStringWithoutRepeating_384 {
         }
         return ans;
     }
+
+    public int lengthOfLongestSubstring3(String s) {
+        if(s == null || s.length() < 1) {
+            return 0;
+        }
+        int[] map = new int[256];
+        int j = 0, res = 0;
+        char[] chars = s.toCharArray();
+        for(int i = 0; i < chars.length; i++) {
+            while(j < chars.length && map[chars[j]] == 0) {
+                res = Math.max(res, j - i + 1);
+                map[chars[j]]++;
+                j++;
+            }
+            map[chars[i]]--;
+        }
+
+        return res;
+    }
+
+    public static void main(String[] args) {
+        LongestSubStringWithoutRepeating_384 dto = new LongestSubStringWithoutRepeating_384();
+        String data = "abcabcbb";
+        System.out.println(dto.lengthOfLongestSubstring3(data));
+    }
 }
