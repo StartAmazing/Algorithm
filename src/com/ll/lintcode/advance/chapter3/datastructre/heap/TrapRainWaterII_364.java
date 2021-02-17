@@ -46,10 +46,20 @@ public class TrapRainWaterII_364 {
 
     }
 
-    public class PairComparator implements Comparator<Pair> {
+    public int trapRainWater(int[][] heights) {
+        if (heights == null || heights.length < 3) {
+            return 0;
+        }
 
-        @Override
-        public int compare(Pair o1, Pair o2) {
+        // 结果
+        int ans = 0;
+        boolean[][] isVisited = new boolean[heights.length][heights[0].length];
+
+        // 方向数组
+        int[] posX = new int[]{1, -1, 0, 0};
+        int[] posY = new int[]{0, 0, 1, -1};
+
+        Queue<Pair> pq = new PriorityQueue<>((o1, o2) -> {
             if (o1.val > o2.val) {
                 return 1;
             } else if (o1.val == o2.val) {
@@ -57,20 +67,9 @@ public class TrapRainWaterII_364 {
             } else {
                 return -1;
             }
-        }
-    }
+        });
 
-    public int trapRainWater(int[][] heights) {
-        if (heights == null || heights.length < 3) {
-            return 0;
-        }
 
-        int ans = 0;
-        boolean[][] isVisited = new boolean[heights.length][heights[0].length];
-        Queue<Pair> pq = new PriorityQueue<>(new PairComparator());
-
-        int[] posX = new int[]{1, -1, 0, 0};
-        int[] posY = new int[]{0, 0, 1, -1};
         for (int i = 0; i < heights.length; i++) {
             for (int j = 0; j < heights[0].length; j++) {
                 if (i == 0 || j == 0 || i == heights.length - 1 || j == heights[0].length - 1) {

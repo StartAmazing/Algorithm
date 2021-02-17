@@ -129,8 +129,8 @@ public class NumberOfIslands_434 {
         return ans;
     }
 
-    private int pos2Id(int col, Point point) {
-        return point.x * col + point.y;
+    private int pos2Id(int row, Point point) {
+        return point.x * row + point.y;
     }
 
     public static void main(String[] args) {

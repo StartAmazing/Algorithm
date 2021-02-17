@@ -35,22 +35,22 @@ import java.util.Map;
  * 注意事项
  * 你可以认为所有的输入都是小写字母a-z。
  */
+class TrieNode {
+    public char c;
+    public Map<Character, TrieNode> childMap = new HashMap<>();
+    public boolean isEnd;
 
+    public TrieNode() {
+
+    }
+
+    public TrieNode(char c) {
+        this.c = c;
+    }
+}
 
 public class Trie {
-    class TrieNode {
-        public char c;
-        public Map<Character, TrieNode> children = new HashMap<>();
-        public boolean isEnd;
 
-        public TrieNode() {
-
-        }
-
-        public TrieNode(char c) {
-            this.c = c;
-        }
-    }
 
     private TrieNode root;
 
@@ -64,18 +64,18 @@ public class Trie {
      */
     public void insert(String word) {
         TrieNode cur = root;
-        Map<Character, TrieNode> curChildren = root.children;
+        Map<Character, TrieNode> childMap = root.childMap;
         char[] chars = word.toCharArray();
         for (int i = 0; i < chars.length; i++) {
-            if (curChildren.containsKey(chars[i])) {
-                cur = curChildren.get(chars[i]);
+            if (childMap.containsKey(chars[i])) {
+                cur = childMap.get(chars[i]);
             } else {
                 TrieNode newNode = new TrieNode(chars[i]);
-                curChildren.put(chars[i], newNode);
+                childMap.put(chars[i], newNode);
                 cur = newNode;
             }
 
-            curChildren = cur.children;
+            childMap = cur.childMap;
             if (i == chars.length - 1) {
                 cur.isEnd = true;
             }
@@ -87,7 +87,8 @@ public class Trie {
      * @return: if the word is in the trie.
      */
     public boolean search(String word) {
-        return searchWordNodePos(word) != null && searchWordNodePos(word).isEnd;
+        TrieNode resNode = searchWordNodePos(word);
+        return resNode != null && resNode.isEnd;
     }
 
     /*
@@ -99,13 +100,13 @@ public class Trie {
     }
 
     private TrieNode searchWordNodePos(String s) {
-        Map<Character, TrieNode> children = root.children;
+        Map<Character, TrieNode> childMap = root.childMap;
         TrieNode cur = null;
         char[] chars = s.toCharArray();
         for (int i = 0; i < chars.length; i++) {
-            if (children.containsKey(chars[i])) {
-                cur = children.get(chars[i]);
-                children = cur.children;
+            if (childMap.containsKey(chars[i])) {
+                cur = childMap.get(chars[i]);
+                childMap = cur.childMap;
             } else {
                 return null;
             }

@@ -31,11 +31,11 @@ public class WordSearchII_132 {
     class WordSearcIIhNode {
         public String s;
         public boolean isString;
-        public Map<Character, WordSearcIIhNode> subtree;
+        public Map<Character, WordSearcIIhNode> childMap;
 
         public WordSearcIIhNode() {
             isString = false;
-            subtree = new HashMap<>();
+            childMap = new HashMap<>();
             s = "";
         }
     }
@@ -50,11 +50,11 @@ public class WordSearchII_132 {
         public void insert(String s) {
             WordSearcIIhNode now = root;
             for (int i = 0; i < s.length(); i++) {
-                if (!now.subtree.containsKey(s.charAt(i))) {
-                    now.subtree.put(s.charAt(i), new WordSearcIIhNode());
+                if (!now.childMap.containsKey(s.charAt(i))) {
+                    now.childMap.put(s.charAt(i), new WordSearcIIhNode());
                 }
 
-                now = now.subtree.get(s.charAt(i));
+                now = now.childMap.get(s.charAt(i));
             }
             now.s = s;
             now.isString = true;
@@ -63,11 +63,11 @@ public class WordSearchII_132 {
         public boolean find(String s) {
             WordSearcIIhNode now = root;
             for (int i = 0; i < s.length(); i++) {
-                if (!now.subtree.containsKey(s.charAt(i))) {
+                if (!now.childMap.containsKey(s.charAt(i))) {
                     return false;
                 }
 
-                now = now.subtree.get(s.charAt(i));
+                now = now.childMap.get(s.charAt(i));
             }
 
             return now.isString;
@@ -88,11 +88,11 @@ public class WordSearchII_132 {
             return;
         }
 
-        if (root.subtree.containsKey(board[x][y])) {
+        if (root.childMap.containsKey(board[x][y])) {
             for (int i = 0; i < 4; i++) {
                 char now = board[x][y];
                 board[x][y] = 0;
-                search(board, x + dx[i], y + dy[i], root.subtree.get(now), ans);
+                search(board, x + dx[i], y + dy[i], root.childMap.get(now), ans);
                 board[x][y] = now;
             }
         }
@@ -113,5 +113,19 @@ public class WordSearchII_132 {
         }
 
         return ans;
+    }
+
+    public static void main(String[] args) {
+        char[][] chars = new char[][]{{'d','o','a','f'},{'a','g','a','i'},{'d','c','a','n'}};
+        List<String> data = new ArrayList<>();
+        data.add("dog");
+        data.add("dad");
+        data.add("dgdg");
+        data.add("can");
+        data.add("again");
+
+        WordSearchII dto = new WordSearchII();
+        List<String> strings = dto.wordSearchII(chars, data);
+        strings.forEach(System.out::println);
     }
 }

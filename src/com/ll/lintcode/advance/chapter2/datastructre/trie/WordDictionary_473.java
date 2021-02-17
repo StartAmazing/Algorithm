@@ -81,6 +81,23 @@ public class WordDictionary_473 {
             }
         }
     }
+    public void addWord2(String word) {
+        WordNode cur = root;
+        char[] chars = word.toCharArray();
+        Map<Character, WordNode> curChildMap = root.children;
+        for(int i = 0; i < word.length(); i++) {
+            char ch = word.charAt(i);
+            if(!curChildMap.containsKey(ch)) {
+                WordNode newNode = new WordNode(ch);
+                curChildMap.put(ch, newNode);
+            }
+//            curChildMap = curChildMap.get(ch).children;
+            if (i == word.length() - 1) {
+                curChildMap.get(ch).isEnd = true;
+            }
+            curChildMap = curChildMap.get(ch).children;
+        }
+    }
 
     /*
      * @param word: A word could contain the dot character '.' to represent any one letter.
@@ -112,15 +129,11 @@ public class WordDictionary_473 {
 
     public static void main(String[] args) {
         WordDictionary_473 dto = new WordDictionary_473();
-        dto.addWord("ran");
-        dto.addWord("rune");
-        dto.addWord("runner");
-        dto.addWord("runs");
-        dto.addWord("add");
-        dto.addWord("adds");
-        dto.addWord("adder");
-        dto.addWord("addee");
-        boolean searched = dto.search("....e.");
-        System.out.println(searched);
+        System.out.println(dto.search("lintcode"));
+        System.out.println(dto.search("lint"));
+        dto.addWord2("lint");
+        System.out.println(dto.search("lint"));
+//        boolean searched = dto.search("....e.");
+//        System.out.println(searched);
     }
 }
