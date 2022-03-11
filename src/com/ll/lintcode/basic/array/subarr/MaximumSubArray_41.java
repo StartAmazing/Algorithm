@@ -17,7 +17,6 @@ public class MaximumSubArray_41 {
         for(int i = 0; i < nums.length; i ++){
             sum += nums[i];
             max = Math.max(max,sum);
-            //这里跟0比较是因为最小子数组是[],他的元素之和为0
             sum = Math.max(sum,0);
         }
 

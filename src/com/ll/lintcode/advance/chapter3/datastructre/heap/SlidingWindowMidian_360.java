@@ -50,7 +50,7 @@ public class SlidingWindowMidian_360 {
             return result;
 
         int half = (k + 1) / 2;
-        for (int i = 0; i < k - 1; i++) {
+        for (int i = 0; i < k - 1; i++) {           // 添加前k个元素
             add(minheap, maxheap, half, new Node(i, nums[i]));
         }
         for (int i = k - 1; i < n; i++) {

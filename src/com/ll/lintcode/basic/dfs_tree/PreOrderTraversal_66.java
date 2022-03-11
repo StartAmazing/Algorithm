@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
-public class preOrderTraversal_66 {
+public class PreOrderTraversal_66 {
 
     //1. traverse
     public List<Integer> getBinaryPreOrderTra(TreeNode root){

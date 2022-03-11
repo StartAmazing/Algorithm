@@ -4,3 +4,5 @@
 ./codestyles/
 ./Algoritm.iml
 ./*.xml
+*/out
+out

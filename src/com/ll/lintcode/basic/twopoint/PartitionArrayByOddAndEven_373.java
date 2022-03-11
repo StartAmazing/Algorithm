@@ -1,5 +1,9 @@
 package com.ll.lintcode.basic.twopoint;
 
+import java.util.HashMap;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+
 /**
  * 分割一个整数数组，使得奇数在前偶数在后。
  *
@@ -42,6 +46,30 @@ public class PartitionArrayByOddAndEven_373 {
                 right --;
             }
         }
+    }
+
+    public static int tableSizeFor(int c) {
+        int n = c - 1;
+        n |= n >>> 1;
+        n |= n >>> 2;
+        n |= n >>> 4;
+        n |= n >>> 8;
+        n |= n >>> 16;
+        return (n < 0) ? 1 : (n >= (1 << 30)) ? (1 << 30) : n + 1;
+    }
+
+    public static void main(String[] args) {
+        Map<Integer, Integer> map = new ConcurrentHashMap<>(8);
+        map.put(1, 1000);
+
+        int initialCapacity = 5;
+        System.out.println(tableSizeFor(initialCapacity + (initialCapacity >>> 1) + 1));
+        initialCapacity = 7;
+        System.out.println(tableSizeFor(initialCapacity + (initialCapacity >>> 1) + 1));
+        initialCapacity = 11;
+        System.out.println(tableSizeFor(initialCapacity + (initialCapacity >>> 1) + 1));
+        initialCapacity = 16;
+        System.out.println(tableSizeFor(initialCapacity + (initialCapacity >>> 1) + 1));
     }
 
 }

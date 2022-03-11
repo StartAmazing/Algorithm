@@ -36,7 +36,7 @@ public class SubarraySum_138 {
     }
     public static void main(String[] args) {
         SubarraySum_138 dto = new SubarraySum_138();
-        List<Integer> integers = dto.subarraySum(new int[]{-3, 1, 2, -3, 4});
+        List<Integer> integers = dto.subarraySum(new int[]{11, -3, 1, 2, -3, 4});
         System.out.println("args = " + integers);
     }
 }

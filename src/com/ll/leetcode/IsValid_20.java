@@ -22,7 +22,7 @@ public class IsValid_20 {
         Stack<Character> stack = new Stack<>();
 
         for(int i = 0; i < s.length(); i++){
-            char c = s.charAt(i);
+            char c = s.charAt(i); // {
             //If the current character is a closing bracket.
             if(this.mappings.containsKey(c)){
 
@@ -44,7 +44,7 @@ public class IsValid_20 {
     }
 
     public static void main(String[] args) {
-        String s = "()()()(){{()}[]}<>";
+        String s = "{{()}[]}<>";
         boolean b = new IsValid_20().solution(s);
         System.out.println(b);
     }

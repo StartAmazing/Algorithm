@@ -55,7 +55,7 @@ public class MediaII_81 {
 
     private void addNumber(int number) {
         maxHeap.add(number);
-        if (numOfElement % 2 == 0) {
+        if (numOfElement % 2 == 0) {   // 之前如果是偶数个，那么这次添加后就是奇数的情况，这个时候小根堆先添加元素，这个时候数量就比大根堆多一个
             if (minHeap.isEmpty()) {
                 numOfElement++;
                 return;

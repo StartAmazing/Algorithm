@@ -1,84 +1,78 @@
 package com.ll;
 
-import java.util.Scanner;
+import java.util.Arrays;
+import java.util.Random;
 
-public class Test {
-    public static String reverseStr(String str){
-        if(str == null || str.length() == 0){
-            return str;
+public class Test{
+    public static int getNum(int[] arr, int target) {
+        if (arr == null || arr.length < 1) {
+            return -1;
         }
 
-        String[] strs = str.split(" ");
-        StringBuilder sb = new StringBuilder();
-        int len = strs.length;
-        for(int i = 0; i < len; i++){
-            char[] chars = strs[i].toCharArray();
-            int left = 0;
-            int right = chars.length - 1;
-            while (left < right){
-                swapChar(chars, left ++, right --);
-            }
-
-            for(int j = 0; j < chars.length; j ++){
-                sb.append(chars[j]);
-            }
-            if(i != len - 1) {
-                sb.append(" ");
+        int left = 0, right = arr.length - 1;
+        while (left < right - 1) {
+            int mid = left + (right - left) / 2;
+            if (arr[mid] == target) {
+                right = mid;
+            } else if(arr[mid] < target) {
+                left = mid;
+            } else {
+                right = mid;
             }
         }
-        return sb.toString();
+
+        if (arr[left] == target) {
+            return left;
+        }
+        if (arr[right] == target) {
+            return right;
+        }
+
+
+        return -1;
     }
 
-    private static void swapChar(char[] chars, int l, int r){
-        char tmp = chars[l];
-        chars[l] = chars[r];
-        chars[r] = tmp;
+    public static int getNum2(int[] arr, int target) {
+        if (arr == null || arr.length < 1) {
+            return -1;
+        }
+
+        for (int i =0 ; i < arr.length; i++) {
+            if (arr[i] == target) {
+                return i;
+            }
+        }
+
+        return -1;
     }
 
-    // Memory Referencing Bug Example
-    static class Memory_Struct {
-        public int[] a = new int[2];
-        public double d;
+
+    public static int[] arrFactory(int N) {
+        Random random = new Random();
+        int[] arr = new int[N];
+        for (int i = 0; i < N; i++) {
+            arr[i] = random.nextInt(10);
+        }
+
+        Arrays.sort(arr);
+        return arr;
     }
 
-    private static double fun(int i) {
-        Memory_Struct s = new Memory_Struct();
-        s.d = 3.14;
-        s.a[i] = 1073741824; // Possibly out of bounds
-        return s.d;
-    }
 
     public static void main(String[] args) {
+        int[] data = new int[]{1, 3, 3, 3, 4, 5, 6, 6, 7};
+        System.out.println(getNum(data, 6));
 
-        // Integer overflow example
-        System.out.println(40000 * 40000);
-        System.out.println(50000 * 50000);
-        System.out.println(300 * 400);
-        System.out.println(300 * 400 * 500);
-        System.out.println(300 * 400 * 500 * 600);
-
-        // big number sum bug
-        System.out.println((1e20 + (- 1e20)) + 3.14);
-        System.out.println(1e20 + ((- 1e20) + 3.14));
-
-        // Memory Referencing Bug Example
-        System.out.println(fun(0));
-        System.out.println(fun(1));
-//        System.out.println(fun(2));
-
-        int a = 1;
-        System.out.println(1 << 33);
-        System.out.println(1 >> 34);
-        System.out.println(1 >> 33);
-        System.out.println(1 >> 34);
-
-        System.out.println("============part 2.2.7 ==========");
-        int x = 53191;
-        short sx = (short) x;
-        int y = sx;
-        System.out.println("x = " + x);
-        System.out.println("sx = " + sx);
-        System.out.println("y = " + y);
-
+        for (int i = 0; i < 100; i++) {
+            System.out.println(i);
+            int[] ints = arrFactory(20 + i);
+            int idx1 = getNum(ints, 7);
+            int idx2 = getNum2(ints, 7);
+            if(idx1 != idx2) {
+                System.out.println("Fail!");
+                break;
+            }
+        }
     }
+
 }

@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
-public class inOrderTraversal_67 {
+public class InOrderTraversal_67 {
 
     //1. traverse
     public List<Integer> getBinaryInOrderTraversalTra(TreeNode root){
@@ -44,14 +44,15 @@ public class inOrderTraversal_67 {
     public List<Integer> getBinaryInOrderTraversalNonRec(TreeNode root){
         Stack<TreeNode> stack = new Stack<>();
         List<Integer> res = new ArrayList<>();
-        while (!stack.isEmpty() || root != null){
-            if(root != null){
-                stack.add(root);
-                root = root.left;
+        TreeNode helpRoot = root;
+        while (!stack.isEmpty() || helpRoot != null){
+            if(helpRoot != null){
+                stack.add(helpRoot);
+                helpRoot = helpRoot.left;
             }else{
-                root = stack.pop();
-                res.add(root.val);
-                root = root.right;
+                helpRoot = stack.pop();
+                res.add(helpRoot.val);
+                helpRoot = helpRoot.right;
             }
         }
 
