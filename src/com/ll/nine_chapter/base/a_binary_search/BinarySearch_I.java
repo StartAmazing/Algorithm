@@ -1,6 +1,6 @@
-package com.ll.nine_chapter.base.binary_search;
+package com.ll.nine_chapter.base.a_binary_search;
 
-public class BaseBinarySearch {
+public class BinarySearch_I {
 
     public static int findTargetPositionInSortArray(int[] nums, int target) {
         if (nums == null || nums.length < 1) {

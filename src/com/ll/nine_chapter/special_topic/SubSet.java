@@ -62,7 +62,7 @@ public class SubSet {
 
         res.add(new ArrayList<>(subList));
         for (int i = startIdx; i < nums.length; i++) {
-            if (i > 0 && nums[i] == nums[i - 1] && i > startIdx) {
+            if (i > 0 && nums[i] == nums[i - 1]) {
                 continue;
             }
             subList.add(nums[i]);
@@ -72,7 +72,7 @@ public class SubSet {
     }
 
     public static void main(String[] args) {
-        int[] nums = new int[]{1, 1, 2, 2, 3, 3};
+        int[] nums = new int[]{1, 1, 1, 2, 2, 2, 3};
         System.out.println(subSetWithOup(nums));
     }
 }
