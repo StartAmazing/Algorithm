@@ -64,15 +64,29 @@ public class Test{
     }
 
     public static void main(String[] args) {
-        Test test = new Test();
-        String str = "google";
-        char[] chars = str.toCharArray();
-        StringBuilder res = new StringBuilder();
-        for (int i = 0; i < chars.length; i++) {
-            test.Insert(chars[i]);
-            char c = test.FirstAppearingOnce();
-            res.append(c);
-        }
-        System.out.println(res);
+//        Test test = new Test();
+//        String str = "google";
+//        char[] chars = str.toCharArray();
+//        StringBuilder res = new StringBuilder();
+//        for (int i = 0; i < chars.length; i++) {
+//            test.Insert(chars[i]);
+//            char c = test.FirstAppearingOnce();
+//            res.append(c);
+//        }
+//        System.out.println(res);
+
+//        String s1 = "liuliang";
+        String s2 = new StringBuilder("liuliang").toString();
+        System.out.println(s2 == s2);
+        System.out.println(s2 == s2.intern());
+
+
+        Integer i1 = 128;
+        Integer i2 = 128;
+        System.out.println(i1 == i2);
+
+        Integer i3 = -128;
+        Integer i4 = -128;
+        System.out.println(i3 == i4);
     }
 }
