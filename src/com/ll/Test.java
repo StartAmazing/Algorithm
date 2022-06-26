@@ -1,9 +1,8 @@
 package com.ll;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
+import java.util.function.Function;
+import java.util.function.Predicate;
 
 /**
  * 请实现一个函数用来找出字符流中第一个只出现一次的字符。
@@ -63,30 +62,56 @@ public class Test{
         return 'C';
     }
 
+    public static <T> List<T> filter(List<T> numbers, Predicate<T> p) {
+        List<T> result = new ArrayList<>();
+        for (T number : numbers) {
+            if (p.test(number)) {
+                result.add(number);
+            }
+        }
+
+        return result;
+    }
+
+    public static <T, R> List<R> map(List<T> list, Function<T, R> mapper) {
+        List<R> res = new ArrayList<>();
+        for (T t : list) {
+            res.add(mapper.apply(t));
+        }
+
+        return res;
+    }
+
     public static void main(String[] args) {
-//        Test test = new Test();
-//        String str = "google";
-//        char[] chars = str.toCharArray();
-//        StringBuilder res = new StringBuilder();
-//        for (int i = 0; i < chars.length; i++) {
-//            test.Insert(chars[i]);
-//            char c = test.FirstAppearingOnce();
-//            res.append(c);
-//        }
-//        System.out.println(res);
+        ArrayList<Integer> numbers = new ArrayList<>();
+        numbers.add(1);
+        numbers.add(2);
+        numbers.add(3);
+        numbers.add(4);
+        numbers.add(5);
+        numbers.add(6);
 
-//        String s1 = "liuliang";
-        String s2 = new StringBuilder("liuliang").toString();
-        System.out.println(s2 == s2);
-        System.out.println(s2 == s2.intern());
+        ArrayList<String> strings = new ArrayList<>();
+        strings.add("aass");
+        strings.add("aassa");
+        strings.add("as");
+        strings.add("aasxss");
 
+        List<Integer> filter = filter(numbers, (aNum) -> aNum % 2 == 0);
+        System.out.println(filter);
+        List<String> filter1 = filter(strings, aStr -> aStr.length() > 3);
+        System.out.println(filter1);
 
-        Integer i1 = 128;
-        Integer i2 = 128;
-        System.out.println(i1 == i2);
+        List<Integer> filter3 = filter(numbers, ((Predicate<Integer>) integer -> integer % 2 != 0).and(integer -> integer % 3 != 0));
+        System.out.println(filter3);
 
-        Integer i3 = -128;
-        Integer i4 = -128;
-        System.out.println(i3 == i4);
+        List<Integer> map = map(strings, str -> str.length());
+        System.out.println(map);
+
+        System.out.println("Running:" + 0b11100000000000000000000000000000);
+        System.out.println("SHUTDOWN:" + 0b00000000000000000000000000000000);
+        System.out.println("STOP:" + 0b00100000000000000000000000000000);
+        System.out.println("TIDYING:" + 0b01000000000000000000000000000000);
+        System.out.println("TERMINATED:" + 0b01100000000000000000000000000000);
     }
 }
