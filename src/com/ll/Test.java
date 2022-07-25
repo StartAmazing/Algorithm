@@ -1,117 +1,132 @@
 package com.ll;
 
 import java.util.*;
-import java.util.function.Function;
-import java.util.function.Predicate;
-
-/**
- * 请实现一个函数用来找出字符流中第一个只出现一次的字符。
- * 例如，当从字符流中只读出前两个字符 "go" 时，第一个只出现一次的字符是 "g" 。
- * 当从该字符流中读出前六个字符 “google" 时，第一个只出现一次的字符是"l"。
- *
- *
- *   数据范围：字符串长度满足 1 \le n \le 1000 \ 1≤n≤1000  ，字符串中出现的字符一定在 ASCII 码内。
- *  进阶：空间复杂度 O(n)\ O(n)  ，时间复杂度 O(n) \ O(n)
- *
- *   后台会用以下方式调用 Insert 和 FirstAppearingOnce 函数
- *
- *
- *    string caseout = "";
- *
- *    1.读入测试用例字符串casein
- *
- *    2.如果对应语言有Init()函数的话，执行Init() 函数
- *
- *    3.循环遍历字符串里的每一个字符ch {
- *
- *    Insert(ch);
- *
- *    caseout += FirstAppearingOnce()
- *
- *    }
- *
- *    2. 输出caseout，进行比较。
- *
- * 输出描述
- * 如果当前字符流没有存在出现一次的字符，返回#字符。
- */
 
 public class Test{
 
-    private StringBuffer sequence = new StringBuffer();
-    private Map<Character, Integer> chMap = new HashMap<>();
-    private int num = 0;
-    private Map<Character, Integer> orderMap= new HashMap<>();
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+//        int n = sc.nextInt();
+//        int idx = 0;
+//        int[] noOrderArray = new int[n];
+//        while (idx < n) {
+//            noOrderArray[idx] = sc.nextInt();
+//            idx++;
+//        }
+//
+//        idx = 0;
+//        int m = sc.nextInt();
+//        int[] orderArray = new int[m];
+//        while (idx < m) {
+//            orderArray[idx] = sc.nextInt();
+//            idx++;
+//        }
+//        int[] ints = mergeTwoList(noOrderArray, orderArray);
+//        StringBuilder sb = new StringBuilder();
+//        for (int i = 0; i < ints.length; i++) {
+//            sb.append(ints[i]);
+//            if (i != ints.length - 1) {
+//                sb.append(" ");
+//            }
+//        }
+//        System.out.println(sb);
 
-    //Insert one char from stringstream
-    public void Insert(char ch) {
-        sequence.append(ch);
-        num++;
-        chMap.putIfAbsent(ch, 1);
-        orderMap.putIfAbsent(ch, num);
-    }
-    //return the first appearence once char in current stringstream
-    public char FirstAppearingOnce() {
-        Set<Character> set = new HashSet<>();
-        for (Character ch :  chMap.keySet()) {
-            if (chMap.get(ch) == 1) {
-                set.add(ch);
-            }
+        int time = sc.nextInt();
+        int tasks = sc.nextInt();
+        int[][] tasksArr = new int[tasks][2];
+        for (int i = 0; i < tasks; i++) {
+            tasksArr[i][0] = sc.nextInt();
+            tasksArr[i][1] = sc.nextInt();
         }
 
-        return 'C';
+        int[] ints = maxProfit(time, tasksArr);
+        System.out.println(ints[0]);
+        System.out.println(ints[1]);
     }
 
-    public static <T> List<T> filter(List<T> numbers, Predicate<T> p) {
-        List<T> result = new ArrayList<>();
-        for (T number : numbers) {
-            if (p.test(number)) {
-                result.add(number);
-            }
+    private static int[] maxProfit(int time,
+                                   int[][] tasksArr) {
+        // idx0 = profit, idx1 = number of task
+        int[] res = new int[2];
+        List<Task> tasks = new ArrayList<>();
+        for (int[] ints : tasksArr) {
+            tasks.add(new Task(ints[0], ints[1]));
         }
-
-        return result;
-    }
-
-    public static <T, R> List<R> map(List<T> list, Function<T, R> mapper) {
-        List<R> res = new ArrayList<>();
-        for (T t : list) {
-            res.add(mapper.apply(t));
+        tasks.sort((o1, o2) -> {
+            if (o1.time == o2.time) {
+                return o2.profit - o1.profit;
+            }
+            return o1.time - o2.time;
+        });
+        for (int i = 0; i < tasks.size(); i++) {
+            int remindTime = time;
+            List<Task> subTasks = new ArrayList<>();
+            for (int j = i; j < tasks.size(); j ++) {
+                if (remindTime -tasks.get(j).time < 0) {
+                    j--;
+                    updateProfit(res, subTasks);
+                    if (subTasks.size() > 0) {
+                        remindTime += subTasks.get(subTasks.size() - 1).time;
+                        subTasks.remove(subTasks.size() - 1);
+                    }
+                } else {
+                    remindTime -= tasks.get(j).time;
+                    subTasks.add(tasks.get(j));
+                }
+            }
+            updateProfit(res, subTasks);
         }
 
         return res;
     }
 
-    public static void main(String[] args) {
-        ArrayList<Integer> numbers = new ArrayList<>();
-        numbers.add(1);
-        numbers.add(2);
-        numbers.add(3);
-        numbers.add(4);
-        numbers.add(5);
-        numbers.add(6);
+    private static void updateProfit(int[] res, List<Task> subTasks) {
+        int sumProfit = 0;
+        for (Task subTask : subTasks) {
+            sumProfit += subTask.profit;
+        }
+        if (sumProfit >= res[0]) {
+            if (sumProfit > res[0] || subTasks.size()> res[1]) {
+                res[0] = sumProfit;
+                res[1] = subTasks.size();
+            }
+        }
+    }
 
-        ArrayList<String> strings = new ArrayList<>();
-        strings.add("aass");
-        strings.add("aassa");
-        strings.add("as");
-        strings.add("aasxss");
+    static class Task{
+        int time;
+        int profit;
 
-        List<Integer> filter = filter(numbers, (aNum) -> aNum % 2 == 0);
-        System.out.println(filter);
-        List<String> filter1 = filter(strings, aStr -> aStr.length() > 3);
-        System.out.println(filter1);
+        public Task(int time, int profit) {
+            this.time = time;
+            this.profit = profit;
+        }
+    }
 
-        List<Integer> filter3 = filter(numbers, ((Predicate<Integer>) integer -> integer % 2 != 0).and(integer -> integer % 3 != 0));
-        System.out.println(filter3);
+    private static int[] mergeTwoList(int[] noOrder,
+                                      int[] order) {
 
-        List<Integer> map = map(strings, str -> str.length());
-        System.out.println(map);
+        Arrays.sort(noOrder);
+        int m = noOrder.length;
+        int n = order.length;
+        int[] res = new int[m + n];
+        int idx1 = 0, idx2 = 0, idx3 = 0;
+        while (idx1 < m && idx2 < n) {
+            if (noOrder[idx1] < order[idx2]) {
+                res[idx3++] = noOrder[idx1++];
+            } else {
+                res[idx3++] = order[idx2++];
+            }
+        }
 
-        System.out.println("Running:" + 0b11100000000000000000000000000000);
-        System.out.println("SHUTDOWN:" + 0b00000000000000000000000000000000);
-        System.out.println("STOP:" + 0b00100000000000000000000000000000);
-        System.out.println("TIDYING:" + 0b01000000000000000000000000000000);
-        System.out.println("TERMINATED:" + 0b01100000000000000000000000000000);
+        while (idx1 < m) {
+            res[idx3++] = noOrder[idx1++];
+        }
+
+        while (idx2 < n) {
+            res[idx3++] = order[idx2++];
+        }
+
+        return res;
     }
 }
