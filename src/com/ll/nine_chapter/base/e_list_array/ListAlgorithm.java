@@ -323,6 +323,7 @@ public class ListAlgorithm {
      */
     public RandomListNode copyRandomList(RandomListNode head) {
         // write your code here
+        return null;
     }
 
     public static void main(String[] args) {
