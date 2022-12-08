@@ -136,6 +136,7 @@ public class BinaryTree {
 
     /**
      * 二叉树从根到子节点的路径
+     * @link https://www.lintcode.com/problem/480/
      * @param head
      * @return
      */
@@ -150,15 +151,17 @@ public class BinaryTree {
     }
 
     private static void binaryTreePathHelper(TreeNode root, String subString) {
-        if (root == null) {
-            res.add(subString.substring(0, subString.length() - 2));
+        StringBuilder sb = new StringBuilder().append(subString).append(root.val).append("->");
+        if (root.left == null && root.right == null) {
+            res.add(sb.substring(0, sb.length() - 2));
             return;
         }
-        StringBuilder sb = new StringBuilder().append(subString)
-                                              .append(root.val)
-                                              .append("->");
-        binaryTreePathHelper(root.left, sb.toString());
-        binaryTreePathHelper(root.right, sb.toString());
+        if (root.left != null) {
+            binaryTreePathHelper(root.left, sb.toString());
+        }
+        if (root.right != null) {
+            binaryTreePathHelper(root.right, sb.toString());
+        }
     }
 
     public static List<String> binaryTreePathDivideConquer(TreeNode head) {
@@ -283,6 +286,8 @@ public class BinaryTree {
     }
 
     /**
+     *
+     * @link https://www.lintcode.com/problem/88/
      * lowest common Ancestor
      * @param root
      * @param nodeA
@@ -317,6 +322,153 @@ public class BinaryTree {
         return null;
     }
 
+
+
+    private class ValidBST {
+        public int maxNum;
+        public int minNum;
+        public boolean isValid;
+
+        public ValidBST() {
+
+        }
+
+        public ValidBST(int maxNum, int minNum, boolean isValid) {
+            this.maxNum = maxNum;
+            this.minNum = minNum;
+            this.isValid = isValid;
+        }
+    }
+    /**
+     * @link https://www.lintcode.com/problem/95/
+     * @param root: The root of binary tree.
+     * @return: True if the binary tree is BST, or false
+     */
+    public boolean isValidBST(TreeNode root) {
+        if(root == null) {
+            return true;
+        }
+
+        return helpValidBST(root).isValid;
+    }
+
+    private ValidBST helpValidBST(TreeNode head) {
+        if(head == null) {
+            return null;
+        }
+
+        ValidBST lRes = helpValidBST(head.left);
+        ValidBST rRes = helpValidBST(head.right);
+
+        if (lRes == null && rRes == null) {
+            return new ValidBST(head.val, head.val, true);
+        }
+
+        if (lRes == null) {
+            return new ValidBST(rRes.maxNum, head.val, head.val < rRes.minNum && rRes.isValid);
+        }
+
+        if (rRes == null) {
+            return new ValidBST(head.val, lRes.minNum, head.val > lRes.maxNum && lRes.isValid);
+        }
+
+        boolean ok = lRes.maxNum < head.val && rRes.minNum > head.val && lRes.isValid && rRes.isValid;
+
+        return new ValidBST(rRes.maxNum, lRes.minNum, ok);
+    }
+
+
+    private TreeNode head, pre;
+    /**
+     * @link https://www.lintcode.com/problem/1534/
+     * @param root: root of a tree
+     * @return: head node of a doubly linked list
+     */
+    public TreeNode treeToDoublyList(TreeNode root) {
+        if (root == null) {
+            return null;
+        }
+
+        dfsToList(root);
+        head.left = pre;
+        pre.right = head;
+
+        return head;
+    }
+
+    private void dfsToList(TreeNode node) {
+        if (node == null) {
+            return;
+        }
+
+        dfsToList(node.left);
+        if (head == null) {
+            head = node;
+        } else {
+            node.left = pre;
+            pre.right = node;
+        }
+
+        pre = node;
+        dfsToList(node.right);
+    }
+
+    private class FlattenRes {
+        public TreeNode head;
+        public TreeNode tail;
+
+        public FlattenRes() {
+
+        }
+
+        public FlattenRes(TreeNode head, TreeNode tail) {
+            this.head = head;
+            this.tail = tail;
+        }
+    }
+    /**
+     * @link https://www.lintcode.com/problem/453/
+     * @param root: a TreeNode, the root of the binary tree
+     * @return: nothing
+     */
+    public void flatten(TreeNode root) {
+        helpFlatten(root);
+    }
+
+    private FlattenRes helpFlatten(TreeNode node) {
+        if (node == null) {
+            return null;
+        }
+
+        FlattenRes leftRes = helpFlatten(node.left);
+        FlattenRes rightRes = helpFlatten(node.right);
+
+        if (leftRes == null && rightRes == null) {
+            return new FlattenRes(node, node);
+        }
+
+        TreeNode head, tail;
+        if (leftRes == null) {
+            head = node;
+            tail = rightRes.tail;
+        } else if(rightRes == null) {
+            head = node;
+            head.right = leftRes.head;
+            head.left = null;
+            tail = leftRes.tail;
+        } else {
+            head = node;
+            head.right = leftRes.head;
+            head.left = null;
+            leftRes.tail.right = rightRes.head;
+            tail = rightRes.tail;
+        }
+
+        return new FlattenRes(head, tail);
+
+    }
+
+
     public static void main(String[] args) {
         TreeNode head = new TreeNode(1);
         head.left = new TreeNode(2);
@@ -327,16 +479,16 @@ public class BinaryTree {
         head.right.right = new TreeNode(7);
         head.right.right.right= new TreeNode(7);
         head.right.right.right.right = new TreeNode(7);
-        System.out.println(preOrder(head));
-        System.out.println(inOrder(head));
-        System.out.println(postOrder(head));
-        System.out.println(preOrderDivideConquer(head));
-        System.out.println(maxDepthOfBinaryTreeTraverse(head));
-        System.out.println(maxDepthOfBinaryTreeDivideConquer(head));
+//        System.out.println(preOrder(head));
+//        System.out.println(inOrder(head));
+//        System.out.println(postOrder(head));
+//        System.out.println(preOrderDivideConquer(head));
+//        System.out.println(maxDepthOfBinaryTreeTraverse(head));
+//        System.out.println(maxDepthOfBinaryTreeDivideConquer(head));
         System.out.println(binaryTreePathTraverse(head));  // something went wrong
-        System.out.println(binaryTreePathDivideConquer(head));
-        System.out.println(minimumSubtree(head));
-        System.out.println(isBalancedBinaryTree(head));
-        System.out.println(subTreeWithMaximumAverage(head).val);
+//        System.out.println(binaryTreePathDivideConquer(head));
+//        System.out.println(minimumSubtree(head));
+//        System.out.println(isBalancedBinaryTree(head));
+//        System.out.println(subTreeWithMaximumAverage(head).val);
     }
 }
