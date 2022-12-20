@@ -2,6 +2,7 @@ package com.ll.nine_chapter.base.e_list_array;
 
 import com.ll.utils.ListNode;
 import com.ll.utils.RandomListNode;
+import com.ll.utils.TreeNode;
 import com.ll.zs.msb.dp.recursion.StackReverse;
 
 import java.util.List;
@@ -326,15 +327,123 @@ public class ListAlgorithm {
         return null;
     }
 
+    /**
+     * @link https://www.lintcode.com/problem/98/
+     * @param head: The head of linked list.
+     * @return: You should return the head of the sorted linked list, using constant space complexity.
+     */
+    public static ListNode sortList(ListNode head) {
+        if(head == null || head.next == null) {
+            return head;
+        }
+
+        ListNode midNode = new ListNode(-1);
+        midNode.next = head;
+        ListNode fastNode = head;
+        while(fastNode != null && fastNode.next != null) {
+            midNode = midNode.next;
+            fastNode = fastNode.next.next;
+        }
+
+        ListNode rightHead = midNode.next;
+        midNode.next = null;
+
+        ListNode left = sortList(head);
+        ListNode right = sortList(rightHead);
+
+        return mergex(left, right);
+    }
+
+    private static ListNode mergex(ListNode left, ListNode right) {
+        ListNode dummyNode = new ListNode(-1);
+        ListNode curHead = dummyNode;
+        ListNode curLeft = left;
+        ListNode curRight = right;
+        while(curLeft != null && curRight != null) {
+            if(curLeft.val < curRight.val) {
+                curHead.next = curLeft;
+                curLeft = curLeft.next;
+            } else {
+                curHead.next = curRight;
+                curRight = curRight.next;
+            }
+
+            curHead = curHead.next;
+        }
+
+        if(curLeft != null) {
+            curHead.next = curLeft;
+        }
+
+        if(curRight != null) {
+            curHead.next = curRight;
+        }
+
+        return dummyNode.next;
+    }
+
+    /**
+     * @link https://www.lintcode.com/problem/106/
+     * @param head: The first node of linked list
+     * @return: a tree node
+     */
+    public TreeNode sortedListToBST(ListNode head) {
+        if(head == null) {
+            return null;
+        }
+
+        if(head.next == null) {
+            return new TreeNode(head.val);
+        }
+
+        ListNode fastNode = head;
+        ListNode midNode = new ListNode(-1);
+        midNode.next = head;
+        while(fastNode != null && fastNode.next != null) {
+            fastNode = fastNode.next.next;
+            midNode = midNode.next;
+        }
+
+        ListNode rightHead = midNode.next.next;
+        TreeNode root = new TreeNode(midNode.next.val);
+        midNode.next = null;
+
+        TreeNode leftTree = sortedListToBST(head);
+        TreeNode rightTree = sortedListToBST(rightHead);
+
+        root.left = leftTree;
+        root.right = rightTree;
+
+        return root;
+    }
+
+    /*
+     * @link https://www.lintcode.com/problem/372
+     * @param node: the node in the list should be deleted
+     * @return: nothing
+     */
+    public void deleteNode(ListNode node) {
+        while(node != null && node.next != null) {
+            node.val = node.next.val;
+            if(node.next.next == null) {
+                node.next = null;
+                break;
+            }
+            node = node.next;
+        }
+    }
+
+
+
     public static void main(String[] args) {
 //        ListNode dummyNode = new ListNode(-1);
         ListNode head = new ListNode(1);
-        head.next = new ListNode(2);
-        head.next.next = new ListNode(3);
-        head.next.next.next = new ListNode(4);
-        head.next.next.next.next = new ListNode(5);
-
-//        dummyNode.next = head;
+        head.next = new ListNode(-1);
+//        head.next.next = new ListNode(3);
+//        head.next.next.next = new ListNode(4);
+//        head.next.next.next.next = new ListNode(5);
+//
+////        dummyNode.next = head;
 
 //        ListNode.printList(head);
 //        ListNode listNode = reverseKGroup(head, 3);
@@ -363,7 +472,8 @@ public class ListAlgorithm {
 //        ListNode.printList(listNode);
 //        reorderList(head);
 //        ListNode.printList(head);
-        ListNode listNode = rotateRight(head, 5);
-        ListNode.printList(listNode);
+//        ListNode listNode = rotateRight(head, 5);
+//        ListNode.printList(listNode);
+        ListNode listNode = sortList(head);
     }
 }

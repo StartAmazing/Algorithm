@@ -465,30 +465,215 @@ public class BinaryTree {
         }
 
         return new FlattenRes(head, tail);
-
     }
 
 
+    /*
+     * @link https://www.lintcode.com/problem/915/
+     * @param root: The root of the BST.
+     * @param p: You need find the successor node of p.
+     * @return: Successor of p.
+     */
+    public static TreeNode inorderPredecessor(TreeNode root, TreeNode p) {
+        if (root == null || p == null) {
+            return null;
+        }
+
+        TreeNode head = root, pre = root;
+        boolean flag = false;
+        while(head != null) {
+            if (p.val == head.val) {
+                if (p.left == null && flag) {
+                    return pre;
+                } else {
+                    return findPre(p.left);
+                }
+            } else if (p.val > head.val) {
+                flag = true;
+                pre = head;
+                head = head.right;
+            } else {
+                head = head.left;
+            }
+        }
+
+        return null;
+    }
+
+    private static TreeNode findPre(TreeNode node) {
+        if (node == null) {
+            return null;
+        }
+        TreeNode curNode = node;
+        while (curNode.right != null) {
+            curNode = curNode.right;
+        }
+
+        return curNode;
+    }
+
+    /*
+     * @link https://www.lintcode.com/problem/448/
+     * @param root: The root of the BST.
+     * @param p: You need find the successor node of p.
+     * @return: Successor of p.
+     */
+    public static TreeNode inorderSuccessor(TreeNode root, TreeNode p) {
+        if (root == null || p == null) {
+            return null;
+        }
+
+        TreeNode head = root, pre = root;
+        boolean flag = false;
+        while(head != null) {
+            if (p.val == head.val) {
+                if (p.right == null && flag) {
+                    return pre;
+                } else {
+                    return findSuc(p.right);
+                }
+            } else if (p.val > head.val) {
+                head = head.right;
+            } else {
+                flag = true;
+                pre = head;
+                head = head.left;
+            }
+        }
+
+        return null;
+    }
+
+    private static TreeNode findSuc(TreeNode node) {
+        if (node == null) {
+            return null;
+        }
+        TreeNode curNode = node;
+        while (curNode.left != null) {
+            curNode = curNode.left;
+        }
+
+        return curNode;
+    }
+
+
+    private List<Integer> res1 = new ArrayList<>();
+    /**
+     * @link https://www.lintcode.com/problem/11/
+     * @param root: param root: The root of the binary search tree
+     * @param k1: An integer
+     * @param k2: An integer
+     * @return: return: Return all keys that k1<=key<=k2 in ascending order
+     */
+    public List<Integer> searchRange(TreeNode root, int k1, int k2) {
+        if(root == null) {
+            return new ArrayList<>();
+        }
+
+        List<Integer> res = new ArrayList<>();
+        res.addAll(searchRange(root.left, k1, k2));
+        if (root.val >= k1 && root.val <= k2) {
+            res.add(root.val);
+        }
+        res.addAll(searchRange(root.right, k1, k2));
+
+        return res;
+    }
+
+    /*
+     * @link https://www.lintcode.com/problem/85/
+     * @param root: The root of the binary search tree.
+     * @param node: insert this node into the binary search tree
+     * @return: The root of the new binary search tree.
+     */
+    public TreeNode insertNode(TreeNode root, TreeNode node) {
+        if(root == null) {
+            return node;
+        }
+
+        TreeNode head = root;
+        TreeNode pre = root;
+        while(head != null) {
+            pre = head;
+            if (head.val > node.val) {
+                head = head.left;
+            } else {
+                head = head.right;
+            }
+        }
+
+        if (pre.val > node.val) {
+            pre.left = node;
+        } else {
+            pre.right = node;
+        }
+
+        return root;
+    }
+
+
+    /**
+     * @link https://www.lintcode.com/problem/87
+     * @param root: The root of the binary search tree.
+     * @param value: Remove the node with given value.
+     * @return: The root of the binary search tree after removal.
+     */
+    public TreeNode removeNode(TreeNode root, int value) {
+//        if (root == null) {
+//            return null;
+//        }
+//
+//        TreeNode remNode = null, preNode = null, curNode = root;
+//        while(curNode != null) {
+//            if (curNode.val == value) {
+//                remNode = curNode;
+//                break;
+//            } else if (curNode.val < value) {
+//                preNode = curNode;
+//                curNode = curNode.right;
+//            } else {
+//                preNode = curNode;
+//                curNode = curNode.left;
+//            }
+//        }
+//
+//        if (remNode == null) {
+//            return root;
+//        }
+//
+//        if (preNode == remNode) { // remove root
+//
+//        }
+//
+//        if (remNode.left == null && remNode.right == null) { // leaf node
+//            preNode
+//        }
+        return null;
+    }
+
+
+
     public static void main(String[] args) {
-        TreeNode head = new TreeNode(1);
-        head.left = new TreeNode(2);
+        TreeNode head = new TreeNode(2);
+        head.left = new TreeNode(1);
         head.right = new TreeNode(3);
-        head.left.left = new TreeNode(4);
-        head.left.right = new TreeNode(5);
-        head.right.left = new TreeNode(6);
-        head.right.right = new TreeNode(7);
-        head.right.right.right= new TreeNode(7);
-        head.right.right.right.right = new TreeNode(7);
+//        head.left.left = new TreeNode(4);
+//        head.left.right = new TreeNode(5);
+//        head.right.left = new TreeNode(6);
+//        head.right.right = new TreeNode(7);
+//        head.right.right.right= new TreeNode(7);
+//        head.right.right.right.right = new TreeNode(7);
 //        System.out.println(preOrder(head));
 //        System.out.println(inOrder(head));
 //        System.out.println(postOrder(head));
 //        System.out.println(preOrderDivideConquer(head));
 //        System.out.println(maxDepthOfBinaryTreeTraverse(head));
 //        System.out.println(maxDepthOfBinaryTreeDivideConquer(head));
-        System.out.println(binaryTreePathTraverse(head));  // something went wrong
+//        System.out.println(binaryTreePathTraverse(head));
 //        System.out.println(binaryTreePathDivideConquer(head));
 //        System.out.println(minimumSubtree(head));
 //        System.out.println(isBalancedBinaryTree(head));
 //        System.out.println(subTreeWithMaximumAverage(head).val);
+        System.out.println(inorderSuccessor(head, head.right));
     }
 }

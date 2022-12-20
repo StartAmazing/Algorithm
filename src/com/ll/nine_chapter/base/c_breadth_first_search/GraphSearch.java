@@ -305,14 +305,16 @@ public class GraphSearch {
         return neighborMap;
     }
 
-    private static Integer courseBfs(List<Integer> startNodes, Map<Integer, List<Integer>> indegreeMap, Map<Integer, List<Integer>> neightborMap) {
+    private static Integer courseBfs(List<Integer> startNodes, Map<Integer,
+                                     List<Integer>> indegreeMap, Map<Integer,
+                                     List<Integer>> neighborMap) {
         Queue<Integer> queue = new LinkedList<>(startNodes);
         Integer visitCount = startNodes.size();
         while (!queue.isEmpty()) {
             int size = queue.size();
             for (int i = 0; i < size; i++) {
                 Integer poll = queue.poll();
-                for (Integer neighbor : neightborMap.get(poll)) {
+                for (Integer neighbor : neighborMap.get(poll)) {
                     indegreeMap.get(neighbor).remove(poll);
                     if (indegreeMap.get(neighbor).size() == 0) {
                         queue.add(neighbor);
