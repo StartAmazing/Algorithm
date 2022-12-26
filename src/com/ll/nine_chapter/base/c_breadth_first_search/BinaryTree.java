@@ -10,6 +10,11 @@ import java.util.*;
  */
 public class BinaryTree {
 
+    /**
+     * @link https://www.lintcode.com/problem/69/
+     * @param head: A Tree
+     * @return: Level order a list of lists of integer
+     */
     public static List<Integer> levelTraverseBinaryTree(TreeNode head) {
         List<Integer> res = new ArrayList<>();
         if (head == null) {
