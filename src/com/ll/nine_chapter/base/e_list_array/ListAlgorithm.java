@@ -1,10 +1,13 @@
 package com.ll.nine_chapter.base.e_list_array;
 
+import com.ll.utils.LinkedNode;
 import com.ll.utils.ListNode;
 import com.ll.utils.RandomListNode;
+import com.ll.utils.TreeNode;
 import com.ll.zs.msb.dp.recursion.StackReverse;
 
-import java.util.List;
+import javax.smartcardio.TerminalFactory;
+import java.util.*;
 
 public class ListAlgorithm {
 
@@ -321,8 +324,227 @@ public class ListAlgorithm {
      * @param head: The head of linked list with a random pointer.
      * @return: A new head of a deep copy of the list.
      */
-    public RandomListNode copyRandomList(RandomListNode head) {
+    public static RandomListNode copyRandomList(RandomListNode head) {
         // write your code here
+        if (head == null) {
+            return head;
+        }
+        Map<RandomListNode, RandomListNode> randomMap = new HashMap<>();
+        RandomListNode cur = head;
+        while (cur != null) {
+            randomMap.put(cur, new RandomListNode(cur.label));
+            cur = cur.next;
+        }
+
+        cur = head;
+        while (cur != null) {
+            RandomListNode curClone = randomMap.get(cur);
+            if (cur.next != null) {
+                curClone.next = randomMap.get(cur.next);
+            }
+            curClone.random = randomMap.get(cur.random);
+            cur = cur.next;
+        }
+
+        return randomMap.get(head);
+    }
+
+    public static RandomListNode copyRandomList_noExtraSpace(RandomListNode head) {
+        // write your code here
+        if (head == null) {
+            return head;
+        }
+        // 1. append random node after every node
+        appendCloneNode(head);
+
+        // 2. copy random pointer
+        copyRandomPointer(head);
+
+        // 3. split list and return cloned list
+        return splitList(head);
+    }
+
+    private static void appendCloneNode(RandomListNode head) {
+        RandomListNode cur = head;
+        while (cur != null) {
+            RandomListNode next = cur.next;
+            cur.next = new RandomListNode(cur.label);
+            cur.next.next = next;
+            cur = next;
+        }
+    }
+
+    private static void copyRandomPointer(RandomListNode head) {
+        RandomListNode cur = head;
+        while (cur != null) {
+            if (cur.random != null) {
+                cur.next.random = cur.random.next;
+            }
+            cur = cur.next.next;
+        }
+    }
+
+    private static RandomListNode splitList(RandomListNode head) {
+        RandomListNode res = head.next;
+        RandomListNode cur = head;
+        while (cur != null) {
+            RandomListNode next = cur.next.next;
+            if (next == null) {
+                cur.next.next = null;
+            } else {
+                cur.next.next = next.next;
+            }
+            cur.next = next;
+            cur = cur.next;
+        }
+        return res;
+    }
+
+    /**
+     * @link https://www.lintcode.com/problem/102/
+     * @param head: The first node of linked list.
+     * @return: True if it has a cycle, or false
+     */
+    public boolean hasCycle(ListNode head) {
+        if (head == null) {
+            return false;
+        }
+        ListNode slow = head, fast = head;
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+            if (slow == fast) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    /**
+     * @link https://leetcode.cn/problems/linked-list-cycle-ii/
+     * @param head
+     * @return
+     */
+    public ListNode detectCycle(ListNode head) {
+        if (head == null || head.next == null) {
+            return null;
+        }
+
+        ListNode slow = head, fast = head;
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+            if (slow == fast) {
+                break;
+            }
+        }
+
+        if (slow == fast) {
+            slow = head;
+            while (slow != fast) {
+                slow = slow.next;
+                fast = fast.next;
+            }
+            return slow;
+        }
+
+        return null;
+    }
+
+    /**
+     * @param head: The first node of linked list
+     * @return: a tree node
+     */
+    public static TreeNode sortedListToBST(ListNode head) {
+        // write your code here
+        if (head == null) {
+            return null;
+        }
+
+        return toBst(head);
+    }
+
+    private static TreeNode toBst(ListNode head) {
+        if (head == null) {
+            return null;
+        }
+
+        if (head.next == null) {
+            return new TreeNode(head.val);
+        }
+
+
+        ListNode mid = head, fast = head;
+        ListNode midPre = new ListNode(-1);
+        ListNode fastPre = midPre;
+        midPre.next = head;
+        while (fast != null && fast.next != null) {
+            midPre = midPre.next;
+            mid = mid.next;
+            fast = fast.next.next;
+            fastPre = fastPre.next.next;
+        }
+
+        ListNode next = mid.next;
+        mid.next = null;
+        midPre.next = null;
+
+        TreeNode root = new TreeNode(mid.val);
+        root.left = toBst(head);
+        root.right = toBst(next);
+
+        return root;
+    }
+
+    /**
+     * @link https://leetcode.cn/problems/delete-the-middle-node-of-a-linked-list/
+     * @param head
+     * @return
+     */
+    public ListNode deleteMiddle(ListNode head) {
+        ListNode dummyNode = new ListNode(-1);
+        dummyNode.next = head;
+        ListNode preNode = dummyNode;
+        ListNode slow = head, fast = head;
+        // 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> null
+        // A              A
+        // B                             B
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+            preNode = preNode.next;
+        }
+
+        preNode.next = slow.next;
+
+        return dummyNode.next;
+    }
+
+    /**
+     * @link https://www.lintcode.com/problem/1534/
+     * @param root: root of a tree
+     * @return: head node of a doubly linked list
+     */
+    TreeNode pre = null, head = null;
+    public TreeNode treeToDoublyList(TreeNode root) {
+        if (root == null) return root;
+        dfs(root);
+        head.left = pre;
+        pre.right = head;
+        return head;
+    }
+    void dfs(TreeNode root){
+        if (root == null) return; // 递归边界: 叶子结点返回
+        dfs(root.left);
+        if (pre != null) {
+            pre.right = root;
+        }  else {
+            head = root; // 链表头结点
+        }
+        root.left = pre;
+        pre = root;
+        dfs(root.right);
     }
 
     public static void main(String[] args) {
@@ -362,7 +584,18 @@ public class ListAlgorithm {
 //        ListNode.printList(listNode);
 //        reorderList(head);
 //        ListNode.printList(head);
-        ListNode listNode = rotateRight(head, 5);
-        ListNode.printList(listNode);
+//        ListNode listNode = rotateRight(head, 5);
+//        ListNode.printList(listNode);
+
+//        RandomListNode randomHead = new RandomListNode(-1);
+//        randomHead.next = null;
+//        randomHead.random = null;
+//        copyRandomList_noExtraSpace(randomHead);
+        TreeNode treeNode = sortedListToBST(head);
+        System.out.println(treeNode);
+
+//        TreeNode treeNode1 = treeToDoublyList(treeNode);
+//        System.out.println(treeNode1);
+
     }
 }
