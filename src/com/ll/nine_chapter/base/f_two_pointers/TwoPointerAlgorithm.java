@@ -180,4 +180,59 @@ public class TwoPointerAlgorithm {
         return new int[]{-1, -1};
     }
 
+    /**
+     * @link https://leetcode.cn/problems/count-number-of-homogenous-substrings/
+     * @param s
+     * @return
+     */
+    public static int countHomogenous(String s) {
+        if(s == null || s.length() < 1) {
+            return 0;
+        }
+        long res = 0;
+        int left = 0, right = 0;
+        while(right < s.length() + 1) {
+            while(right < s.length() && s.charAt(right) == s.charAt(left)) {
+                right++;
+            }
+
+            for(int i = 0; i < right - left; i++) {
+                res += (i + 1);
+            }
+
+            left = right;
+            right++;
+        }
+
+        return  (int) (res % (1000000007));
+    }
+
+    /**
+     * @link https://leetcode.cn/problems/minimum-moves-to-convert-string/submissions/
+     * @param s
+     * @return
+     */
+    public int minimumMoves(String s) {
+        if(s == null || s.length() < 1) {
+            return 0;
+        }
+
+        int idx = 0;
+        int res = 0;
+        while(idx < s.length()) {
+            while(idx < s.length() && s.charAt(idx) == 'X') {
+                res++;
+                idx += 3;
+            }
+            idx++;
+        }
+
+        return res;
+    }
+
+    public static void main(String[] args) {
+        String s = "abbcccaa";
+        System.out.println(countHomogenous(s));
+    }
+
 }
