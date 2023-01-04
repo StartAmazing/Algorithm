@@ -1,5 +1,7 @@
 package com.ll.nine_chapter.advance.a_follow_up;
 
+import com.ll.utils.ListNode;
+
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
@@ -148,6 +150,46 @@ public class TwoPointer {
         }
 
         return res;
+    }
+
+    /**
+     * @link https://www.lintcode.com/problem/174/record
+     * @param head: The first node of linked list.
+     * @param n: An integer
+     * @return: The head of linked list.
+     */
+    public ListNode removeNthFromEnd(ListNode head, int n) {
+        if(head == null) {
+            return head;
+        }
+
+        int len = 0;
+        ListNode curNode = head;
+        while(curNode != null) {
+            len++;
+            curNode = curNode.next;
+        }
+        int nth = len - n;
+        if(nth < 0) {
+            return head;
+        }
+
+        curNode = head;
+        ListNode dummyNode = new ListNode(-1);
+        dummyNode.next = head;
+        ListNode pre = dummyNode;
+
+        while(nth > 0) {
+            curNode = curNode.next;
+            pre = pre.next;
+            nth--;
+        }
+
+        if(curNode != null) {
+            pre.next = pre.next.next;
+        }
+
+        return dummyNode.next;
     }
 
 
